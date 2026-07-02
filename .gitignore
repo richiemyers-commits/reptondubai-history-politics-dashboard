@@ -1,0 +1,10 @@
+.DS_Store
+node_modules/
+dist/
+.env
+.env.*
+.wrangler/
+
+# Codex scratch/output folders for local working files.
+work/
+outputs/

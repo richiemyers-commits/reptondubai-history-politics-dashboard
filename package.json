@@ -1,0 +1,16 @@
+{
+  "name": "repton-dubai-history-politics",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "node scripts/audit-secrets.mjs && node scripts/build.mjs",
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "preview": "npm run build && STATIC_ROOT=dist node server.mjs",
+    "audit:secrets": "node scripts/audit-secrets.mjs"
+  }
+}
