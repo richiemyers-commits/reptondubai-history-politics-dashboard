@@ -47,7 +47,11 @@ function jsonResponse(payload, status = 200, cacheControl = "public, max-age=300
   });
 }
 
-async function bbcPoliticsResponse() {
+export async function onRequest({ request }) {
+  if (request.method !== "GET") {
+    return jsonResponse({ error: "Method not allowed" }, 405, "no-store");
+  }
+
   try {
     const response = await fetch(bbcPoliticsFeedUrl, {
       headers: { "User-Agent": "ReptonDubaiHistoryPolitics/1.0" }
@@ -69,15 +73,3 @@ async function bbcPoliticsResponse() {
     );
   }
 }
-
-export default {
-  async fetch(request, env) {
-    const url = new URL(request.url);
-
-    if (url.pathname === "/api/bbc-politics") {
-      return bbcPoliticsResponse();
-    }
-
-    return env.ASSETS.fetch(request);
-  }
-};

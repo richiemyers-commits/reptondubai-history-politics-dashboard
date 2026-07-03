@@ -8,11 +8,16 @@
   },
   "scripts": {
     "build": "node scripts/audit-secrets.mjs && node scripts/build.mjs",
-    "deploy": "npm run build && npx wrangler deploy",
+    "pages:build": "npm run build",
+    "pages:dev": "npm run pages:build && wrangler pages dev dist",
+    "pages:deploy": "npm run pages:build && wrangler pages deploy dist --project-name reptondubai-history-politics-dashboard",
+    "deploy": "npm run pages:deploy",
     "dev": "node server.mjs",
     "start": "node server.mjs",
     "preview": "npm run build && STATIC_ROOT=dist node server.mjs",
-    "worker:dev": "npm run build && npx wrangler dev",
     "audit:secrets": "node scripts/audit-secrets.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
   }
 }

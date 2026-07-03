@@ -14,6 +14,8 @@ Then open `http://localhost:4173`.
 
 The local server includes route fallback, so pages such as `/ks3-history` and `/ask-abe` work directly.
 
+For the Cloudflare Pages-style local preview, use the `pages:dev` command in the deployment section below.
+
 ## Production Build
 
 Run:
@@ -34,18 +36,85 @@ Preview the production build locally with:
 npm run preview
 ```
 
-## Deployment
+## Cloudflare Pages Deployment
 
-This repository is configured for Cloudflare Workers with Static Assets:
+This project is a plain JavaScript single-page app. It does not use React, Vite, Next or Astro. The production build copies the required static files into `dist/`, and Cloudflare Pages serves that folder.
 
-- Worker name: `reptondubai-history-politics-dashboard`
+### Local Commands
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Build the Pages output:
+
+```bash
+npm run pages:build
+```
+
+Run Cloudflare Pages locally:
+
+```bash
+npm run pages:dev
+```
+
+Deploy through Wrangler Pages:
+
+```bash
+npm run pages:deploy
+```
+
+### Build Output
+
 - Build command: `npm run build`
-- Deploy command: `npm run deploy`
-- Deploy script: `npm run build && npx wrangler deploy`
-- Static assets directory: `dist`
-- Worker entrypoint: `worker/index.js`
+- Build output directory: `dist`
+- Cloudflare config: `wrangler.jsonc`
+- Pages project name: `reptondubai-history-politics-dashboard`
+- Pages Function route: `/api/bbc-politics`
 
-The `wrangler.jsonc` file binds `dist/` as Worker static assets, uses SPA fallback routing for direct links such as `/parents`, `/ib-history` and `/ask-abe`, and runs the Worker first for `/api/*` routes.
+The `wrangler.jsonc` file uses `pages_build_output_dir: "./dist"`, which is the Pages-specific config shape. The old Worker static assets config is not used.
+
+### Cloudflare Pages Dashboard Settings
+
+Use Cloudflare Pages, not manual static upload and not Workers Static Assets.
+
+- Framework preset: `None`
+- Production branch: `main`
+- Build command: `npm run build`
+- Build output directory: `dist`
+- Root directory: leave blank
+- Environment variables: none required
+
+### Deploy From GitHub
+
+1. In Cloudflare, create or open the Pages project.
+2. Connect the GitHub repository: `richiemyers-commits/reptondubai-history-politics-dashboard`.
+3. Use the dashboard settings above.
+4. Save and deploy.
+
+Every future push to `main` will trigger a new Cloudflare Pages deployment.
+
+### Routing And Assets
+
+The build script creates route folders in `dist/` for known app pages such as `/parents`, `/ib-history`, `/a-level-politics` and `/ask-abe`. Each folder contains a copy of `index.html`, so direct links and page refreshes work on Cloudflare Pages without relying on a broad `_redirects` rewrite rule.
+
+The `_headers` file is copied into `dist/` and adds basic security headers plus sensible caching for local image assets and downloadable resources.
+
+Static assets and resources live in:
+
+- `public/assets/`
+- `public/resources/`
+
+These folders are copied into `dist/public/` during the build. Asset paths in the app use absolute `/public/...` URLs so they work from every route.
+
+### Known Limitations
+
+- The BBC Politics ticker uses a Cloudflare Pages Function at `/api/bbc-politics`. If BBC's RSS feed is unavailable, the page falls back to its built-in links.
+- There are no required environment variables or secrets.
+- Large copyrighted textbook PDFs should not be added to `public/resources/` unless licensing has been confirmed.
+- Manual Cloudflare static upload is not the intended workflow for this app.
 
 ## Editing Content
 
@@ -84,7 +153,7 @@ Curriculum booklets and pre-reading files live in `public/resources/`:
 
 The IGCSE History Guide and IGCSE History Textbook PDFs are referenced on the IGCSE page as restricted school resources. They are not copied into `public/resources/` because the site is public-facing and textbook/guide PDFs should only be distributed through approved school access unless licensing has been confirmed.
 
-The A Level Politics page includes a BBC Politics headline ticker. Local preview serves the feed through `/api/bbc-politics` in `server.mjs`; Cloudflare Workers serves the same path through `worker/index.js`.
+The A Level Politics page includes a BBC Politics headline ticker. Local preview serves the feed through `/api/bbc-politics` in `server.mjs`; Cloudflare Pages serves the same path through `functions/api/bbc-politics.js`.
 
 ## Data And Secrets
 
