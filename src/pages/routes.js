@@ -235,6 +235,29 @@ function universityCareersPage() {
       </div>
     </section>
 
+    <section class="section alumni-spotlight">
+      <div class="container">
+        ${sectionHeader("Former Pupil Voices", "Where The Subjects Took Them", "Sample testimonial wording for alumni now studying History and Politics-related degrees at university.")}
+        <div class="testimonial-grid">
+          ${universityCareers.testimonials
+            .map(
+              (item) => `
+                <article class="testimonial-card">
+                  <div class="testimonial-avatar" aria-hidden="true">${escapeHtml(item.name.charAt(0))}</div>
+                  <div>
+                    <p class="card-label">${escapeHtml(item.label)}</p>
+                    <h3>${escapeHtml(item.name)} - ${escapeHtml(item.subject)}</h3>
+                    <blockquote>${escapeHtml(item.quote)}</blockquote>
+                    <p>${escapeHtml(item.detail)}</p>
+                  </div>
+                </article>
+              `
+            )
+            .join("")}
+        </div>
+      </div>
+    </section>
+
     <section class="section">
       <div class="container">
         ${sectionHeader("University Study", "Possible Degree Routes")}

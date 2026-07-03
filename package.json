@@ -1,5 +1,5 @@
 {
-  "name": "repton-dubai-history-politics",
+  "name": "reptondubai-history-politics-dashboard",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -8,9 +8,11 @@
   },
   "scripts": {
     "build": "node scripts/audit-secrets.mjs && node scripts/build.mjs",
+    "deploy": "npm run build && npx wrangler deploy",
     "dev": "node server.mjs",
     "start": "node server.mjs",
     "preview": "npm run build && STATIC_ROOT=dist node server.mjs",
+    "worker:dev": "npm run build && npx wrangler dev",
     "audit:secrets": "node scripts/audit-secrets.mjs"
   }
 }

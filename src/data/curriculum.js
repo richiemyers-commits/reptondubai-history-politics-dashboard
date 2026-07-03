@@ -234,8 +234,8 @@ export const courses = {
       "KS3 History develops curiosity, secure chronology and evidence-led argument. Students encounter local, British, European and global histories while learning how historians ask questions and build interpretations.",
     why:
       "The course prepares pupils for IGCSE by making enquiry, evidence, causation, consequence and significance feel familiar long before public examinations begin.",
-    spec: "Internal curriculum map. The full 2026-27 map should be added when the department document is available.",
-    specificationButtons: ["KS3 curriculum map placeholder", "Knowledge organiser folder placeholder"],
+    spec: "The KS3 History curriculum and assessment overview for Years 7 to 9 is summarised on this page.",
+    specificationButtons: [],
     yearRoutes: [
       {
         title: "Year 7 History",
@@ -407,7 +407,7 @@ export const courses = {
     assessment: [
       { title: "Paper 1", text: "Structured knowledge and explanation questions across core content and depth study." },
       { title: "Paper 2", text: "Source-based paper with provenance, inference, utility and interpretation." },
-      { title: "Coursework or Depth Study", text: "Department confirmation required for the exact route and submission model." }
+      { title: "Coursework", text: "Coursework focuses on the long-term impact Gustav Stresemann had on Germany in the 1920s." }
     ],
     journey: [
       {
@@ -773,8 +773,14 @@ export const courses = {
       "IB History at Repton Dubai develops internationally minded historical thinking through Paper 1 source work, Paper 2 comparative essays, HL History of Asia and the Internal Assessment.",
     why:
       "Students learn to question evidence, compare societies, evaluate historians' arguments and write analytically across feminism, revolution, civil rights, apartheid, Indian independence and Cold War Asia.",
-    spec: "The Repton Dubai route covers Paper 1 Feminism and Change (1960-1979) and Revolution in Tunisia (1989-2015), Paper 2 Civil Rights in America and Apartheid South Africa, Paper 3 HL History of Asia, and the IB History Internal Assessment.",
-    specificationButtons: ["Official IB History guide to be added"],
+    spec: "The Repton Dubai route covers Paper 1 Feminism and Change (1960-1979) and Revolution in Tunisia (1989-2015), Paper 2 Civil Rights in America and Apartheid South Africa, Paper 3 HL History of Asia, and the IB History Internal Assessment. The new IB History guide for 2026-2028 is available below as a local download.",
+    specificationButtons: [
+      {
+        title: "IB History Guide (2026-2028)",
+        href: "/public/resources/ib-history-guide-2026-2028.pdf",
+        download: true
+      }
+    ],
     assessment: [
       { title: "Paper 1", text: "Source-based paper using Feminism and Change (1960-1979) and Revolution in Tunisia (1989-2015)." },
       { title: "Paper 2", text: "Comparative world history essays on Civil Rights in America and Apartheid South Africa." },
@@ -969,11 +975,6 @@ export const skills = [
     title: "Revision Timetables",
     tags: ["KS3", "IGCSE", "A Level", "IB"],
     text: "Planning backwards from assessments and mixing content, practice and feedback."
-  },
-  {
-    title: "Model Answer Placeholders",
-    tags: ["IGCSE", "A Level", "IB"],
-    text: "A space for department-approved paragraphs, essay plans and annotated answers."
   }
 ];
 
@@ -1337,6 +1338,26 @@ export const universityCareers = {
   eyebrow: "Beyond Repton",
   overview:
     "History and Politics prepare students for degrees and careers that value evidence, judgement, persuasive communication and understanding of people, power and institutions.",
+  testimonials: [
+    {
+      label: "Politics alumna",
+      name: "Laila",
+      subject: "Politics and International Relations",
+      quote:
+        "Studying Politics gave me the confidence to debate complex issues, use current evidence and write with a clear line of argument. Those habits made the move to university seminars feel much less intimidating.",
+      detail:
+        "Now studying Politics and International Relations at university, Laila uses the same skills in policy analysis, seminar discussion and independent reading."
+    },
+    {
+      label: "History and Politics alumnus",
+      name: "Michael",
+      subject: "Politics",
+      quote:
+        "History and Politics taught me to move beyond opinion and build arguments from evidence. At university, that has helped me contribute confidently in seminars and connect theory to current events.",
+      detail:
+        "Now studying Politics at university, Michael credits historical evidence work, essay planning, wider reading and regular current-affairs discussion as the best preparation for undergraduate study."
+    }
+  ],
   universityRoutes: [
     {
       title: "History",
@@ -1497,10 +1518,10 @@ export const askAbeFaq = [
   },
   {
     course: "IGCSE",
-    prompts: ["What should I revise for IGCSE Germany?", "How do I improve Paper 2 source answers?", "How can I prepare for IGCSE History in Year 9?", "Where is the IGCSE textbook?"],
-    keywords: ["igcse", "gcse", "cambridge", "germany", "weimar", "nazi", "paper 2", "source", "cold war", "year 9 into 10", "textbook", "guide"],
+    prompts: ["What should I revise for IGCSE Germany?", "How do I improve Paper 2 source answers?", "What is the IGCSE coursework question?", "Where is the IGCSE textbook?"],
+    keywords: ["igcse", "gcse", "cambridge", "germany", "weimar", "nazi", "paper 2", "source", "cold war", "year 9 into 10", "textbook", "guide", "coursework", "stresemann"],
     answer:
-      "For IGCSE, revise the core chronology first, then practise explaining causes, consequences and significance. For Paper 2, make a clear inference, support it with source detail, then use provenance and context to judge value or limitation. Year 9 students can prepare by reading around twentieth-century history, watching careful documentaries and practising source questions. The IGCSE guide and textbook are listed on the KS4 History page and should be accessed through approved school channels."
+      "For IGCSE, revise the core chronology first, then practise explaining causes, consequences and significance. For Paper 2, make a clear inference, support it with source detail, then use provenance and context to judge value or limitation. The coursework route focuses on the long-term impact Gustav Stresemann had on Germany in the 1920s. The IGCSE guide and textbook are listed on the KS4 History page and should be accessed through approved school channels."
   },
   {
     course: "A Level History",
