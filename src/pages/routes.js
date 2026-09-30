@@ -39,6 +39,7 @@ export const routes = {
   "/university-politics-reading-list": universityPoliticsReadingListPage,
   "/parents": parentsPage,
   "/literacy": literacyPolicyPage,
+  "/literacy/reading-lists": literacyReadingListsPage,
   "/ask-abe": askAbePage
 };
 
@@ -585,5 +586,18 @@ function literacyPolicyPage() {
   <p>If vocabulary, reading a long passage or organising your ideas is difficult, tell your teacher which part is causing the problem. Ask about shorter text sections, a glossary, accessible text, oral rehearsal or temporary sentence starters. Bilingual vocabulary notes or first-language discussion may help you prepare an answer in academic English. Use support to develop your understanding and gradually work more independently.</p>
   <h2>Using these skills in Politics</h2>
   <p>Apply the same habits to terms such as sovereignty, legitimacy and accountability. Distinguish a political claim from supporting evidence, consider the author and purpose of a speech or manifesto, and check claims against other evidence. In comparative writing, compare the same feature in both systems and explain why the similarity or difference matters. In evaluative essays, weigh arguments and explain your judgement.</p>
+  <h2>Reading lists</h2>
+  <a class="button primary-button" href="/literacy/reading-lists" data-link>KS3–KS5 Reading Lists</a>
   </div></div></section>`;
+}
+
+function literacyReadingListsPage() {
+  return `
+    <section class="section paper-band">
+      <div class="container literacy-policy">
+        <h1>KS3–KS5 Reading Lists</h1>
+        <a class="text-link" href="/literacy" data-link>Back to the Literacy Guide</a>
+      </div>
+    </section>
+  `;
 }
