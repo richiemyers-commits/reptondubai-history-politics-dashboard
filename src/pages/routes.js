@@ -38,6 +38,7 @@ export const routes = {
   "/university-careers": universityCareersPage,
   "/university-politics-reading-list": universityPoliticsReadingListPage,
   "/parents": parentsPage,
+  "/literacy": literacyPolicyPage,
   "/ask-abe": askAbePage
 };
 
@@ -528,4 +529,43 @@ function askAbePage() {
       </div>
     </section>
   `;
+}
+
+function literacyPolicyPage() {
+  return `<section class="section paper-band"><div class="container literacy-policy">
+  <p class="kicker">History and Politics department</p><h1>Literacy Department Policy</h1>
+  <p class="lead-copy">Our approach to historical vocabulary, critical reading and evidence-based argument, with practical support for SEND and ELL pupils.</p>
+  <div class="literacy-policy-body"><h2>What a literate History pupil can do</h2>
+<p>Explain historical vocabulary accurately; establish chronology and context; distinguish a source from a later interpretation; infer from evidence; and build an argument that explains causes, change or significance. Fluent reading alone does not show that a pupil can do these things.</p>
+<h2>1 Teach the language pupils need</h2>
+<p>Select three to five essential words for a lesson or sequence. Give a clear definition, use each in historical context and ask pupils to apply it. Revisit the words in later lessons.</p>
+<p>Example For medieval History: monarchy, authority and legitimacy. For industrial Britain: industrialisation, urbanisation and reform. Highlight everyday words with specialist meanings, such as source, state and revolution.</p>
+<p>Quick check Ask: “How is a rebellion different from a revolution?” Check the explanation as well as the vocabulary.</p>
+<h2>2 Model how historians read</h2>
+<p>Read a short passage aloud and explain your thinking. Clarify difficult language, establish the main claim and identify the evidence. With a primary source, ask who produced it, when, for whom and for what purpose. Then connect those details to what it can tell us about the enquiry.</p>
+<p>Example With an industrial worker’s account, pupils underline working conditions, explain what these suggest and consider how the writer’s experience shapes the account. Compare it with another source before making a broader claim.</p>
+<p>Avoid A checklist that labels a source “biased” and dismisses it. Ask what it is useful for, and what other evidence is needed.</p>
+<h2>3 Rehearse explanations before writing</h2>
+<p>Give pupils brief thinking time, then ask them to explain an answer to a partner using a key term and specific evidence. Invite a partner to question the explanation before pupils write independently.</p>
+<p>Useful prompts “This contributed to… because…”; “The evidence suggests… although…”; “This was more significant than… because…”</p>
+<p>Teacher check Listen for a causal explanation or supported inference, rather than a retelling of events.</p>
+<h2>4 Make analytical writing visible</h2>
+<p>Model one short paragraph and explain each decision: answer the question, select precise evidence, explain how it supports the argument and reach a judgement where required. Let pupils improve a weak example before writing their own. Match the structure to the task and qualification; a source inference and an evaluative essay need different responses.</p>
+<p>Example Move from “Factories were dangerous” to “Factory work could endanger workers because unguarded machinery exposed them to injury. A dated inspection report describing such injuries would support this claim; its scope would determine how far we could generalise.”</p>
+<p>Feedback focus Choose one priority, such as explaining how evidence supports a claim. Ask pupils to revise a sentence or paragraph and check that the revision improves the reasoning.</p>
+<h2>Support SEND and ELL pupils while preserving challenge</h2>
+<p>Keep the same historical enquiry and intended thinking. Diagnose the barrier first: vocabulary, decoding, background knowledge, organising ideas or expressing understanding may require different support.</p>
+<p>Use manageable text sections, glossaries, oral rehearsal, accessible presentation and temporary sentence starters as needed. Allow first-language discussion or bilingual vocabulary work where useful, then support pupils to express their understanding in academic English. Remove scaffolds as pupils become more independent. ELL status does not imply low attainment.</p>
+<h2>A short departmental discussion</h2>
+<p>Suggested length: 20–25 minutes. Bring one challenging History text or question and two anonymised pupil responses. Use these to discuss where language is limiting access or hiding understanding.</p>
+<p>KEEP Which existing practice helps pupils read, explain or write successfully? Identify one example to retain or share.</p>
+<p>STRENGTHEN Which practice needs greater consistency or precision? For example, modelling how to explain evidence rather than simply include it.</p>
+<p>EXPLORE Which specific barrier warrants a small trial? For example, oral rehearsal before a causal paragraph with one selected class.</p>
+<h2>Agree one next step and review its impact</h2>
+<p>Record the class or pupils, the identified barrier, the chosen response, the teacher responsible and a review date. A four- to six-week trial is a suggested starting point, not a requirement of the pack.</p>
+<p>Compare an initial and later task with similar reading and thinking demands. Look for more accurate vocabulary, stronger comprehension or clearer independent explanations. Include pupil feedback and subject assessment; reading data is one additional lens. Judge progress against pupils’ personalised targets, not a single common threshold.</p>
+<p>Complete one departmental Microsoft Form submission from the original pack, capturing the agreed direction, evidence and support needed. The school destination remains at least 85% of SEND and ELL pupils meeting or exceeding personalised targets, alongside measurable improvement in reading literacy.</p>
+<p>Adapted from Departmental CPD Facilitation Pack – Leading Literacy, Repton School Dubai. Classroom examples and trial timings are proposed History adaptations.</p>
+  <h2>Applying the approach in Politics</h2><p>Teach terms such as sovereignty, legitimacy and accountability in context. Model how to distinguish a political claim from evidence, identify the author and purpose of a speech or manifesto, and corroborate claims. Rehearse explanations orally before writing a supported argument.</p><p>For comparative writing, compare the same feature in both systems and explain the significance of the similarity or difference. For evaluative essays, model how evidence supports a judgement and how a counterargument affects it. Identify barriers, provide appropriate support and review independent work.</p>
+  </div></div></section>`;
 }

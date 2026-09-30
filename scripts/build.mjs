@@ -23,6 +23,7 @@ const appRoutes = [
   "/university-careers",
   "/university-politics-reading-list",
   "/parents",
+  "/literacy",
   "/ask-abe"
 ];
 

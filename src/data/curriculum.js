@@ -6,7 +6,8 @@ export const navigation = [
   { label: "Skills & Revision", path: "/skills-revision" },
   { label: "Enrichment", path: "/enrichment" },
   { label: "Parents", path: "/parents" },
-  { label: "Ask Abe", path: "/ask-abe" }
+  { label: "Ask Abe", path: "/ask-abe" },
+  { label: "Literacy Department Policy", path: "/literacy" }
 ];
 
 export const sixthFormLinks = [
