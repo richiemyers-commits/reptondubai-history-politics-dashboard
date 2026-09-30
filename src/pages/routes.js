@@ -537,6 +537,8 @@ function literacyPolicyPage() {
   <p class="lead-copy">Our departmental expectations and your practical guide to becoming a stronger historian. Use your teacher’s feedback to choose one skill, practise it and show how your work improves.</p>
   <div class="literacy-policy-body">
   <h2>What we expect of historians</h2>
+  <p><strong>Answer the question.</strong> All strong debates begin and end with a question. Define key terms and use them in your thesis and overall judgement.</p>
+  <p><strong>Build your vocabulary.</strong> Speak to your teacher for historical books to read and develop your vocabulary.</p>
   <p>Read carefully, use historical vocabulary accurately and support your ideas with precise evidence. Explain why events happened, how things changed and why they mattered. Question sources and interpretations, listen to other arguments and reach a judgement when the task asks for one.</p>
   <p>These habits apply from KS3 to IGCSE, A Level and IB. Follow the instructions and assessment guidance for your particular task: a source inference, an explanation and an evaluative essay need different responses.</p>
   <h2>1. Build your historical vocabulary</h2>
@@ -545,7 +547,7 @@ function literacyPolicyPage() {
   <p><strong>Success looks like:</strong> You can explain a term and apply it accurately to a historical example.</p>
   <h2>2. Read to understand, then question</h2>
   <ul><li>Before reading, identify the enquiry question and establish the period, place and relevant background.</li><li>Read a manageable section. Clarify unfamiliar words, identify the main claim and select the evidence that supports it.</li><li>Summarise the main idea in one or two sentences using your own words. Keep the meaning accurate.</li><li>Ask what the text helps you understand and what remains uncertain. Compare it with another account where useful.</li></ul>
-  <p><strong>Try it:</strong> Read an account of industrial working conditions. Select two details, explain what they suggest and identify one question you would need more evidence to answer.</p>
+  <p><strong>Focus on the question:</strong> Highlight key terms and what is being asked in the question.</p>
   <p><strong>Success looks like:</strong> Your notes separate the main argument from supporting detail and help you answer the enquiry.</p>
   <h2>3. Use sources and interpretations critically</h2>
   <ul><li>Identify who produced a source, when, for whom and for what purpose. Connect these details to the question you are answering.</li><li>Make an inference and support it with a specific detail or short quotation. Explain how that detail supports your inference.</li><li>Consider what the source can reveal and what it cannot establish on its own. Check it against relevant knowledge and other evidence.</li><li>Distinguish a source from a later interpretation. When historians disagree, compare their arguments and the evidence they use.</li></ul>
