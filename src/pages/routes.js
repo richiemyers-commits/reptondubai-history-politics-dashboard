@@ -533,7 +533,7 @@ function askAbePage() {
 
 function literacyPolicyPage() {
   return `<section class="section paper-band"><div class="container literacy-policy">
-  <p class="kicker">History department • Pupil guide</p><h1>Reading, Writing &amp; Literacy in History</h1>
+  <p class="kicker">History and Politics department • Pupil guide</p><h1>History and Politics Literacy Guide</h1>
   <p class="lead-copy">Our departmental expectations and your practical guide to becoming a stronger historian. Use your teacher’s feedback to choose one skill, practise it and show how your work improves.</p>
   <div class="literacy-policy-body">
   <h2>What we expect of historians</h2>

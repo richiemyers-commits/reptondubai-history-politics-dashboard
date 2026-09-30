@@ -31,7 +31,7 @@ function render() {
 
 function pageTitle(path) {
   const titles = {
-    "/literacy": "History Literacy Guide | Repton Dubai",
+    "/literacy": "History and Politics Literacy Guide | Repton Dubai",
     "/": "Repton Dubai History & Politics",
     "/ks3-history": "KS3 History | Repton Dubai",
     "/year-7-history": "Year 7 History | Repton Dubai",

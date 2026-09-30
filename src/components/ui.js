@@ -868,6 +868,7 @@ function navigationMarkup(currentPath) {
       </div>
     </div>
     <a href="/skills-revision" data-link ${currentPath === "/skills-revision" ? 'aria-current="page"' : ""}>Skills & Revision</a>
+    <a href="/literacy" data-link ${currentPath === "/literacy" ? 'aria-current="page"' : ""}>Literacy</a>
     <div class="nav-group">
       <a href="/enrichment" data-link ${enrichmentActive ? 'aria-current="page"' : ""}>Enrichment</a>
       <div class="nav-menu">

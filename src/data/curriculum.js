@@ -4,10 +4,10 @@ export const navigation = [
   { label: "IGCSE History", path: "/igcse-history" },
   { label: "Sixth Form", path: "/sixth-form" },
   { label: "Skills & Revision", path: "/skills-revision" },
+  { label: "Literacy", path: "/literacy" },
   { label: "Enrichment", path: "/enrichment" },
   { label: "Parents", path: "/parents" },
-  { label: "Ask Abe", path: "/ask-abe" },
-  { label: "History Literacy Guide", path: "/literacy" }
+  { label: "Ask Abe", path: "/ask-abe" }
 ];
 
 export const sixthFormLinks = [
