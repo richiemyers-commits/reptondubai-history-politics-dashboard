@@ -533,39 +533,55 @@ function askAbePage() {
 
 function literacyPolicyPage() {
   return `<section class="section paper-band"><div class="container literacy-policy">
-  <p class="kicker">History and Politics department</p><h1>Literacy Department Policy</h1>
-  <p class="lead-copy">Our approach to historical vocabulary, critical reading and evidence-based argument, with practical support for SEND and ELL pupils.</p>
-  <div class="literacy-policy-body"><h2>What a literate History pupil can do</h2>
-<p>Explain historical vocabulary accurately; establish chronology and context; distinguish a source from a later interpretation; infer from evidence; and build an argument that explains causes, change or significance. Fluent reading alone does not show that a pupil can do these things.</p>
-<h2>1 Teach the language pupils need</h2>
-<p>Select three to five essential words for a lesson or sequence. Give a clear definition, use each in historical context and ask pupils to apply it. Revisit the words in later lessons.</p>
-<p>Example For medieval History: monarchy, authority and legitimacy. For industrial Britain: industrialisation, urbanisation and reform. Highlight everyday words with specialist meanings, such as source, state and revolution.</p>
-<p>Quick check Ask: “How is a rebellion different from a revolution?” Check the explanation as well as the vocabulary.</p>
-<h2>2 Model how historians read</h2>
-<p>Read a short passage aloud and explain your thinking. Clarify difficult language, establish the main claim and identify the evidence. With a primary source, ask who produced it, when, for whom and for what purpose. Then connect those details to what it can tell us about the enquiry.</p>
-<p>Example With an industrial worker’s account, pupils underline working conditions, explain what these suggest and consider how the writer’s experience shapes the account. Compare it with another source before making a broader claim.</p>
-<p>Avoid A checklist that labels a source “biased” and dismisses it. Ask what it is useful for, and what other evidence is needed.</p>
-<h2>3 Rehearse explanations before writing</h2>
-<p>Give pupils brief thinking time, then ask them to explain an answer to a partner using a key term and specific evidence. Invite a partner to question the explanation before pupils write independently.</p>
-<p>Useful prompts “This contributed to… because…”; “The evidence suggests… although…”; “This was more significant than… because…”</p>
-<p>Teacher check Listen for a causal explanation or supported inference, rather than a retelling of events.</p>
-<h2>4 Make analytical writing visible</h2>
-<p>Model one short paragraph and explain each decision: answer the question, select precise evidence, explain how it supports the argument and reach a judgement where required. Let pupils improve a weak example before writing their own. Match the structure to the task and qualification; a source inference and an evaluative essay need different responses.</p>
-<p>Example Move from “Factories were dangerous” to “Factory work could endanger workers because unguarded machinery exposed them to injury. A dated inspection report describing such injuries would support this claim; its scope would determine how far we could generalise.”</p>
-<p>Feedback focus Choose one priority, such as explaining how evidence supports a claim. Ask pupils to revise a sentence or paragraph and check that the revision improves the reasoning.</p>
-<h2>Support SEND and ELL pupils while preserving challenge</h2>
-<p>Keep the same historical enquiry and intended thinking. Diagnose the barrier first: vocabulary, decoding, background knowledge, organising ideas or expressing understanding may require different support.</p>
-<p>Use manageable text sections, glossaries, oral rehearsal, accessible presentation and temporary sentence starters as needed. Allow first-language discussion or bilingual vocabulary work where useful, then support pupils to express their understanding in academic English. Remove scaffolds as pupils become more independent. ELL status does not imply low attainment.</p>
-<h2>A short departmental discussion</h2>
-<p>Suggested length: 20–25 minutes. Bring one challenging History text or question and two anonymised pupil responses. Use these to discuss where language is limiting access or hiding understanding.</p>
-<p>KEEP Which existing practice helps pupils read, explain or write successfully? Identify one example to retain or share.</p>
-<p>STRENGTHEN Which practice needs greater consistency or precision? For example, modelling how to explain evidence rather than simply include it.</p>
-<p>EXPLORE Which specific barrier warrants a small trial? For example, oral rehearsal before a causal paragraph with one selected class.</p>
-<h2>Agree one next step and review its impact</h2>
-<p>Record the class or pupils, the identified barrier, the chosen response, the teacher responsible and a review date. A four- to six-week trial is a suggested starting point, not a requirement of the pack.</p>
-<p>Compare an initial and later task with similar reading and thinking demands. Look for more accurate vocabulary, stronger comprehension or clearer independent explanations. Include pupil feedback and subject assessment; reading data is one additional lens. Judge progress against pupils’ personalised targets, not a single common threshold.</p>
-<p>Complete one departmental Microsoft Form submission from the original pack, capturing the agreed direction, evidence and support needed. The school destination remains at least 85% of SEND and ELL pupils meeting or exceeding personalised targets, alongside measurable improvement in reading literacy.</p>
-<p>Adapted from Departmental CPD Facilitation Pack – Leading Literacy, Repton School Dubai. Classroom examples and trial timings are proposed History adaptations.</p>
-  <h2>Applying the approach in Politics</h2><p>Teach terms such as sovereignty, legitimacy and accountability in context. Model how to distinguish a political claim from evidence, identify the author and purpose of a speech or manifesto, and corroborate claims. Rehearse explanations orally before writing a supported argument.</p><p>For comparative writing, compare the same feature in both systems and explain the significance of the similarity or difference. For evaluative essays, model how evidence supports a judgement and how a counterargument affects it. Identify barriers, provide appropriate support and review independent work.</p>
+  <p class="kicker">History department • Pupil guide</p><h1>Reading, Writing &amp; Literacy in History</h1>
+  <p class="lead-copy">Our departmental expectations and your practical guide to becoming a stronger historian. Use your teacher’s feedback to choose one skill, practise it and show how your work improves.</p>
+  <div class="literacy-policy-body">
+  <h2>What we expect of historians</h2>
+  <p>Read carefully, use historical vocabulary accurately and support your ideas with precise evidence. Explain why events happened, how things changed and why they mattered. Question sources and interpretations, listen to other arguments and reach a judgement when the task asks for one.</p>
+  <p>These habits apply from KS3 to IGCSE, A Level and IB. Follow the instructions and assessment guidance for your particular task: a source inference, an explanation and an evaluative essay need different responses.</p>
+  <h2>1. Build your historical vocabulary</h2>
+  <ul><li>Choose three to five key words from your current topic. Write a definition in your own words and an accurate example.</li><li>Use the words in your spoken answers and writing. Revisit them without looking at your notes.</li><li>Check specialist meanings: a historical “source”, a political “state” or a “revolution” may mean something different from everyday usage.</li></ul>
+  <p><strong>Try it:</strong> Explain the difference between rebellion and revolution. For medieval History, practise monarchy, authority and legitimacy; for industrial Britain, industrialisation, urbanisation and reform.</p>
+  <p><strong>Success looks like:</strong> You can explain a term and apply it accurately to a historical example.</p>
+  <h2>2. Read to understand, then question</h2>
+  <ul><li>Before reading, identify the enquiry question and establish the period, place and relevant background.</li><li>Read a manageable section. Clarify unfamiliar words, identify the main claim and select the evidence that supports it.</li><li>Summarise the main idea in one or two sentences using your own words. Keep the meaning accurate.</li><li>Ask what the text helps you understand and what remains uncertain. Compare it with another account where useful.</li></ul>
+  <p><strong>Try it:</strong> Read an account of industrial working conditions. Select two details, explain what they suggest and identify one question you would need more evidence to answer.</p>
+  <p><strong>Success looks like:</strong> Your notes separate the main argument from supporting detail and help you answer the enquiry.</p>
+  <h2>3. Use sources and interpretations critically</h2>
+  <ul><li>Identify who produced a source, when, for whom and for what purpose. Connect these details to the question you are answering.</li><li>Make an inference and support it with a specific detail or short quotation. Explain how that detail supports your inference.</li><li>Consider what the source can reveal and what it cannot establish on its own. Check it against relevant knowledge and other evidence.</li><li>Distinguish a source from a later interpretation. When historians disagree, compare their arguments and the evidence they use.</li></ul>
+  <p><strong>Improve this:</strong> “The source is biased, so it is useless.”</p>
+  <p><strong>Develop it:</strong> “The writer’s purpose may shape which conditions are emphasised. The account can still reveal the writer’s experience and concerns, but another source is needed to judge how typical these conditions were.”</p>
+  <p><strong>Success looks like:</strong> You explain usefulness and limitations in relation to the enquiry, using the source and its context.</p>
+  <h2>4. Explain your thinking before you write</h2>
+  <p>Take a short thinking pause, then explain your answer to a partner or aloud to yourself. Include a key term, precise evidence and a reason. Ask your partner to challenge a claim or request more explanation.</p>
+  <p><strong>Useful starters:</strong> “This contributed to… because…”; “The evidence suggests… although…”; “This was more significant than… because…”</p>
+  <p><strong>Success looks like:</strong> You explain a connection or support an inference, instead of simply retelling events.</p>
+  <h2>5. Write an argument supported by evidence</h2>
+  <ul><li>Read the question carefully. Identify its focus, dates and command word before planning.</li><li>Start each paragraph with a point that answers the question. Select accurate, relevant evidence rather than everything you know.</li><li>Explain how the evidence supports your point. Make the causal connection, comparison or significance clear.</li><li>Consider an alternative argument where the task requires evaluation. Weigh its strength before reaching your judgement.</li><li>Write a conclusion that answers the question and explains why your judgement is convincing. Do not simply repeat your paragraphs.</li></ul>
+  <p><strong>Move beyond description:</strong> “Factories were dangerous.”</p>
+  <p><strong>Add explanation:</strong> “Unguarded machinery could make factory work dangerous because workers could come into contact with moving parts and suffer injury.” Add precise evidence from your lesson or reading, then explain how far it supports your claim.</p>
+  <p><strong>Success looks like:</strong> Each paragraph helps answer the question, and your reasoning explains why the evidence matters.</p>
+  <h2>6. Edit for clarity and accuracy</h2>
+  <ul><li>Check names, dates, chronology and the spelling of key terms.</li><li>Use complete sentences, clear punctuation and paragraphs that develop one main point.</li><li>Replace vague phrases such as “things got worse” with a precise explanation of what changed, for whom and why.</li><li>Check that quotations are accurate and brief, and acknowledge sources as your teacher requires.</li><li>Read your work aloud. Rewrite any sentence whose meaning is difficult to follow.</li></ul>
+  <p><strong>Success looks like:</strong> Your reader can follow your argument without having to guess what you mean.</p>
+  <h2>Turn feedback into an improvement</h2>
+  <p>Choose one priority from your latest feedback. Improve a sentence or paragraph, then practise the same skill in your next piece of independent work.</p>
+  <div class="literacy-table-wrap"><table class="literacy-targets"><thead><tr><th>If your feedback says…</th><th>Your next action</th><th>Check your improvement</th></tr></thead><tbody>
+  <tr><td>Use key vocabulary accurately</td><td>Define three terms and use them in topic sentences.</td><td>Can you explain each term without your notes?</td></tr>
+  <tr><td>Read more carefully</td><td>Summarise each section and separate the claim from its evidence.</td><td>Does your summary preserve the author’s meaning?</td></tr>
+  <tr><td>Use more precise evidence</td><td>Replace a general statement with a relevant event, date, example or source detail.</td><td>Is it accurate and directly relevant to the question?</td></tr>
+  <tr><td>Explain rather than describe</td><td>Add how or why your evidence supports the point.</td><td>Have you explained the connection, rather than added more facts?</td></tr>
+  <tr><td>Evaluate more fully</td><td>Consider a counterargument and explain why one argument carries more weight.</td><td>Is your judgement supported by a clear reason?</td></tr>
+  <tr><td>Improve written clarity</td><td>Read aloud, split unclear sentences and correct key terms.</td><td>Can someone else follow your meaning?</td></tr>
+  </tbody></table></div>
+  <h2>Your next step: keep, strengthen, explore</h2>
+  <p><strong>KEEP:</strong> Identify one skill you already use successfully and a piece of work that shows it.</p>
+  <p><strong>STRENGTHEN:</strong> Choose one target from your feedback. Record the action you will take in your next task.</p>
+  <p><strong>EXPLORE:</strong> Try a useful strategy, such as oral rehearsal, a glossary or summarising a reading passage.</p>
+  <p>After your next suitable task, compare the two pieces of work. Highlight where the skill has improved and agree your next step with your teacher.</p>
+  <h2>Get the support you need</h2>
+  <p>If vocabulary, reading a long passage or organising your ideas is difficult, tell your teacher which part is causing the problem. Ask about shorter text sections, a glossary, accessible text, oral rehearsal or temporary sentence starters. Bilingual vocabulary notes or first-language discussion may help you prepare an answer in academic English. Use support to develop your understanding and gradually work more independently.</p>
+  <h2>Using these skills in Politics</h2>
+  <p>Apply the same habits to terms such as sovereignty, legitimacy and accountability. Distinguish a political claim from supporting evidence, consider the author and purpose of a speech or manifesto, and check claims against other evidence. In comparative writing, compare the same feature in both systems and explain why the similarity or difference matters. In evaluative essays, weigh arguments and explain your judgement.</p>
   </div></div></section>`;
 }

@@ -1849,3 +1849,5 @@ p {
 }
 
 .literacy-policy{max-width:960px}.literacy-policy h1{font-size:clamp(2rem,5vw,3.4rem);line-height:1.15;margin-bottom:1.5rem}.literacy-policy-body{max-width:780px;margin-top:2.5rem}.literacy-policy-body h2{margin-top:2rem;margin-bottom:1rem;font-size:1.6rem;line-height:1.35}.literacy-policy-body p{font-size:1rem;line-height:1.8;margin-bottom:1rem}
+
+.literacy-policy-body ul{padding-left:1.4rem;line-height:1.8;margin-bottom:1.25rem}.literacy-policy-body li{margin-bottom:.55rem}.literacy-table-wrap{overflow-x:auto;margin:1.5rem 0}.literacy-targets{width:100%;border-collapse:collapse;font-size:.95rem}.literacy-targets th,.literacy-targets td{padding:1rem;text-align:left;vertical-align:top;border:1px solid #c9c6bc;line-height:1.6}.literacy-targets th{background:#e8e5dc}.literacy-targets td{min-width:190px}
