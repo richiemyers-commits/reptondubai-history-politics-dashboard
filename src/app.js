@@ -1,6 +1,15 @@
+import { glossaryPage, wireGlossary } from "./pages/glossary.js";
 import { searchIndex, askAbeFaq } from "./data/curriculum.js";
 import { buildShell, escapeHtml } from "./components/ui.js";
 import { routes } from "./pages/routes.js";
+
+searchIndex.push({ title: "History and Politics Key Term Glossary", type: "Student tool", text: "A–Z definitions for KS3, IGCSE, IB History, Pearson Edexcel A Level History and Politics", path: "/glossary" });
+
+routes["/glossary"] = glossaryPage;
+const glossaryStyles = document.createElement("link");
+glossaryStyles.rel = "stylesheet";
+glossaryStyles.href = "/src/pages/glossary.css";
+document.head.append(glossaryStyles);
 
 const app = document.querySelector("#app");
 
@@ -13,12 +22,15 @@ function render() {
   const path = getPath();
   const route = routes[path] || routes["/"];
   app.innerHTML = buildShell(route(), path);
+  const literacyLink = app.querySelector('.site-nav a[href="/literacy"]');
+  if (literacyLink) literacyLink.insertAdjacentHTML("afterend", `<a href="/glossary" data-link ${path === "/glossary" ? 'aria-current="page"' : ""}>Glossary</a>`);
   document.title = pageTitle(path);
   wireLinks();
   wireMenu();
   wireFinders();
   wirePlaceholders();
   wireSkillFilters();
+  wireGlossary();
   wirePoliticsTicker();
   wireAskAbe();
   restorePromptFromUrl();
@@ -31,6 +43,7 @@ function render() {
 
 function pageTitle(path) {
   const titles = {
+    "/glossary": "History and Politics Key Term Glossary | Repton Dubai",
     "/literacy": "History and Politics Literacy Guide | Repton Dubai",
     "/literacy/reading-lists": "KS3–KS5 Reading Lists | Repton Dubai",
     "/": "Repton Dubai History & Politics",

@@ -24,6 +24,7 @@ const appRoutes = [
   "/university-politics-reading-list",
   "/parents",
   "/literacy",
+  "/glossary",
   "/literacy/reading-lists",
   "/ask-abe"
 ];
