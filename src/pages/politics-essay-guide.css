@@ -1,0 +1,23 @@
+.essay-container { max-width: 1060px; }
+.politics-essay-guide h1 { font-size: clamp(2rem, 5vw, 3.2rem); max-width: 22ch; }
+.politics-essay-guide p, .politics-essay-guide li { font-size: 1rem; line-height: 1.75; }
+.politics-essay-guide li { margin-bottom: .65rem; }
+.essay-jump-links { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1.5rem 0; }
+.essay-jump-links a { padding: .65rem .9rem; border: 1px solid var(--navy); border-radius: 4px; font-weight: 700; background: var(--white); }
+.essay-jump-links a:hover, .essay-jump-links a:focus-visible { background: var(--navy); color: var(--white); }
+.essay-section { padding: 2rem 0; border-top: 2px solid var(--gold); scroll-margin-top: 10rem; }
+.essay-section h2 { font-size: clamp(1.5rem, 3vw, 2rem); }
+.essay-section h3 { margin-top: 1.5rem; font-size: 1.2rem; }
+.essay-example, .essay-note { padding: 1.25rem 1.5rem; background: var(--white); border-left: 4px solid var(--gold); margin: 1.25rem 0; }
+.essay-table-wrap { overflow-x: auto; margin: 1.25rem 0; }
+.essay-table-wrap table { width: 100%; border-collapse: collapse; font-size: 1rem; background: var(--white); }
+.essay-table-wrap th, .essay-table-wrap td { border: 1px solid #b7c5d0; padding: .9rem; text-align: left; vertical-align: top; line-height: 1.6; }
+.essay-table-wrap thead th { background: var(--navy); color: var(--white); }
+.essay-table-wrap tbody th { min-width: 130px; }
+.essay-checklist { padding-left: 1.5rem; }
+.politics-essay-guide a { overflow-wrap: anywhere; }
+@media (max-width: 600px) {
+  .essay-section { scroll-margin-top: 6rem; }
+  .essay-example, .essay-note { padding: 1rem; }
+  .essay-table-wrap table { min-width: 650px; }
+}

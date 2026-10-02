@@ -1,3 +1,4 @@
+import { politicsEssayGuidePage } from "./politics-essay-guide.js";
 import {
   aLevelHistoryReadingList,
   askAbeFaq,
@@ -34,6 +35,7 @@ export const routes = {
   "/a-level-history": () => coursePage(courses.aLevelHistory),
   "/a-level-history/reading-list": aLevelHistoryReadingListPage,
   "/a-level-politics": () => coursePage(courses.aLevelPolitics),
+  "/a-level-politics/30-mark-essay-guide": politicsEssayGuidePage,
   "/ib-history": () => coursePage(courses.ib),
   "/skills-revision": skillsPage,
   "/enrichment": enrichmentPage,

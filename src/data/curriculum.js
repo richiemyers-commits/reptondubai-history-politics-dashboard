@@ -632,6 +632,8 @@ export const courses = {
     title: "A Level Politics",
     eyebrow: "Pearson Edexcel",
     qualification: "Pearson Edexcel A Level Politics",
+    essayGuide: { path: "/a-level-politics/30-mark-essay-guide", title: "Guide to writing 30-mark essays" },
+    folderRoutes: [{ title: "Guide to writing 30-mark essays", path: "/a-level-politics/30-mark-essay-guide", stage: "UK Papers 1–2 and USA Paper 3A", summary: "AO1, AO2 and AO3; question analysis, planning, current examples, balanced debate, sustained judgement and worked writing." }],
     overview:
       "A Level Politics helps students understand power, representation, institutions, ideas and democratic debate in the UK and the United States.",
     why:

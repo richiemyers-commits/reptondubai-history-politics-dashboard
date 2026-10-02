@@ -238,6 +238,7 @@ export function coursePage(course) {
         <p>${escapeHtml(course.overview)}</p>
         <div class="hero-actions">
           ${course.path.startsWith("/igcse-history/") ? `<a class="button secondary-button" href="/igcse-history" data-link>IGCSE year groups</a>` : ""}
+          ${course.essayGuide ? `<a class="button secondary-button" href="${course.essayGuide.path}" data-link>${escapeHtml(course.essayGuide.title)}</a>` : ""}
           <a class="button primary-button" href="#assessment">Assessment</a>
           <a class="button secondary-button" href="/ask-abe?prompt=${encodeURIComponent(course.askPrompt)}" data-link>Ask Abe</a>
         </div>
@@ -868,6 +869,7 @@ function navigationMarkup(currentPath) {
       <a href="/sixth-form" data-link ${currentPath === "/sixth-form" ? 'aria-current="page"' : ""}>Sixth Form</a>
       <div class="nav-menu">
         ${sixthFormLinks.map((item) => link(item.path, item.label)).join("")}
+        ${link("/a-level-politics/30-mark-essay-guide", "Politics: 30-mark essay guide")}
       </div>
     </div>
     <a href="/skills-revision" data-link ${currentPath === "/skills-revision" ? 'aria-current="page"' : ""}>Skills & Revision</a>
