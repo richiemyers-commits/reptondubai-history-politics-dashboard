@@ -27,7 +27,7 @@ export const destinations = [
     title: "IGCSE History",
     path: "/igcse-history",
     stage: "Years 10 to 11",
-    summary: "Cambridge IGCSE History with international relations, Germany depth study and source skills."
+    summary: "Year 10 follows Pearson Edexcel; Year 11 continues Cambridge CIE. Choose your year group for topics, assessment and resources."
   },
   {
     title: "A Level History",
@@ -68,10 +68,10 @@ export const home = {
       path: "/year-9-history"
     },
     {
-      title: "IGCSE: Cold War Crises",
-      label: "Cambridge IGCSE",
+      title: "Year 11: Cold War Crises",
+      label: "Year 11 Cambridge IGCSE",
       text: "Berlin, Korea, Cuba and Vietnam as turning points in twentieth-century international relations.",
-      path: "/igcse-history"
+      path: "/igcse-history/year-11-cie"
     },
     {
       title: "IB HL: History of Asia",
@@ -367,12 +367,12 @@ export const courses = {
     askPrompt: "What does my child study in Year 8 History?"
   },
   igcse: {
-    path: "/igcse-history",
-    title: "IGCSE History",
-    eyebrow: "Cambridge IGCSE",
+    path: "/igcse-history/year-11-cie",
+    title: "Year 11 IGCSE History — Cambridge CIE",
+    eyebrow: "Year 11 • Cambridge IGCSE",
     qualification: "Cambridge IGCSE History",
     overview:
-      "IGCSE History at Repton Dubai focuses on twentieth-century international relations and a Germany depth study, supported by explicit exam practice and source analysis.",
+      "Year 11 continues Cambridge IGCSE History at Repton Dubai, focusing on twentieth-century international relations and a Germany depth study, supported by explicit exam practice and source analysis.",
     why:
       "Students learn to explain cause and consequence, evaluate significance and use sources precisely, building the confidence needed for sixth-form History, Politics and IB pathways.",
     spec: "Official Cambridge IGCSE 0470 History syllabus for examination in 2027 and 2028 is available below as a local download.",
@@ -495,6 +495,36 @@ export const courses = {
       "Ask them to explain how a source's provenance affects its value."
     ],
     askPrompt: "How should I revise for IGCSE Cold War crises?"
+  },
+  igcsePearson: {
+    path: "/igcse-history/year-10-pearson",
+    title: "Year 10 IGCSE History — Pearson Edexcel",
+    eyebrow: "Year 10 • Pearson Edexcel International GCSE",
+    qualification: "Pearson Edexcel International GCSE History (4HI1)",
+    overview: "Year 10 begins the Pearson Edexcel course with Germany: development of dictatorship, 1918–45. Paper 2 options are Changes in medicine, c1848–c1948 and The USA, 1918–41.",
+    why: "Explore political dictatorship, medical progress and American society while developing explanations, source evaluation and supported judgements. Medicine broadens the range of history studied; the USA investigation provides foundations for A Level History Paper 1: USA.",
+    spec: "The course has two examination papers. Germany is the starting depth study; the second Paper 1 depth study is to be confirmed by the department.",
+    specificationButtons: [{ title: "Official Pearson Edexcel History specification", href: "https://qualifications.pearson.com/content/dam/pdf/International%20GCSE/History/2017/specification-and-sample-assessments/int-gcse-history-specification.pdf" }],
+    assessment: [
+      { title: "Paper 1: Depth studies", text: "1 hour 30 minutes; 60 marks; 50% of the qualification. Answer on two depth studies. Germany: development of dictatorship, 1918–45 is confirmed; the second depth study is to be confirmed." },
+      { title: "Paper 2: Investigation and breadth", text: "1 hour 30 minutes; 60 marks; 50% of the qualification. Section A: The USA, 1918–41 (historical investigation). Section B: Changes in medicine, c1848–c1948 (breadth study in change)." }
+    ],
+    journey: [
+      { title: "Starting unit: Germany", subtitle: "Paper 1 depth study • 1918–45", text: "Begin with Weimar democracy, Hitler’s rise and Nazi dictatorship, connecting with earlier learning about Germany." },
+      { title: "The USA", subtitle: "Paper 2 historical investigation • 1918–41", text: "Investigate the boom, social tensions, the Depression and the New Deal through evidence and source work." },
+      { title: "Changes in medicine", subtitle: "Paper 2 breadth study • c1848–c1948", text: "Explain change and continuity in medicine, surgery and public health across a century." },
+      { title: "Second depth study", subtitle: "Paper 1 • To be confirmed", text: "The department will confirm the remaining depth study. Use the three listed units for the current course information." }
+    ],
+    topics: [
+      { title: "Germany: development of dictatorship, 1918–45", question: "Why did democracy give way to dictatorship, and how did Nazi rule affect Germany?", vocabulary: ["Weimar Republic", "hyperinflation", "dictatorship", "propaganda", "persecution", "opposition"], timeline: "1918–45 • Paper 1 depth study" },
+      { title: "The USA, 1918–41", question: "How did prosperity, social division and economic crisis change the USA?", vocabulary: ["boom", "Prohibition", "intolerance", "Wall Street Crash", "Depression", "New Deal"], timeline: "1918–41 • Paper 2 historical investigation" },
+      { title: "Changes in medicine, c1848–c1948", question: "What drove progress in medicine, surgery and public health?", vocabulary: ["germ theory", "anaesthetics", "antiseptics", "public health", "penicillin", "NHS"], timeline: "c1848–c1948 • Paper 2 breadth study in change" }
+    ],
+    support: ["Germany chronology and cause-and-consequence practice", "USA source inference, comparison and evaluation", "Medicine change-and-continuity timelines", "Supported explanations and balanced historical judgements"],
+    resources: sharedResourceSets.exam,
+    folderRoutes: [{ title: "IGCSE year-group pages", path: "/igcse-history", stage: "KS4 History", summary: "Choose Year 10 Pearson Edexcel or Year 11 Cambridge CIE." }],
+    parentGuide: ["Check that revision resources match Pearson Edexcel International GCSE History.", "Ask students to explain an event using precise evidence and a clear reason.", "Compare medical developments over time and practise discussing what changed and what continued."],
+    askPrompt: "What does Year 10 Pearson Edexcel IGCSE History study?"
   },
   aLevelHistory: {
     path: "/a-level-history",
@@ -1019,7 +1049,7 @@ export const parentGuide = [
   {
     title: "Qualification Pathways",
     text:
-      "Students move from KS3 foundations into Cambridge IGCSE History, then into Edexcel A Level History, Edexcel A Level Politics or IB History depending on their sixth-form pathway."
+      "Students move from KS3 foundations into IGCSE History (Year 10 Pearson Edexcel; Year 11 Cambridge CIE), then into Edexcel A Level History, Edexcel A Level Politics or IB History depending on their sixth-form pathway."
   },
   {
     title: "How Assessment Works",
@@ -1211,12 +1241,12 @@ export const gcsePreparation = {
   path: "/igcse-history/year-9-into-10",
   title: "Year 9 Into Year 10 IGCSE History Preparation",
   eyebrow: "Choosing GCSE History",
-  downloadTitle: "Year 9 Into Year 10 IGCSE Pre-reading and Support",
+  downloadTitle: "Earlier Cambridge IGCSE Pre-reading and Support (Year 11 reference)",
   downloadHref: "/public/resources/year-9-into-10-igcse-pre-reading-26-27.pptx",
   overview:
-    "This guide helps Year 9 students decide whether IGCSE History is right for them and gives practical summer and Term 1 preparation for Cambridge IGCSE History.",
-  examBoard: "Cambridge IGCSE History, exam code 0977.",
-  textbook: "Ben Walsh, Cambridge IGCSE and O Level History 3rd Edition: Option B: The 20th century.",
+    "This guide helps Year 9 students decide whether IGCSE History is right for them and gives practical preparation for Year 10 Pearson Edexcel IGCSE History. Year 11 continues Cambridge CIE.",
+  examBoard: "Year 10: Pearson Edexcel International GCSE History (4HI1). Year 11: Cambridge CIE.",
+  textbook: "Year 10: Pearson Edexcel resources for Germany, Medicine and The USA. Year 11: Ben Walsh, Cambridge IGCSE and O Level History 3rd Edition: Option B: The 20th century.",
   reading: [
     "John Steinbeck, The Grapes of Wrath",
     "Hans Fallada, Alone in Berlin",
@@ -1225,7 +1255,7 @@ export const gcsePreparation = {
   ],
   websites: ["John D Clare History", "Mr Allsop History on YouTube"],
   studentAdvice: [
-    "Read or watch around twentieth-century history, especially the World Wars and Cold War.",
+    "Read around Germany in 1918–45, the USA in 1918–41 and medical developments in c1848–c1948.",
     "Practise asking source questions: what does it show, who made it and why?",
     "Keep a short timeline of major events so new IGCSE topics have context.",
     "Choose History if you enjoy debate, evidence, argument and explaining why events happened."
@@ -1522,7 +1552,7 @@ export const askAbeFaq = [
     prompts: ["What should I revise for IGCSE Germany?", "How do I improve Paper 2 source answers?", "What is the IGCSE coursework question?", "Where is the IGCSE textbook?"],
     keywords: ["igcse", "gcse", "cambridge", "germany", "weimar", "nazi", "paper 2", "source", "cold war", "year 9 into 10", "textbook", "guide", "coursework", "stresemann"],
     answer:
-      "For IGCSE, revise the core chronology first, then practise explaining causes, consequences and significance. For Paper 2, make a clear inference, support it with source detail, then use provenance and context to judge value or limitation. The coursework route focuses on the long-term impact Gustav Stresemann had on Germany in the 1920s. The IGCSE guide and textbook are listed on the KS4 History page and should be accessed through approved school channels."
+      "Year 10 follows Pearson Edexcel: Germany (1918–45), The USA (1918–41) and Changes in medicine (c1848–c1948); a second Paper 1 depth study is to be confirmed. Use /igcse-history/year-10-pearson for Pearson assessment guidance. Year 11 continues Cambridge CIE at /igcse-history/year-11-cie. For Cambridge Year 11, revise the core chronology first, then practise explaining causes, consequences and significance. For Paper 2, make a clear inference, support it with source detail, then use provenance and context to judge value or limitation. The coursework route focuses on the long-term impact Gustav Stresemann had on Germany in the 1920s. The IGCSE guide and textbook are listed on the KS4 History page and should be accessed through approved school channels."
   },
   {
     course: "A Level History",

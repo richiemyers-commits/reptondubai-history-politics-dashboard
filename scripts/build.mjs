@@ -11,6 +11,8 @@ const appRoutes = [
   "/year-8-history",
   "/year-9-history",
   "/igcse-history",
+  "/igcse-history/year-10-pearson",
+  "/igcse-history/year-11-cie",
   "/igcse-history/year-9-into-10",
   "/gcse-history-advice",
   "/sixth-form",

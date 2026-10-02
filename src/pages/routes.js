@@ -25,7 +25,9 @@ export const routes = {
   "/year-7-history": () => ks3YearPage(ks3YearPages["year-7"]),
   "/year-8-history": () => ks3YearPage(ks3YearPages["year-8"]),
   "/year-9-history": () => ks3YearPage(ks3YearPages["year-9"]),
-  "/igcse-history": () => coursePage(courses.igcse),
+  "/igcse-history": igcseYearGroupsPage,
+  "/igcse-history/year-10-pearson": () => coursePage(courses.igcsePearson),
+  "/igcse-history/year-11-cie": () => coursePage(courses.igcse),
   "/igcse-history/year-9-into-10": gcseAdvicePage,
   "/gcse-history-advice": gcseAdvicePage,
   "/sixth-form": sixthFormPage,
@@ -42,6 +44,20 @@ export const routes = {
   "/literacy/reading-lists": literacyReadingListsPage,
   "/ask-abe": askAbePage
 };
+
+function igcseYearGroupsPage() {
+  const groups = [courses.igcsePearson, courses.igcse];
+  return `
+    <section class="page-hero"><div class="hero-image" aria-hidden="true"></div><div class="container hero-content">
+      <p class="kicker">Years 10 and 11</p><h1>IGCSE History</h1>
+      <p>Choose your year group for the correct exam board, topics, assessment and resources.</p>
+      <div class="hero-actions">${groups.map(course => `<a class="button secondary-button" href="${course.path}" data-link>${course === courses.igcsePearson ? "Year 10 Pearson Edexcel" : "Year 11 Cambridge CIE"}</a>`).join("")}</div>
+    </div></section>
+    <section class="section"><div class="container"><div class="two-column-cards">
+      ${groups.map(course => `<article class="note-panel"><p class="card-label">${escapeHtml(course.eyebrow)}</p><h2>${escapeHtml(course.title)}</h2><p>${escapeHtml(course.overview)}</p><a class="button primary-button" href="${course.path}" data-link>Open ${course === courses.igcsePearson ? "Year 10 Pearson" : "Year 11 CIE"} page</a></article>`).join("")}
+    </div></div></section>
+    <section class="section paper-band"><div class="container"><h2>Year 9 into Year 10</h2><p>Explore the Pearson Edexcel pathway and build your historical reading, writing and source skills.</p><a class="button secondary-button" href="/igcse-history/year-9-into-10" data-link>Preparation and advice</a></div></section>`;
+}
 
 function ks3YearPage(year) {
   return `
@@ -130,7 +146,7 @@ function gcseAdvicePage() {
         <h1>${escapeHtml(gcsePreparation.title)}</h1>
         <p>${escapeHtml(gcsePreparation.overview)}</p>
         <div class="hero-actions">
-          <a class="button primary-button" href="${gcsePreparation.downloadHref}" download>Download Pre-reading</a>
+          <a class="button primary-button" href="/igcse-history/year-10-pearson" data-link>Open Year 10 Pearson</a>
           <a class="button secondary-button" href="/igcse-history" data-link>Open IGCSE History</a>
         </div>
       </div>
@@ -148,7 +164,7 @@ function gcseAdvicePage() {
         <aside class="note-panel">
           <p class="card-label">Download</p>
           <h3>${escapeHtml(gcsePreparation.downloadTitle)}</h3>
-          <p>The full Year 9 into Year 10 support deck is available for students and parents.</p>
+          <p>This earlier deck describes Cambridge. Year 10 students should use the Pearson page for current topics and assessment.</p>
           <a class="button primary-button" href="${gcsePreparation.downloadHref}" download>Download PowerPoint</a>
         </aside>
       </div>
@@ -436,7 +452,7 @@ function parentsPage() {
       <div class="container split-section">
         <div>
           ${sectionHeader("Course Pathways", "From KS3 To Sixth Form")}
-          <p class="lead-copy">Students build disciplinary foundations in KS3, can continue with Cambridge IGCSE History at KS4, then choose from Edexcel A Level History, Edexcel A Level Politics or IB History in the Sixth Form.</p>
+          <p class="lead-copy">Students build disciplinary foundations in KS3, can continue with Pearson Edexcel IGCSE History in Year 10 or Cambridge CIE in Year 11 at KS4, then choose from Edexcel A Level History, Edexcel A Level Politics or IB History in the Sixth Form.</p>
         </div>
         <aside class="note-panel">
           <p class="card-label">Contact</p>

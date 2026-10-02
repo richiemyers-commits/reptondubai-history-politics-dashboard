@@ -237,6 +237,7 @@ export function coursePage(course) {
         <h1>${escapeHtml(course.title)}</h1>
         <p>${escapeHtml(course.overview)}</p>
         <div class="hero-actions">
+          ${course.path.startsWith("/igcse-history/") ? `<a class="button secondary-button" href="/igcse-history" data-link>IGCSE year groups</a>` : ""}
           <a class="button primary-button" href="#assessment">Assessment</a>
           <a class="button secondary-button" href="/ask-abe?prompt=${encodeURIComponent(course.askPrompt)}" data-link>Ask Abe</a>
         </div>
@@ -842,7 +843,7 @@ export function buildShell(content, currentPath) {
 
 function navigationMarkup(currentPath) {
   const ks3Active = ["/ks3-history", "/year-7-history", "/year-8-history", "/year-9-history"].includes(currentPath);
-  const igcseActive = ["/igcse-history", "/igcse-history/year-9-into-10", "/gcse-history-advice"].includes(currentPath);
+  const igcseActive = currentPath.startsWith("/igcse-history") || currentPath === "/gcse-history-advice";
   const enrichmentActive = ["/enrichment", "/university-careers"].includes(currentPath);
 
   return `
@@ -858,6 +859,8 @@ function navigationMarkup(currentPath) {
     <div class="nav-group">
       <a href="/igcse-history" data-link ${igcseActive ? 'aria-current="page"' : ""}>IGCSE History</a>
       <div class="nav-menu">
+        ${link("/igcse-history/year-10-pearson", "Year 10 Pearson Edexcel")}
+        ${link("/igcse-history/year-11-cie", "Year 11 Cambridge CIE")}
         ${link("/igcse-history/year-9-into-10", "Year 9 Into Year 10")}
       </div>
     </div>

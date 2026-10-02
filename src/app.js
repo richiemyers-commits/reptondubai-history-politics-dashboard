@@ -52,6 +52,8 @@ function pageTitle(path) {
     "/year-8-history": "Year 8 History | Repton Dubai",
     "/year-9-history": "Year 9 History | Repton Dubai",
     "/igcse-history": "IGCSE History | Repton Dubai",
+    "/igcse-history/year-10-pearson": "Year 10 Pearson Edexcel IGCSE History | Repton Dubai",
+    "/igcse-history/year-11-cie": "Year 11 Cambridge CIE IGCSE History | Repton Dubai",
     "/igcse-history/year-9-into-10": "Year 9 Into Year 10 IGCSE History | Repton Dubai",
     "/gcse-history-advice": "Year 9 Into Year 10 IGCSE History | Repton Dubai",
     "/sixth-form": "Sixth Form | Repton Dubai History & Politics",
