@@ -391,10 +391,11 @@ function internalAssessmentGuide(guide) {
           </div>
           <aside class="note-panel">
             <p class="card-label">IA Milestones</p>
-            <h3>From Question To Reflection</h3>
+            <h3>From Question To Judgement</h3>
             <ul class="plain-list">
               ${guide.milestones.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}
             </ul>
+            ${guide.path ? `<a class="button secondary-button" href="${guide.path}" data-link>Open the full IA guide</a>` : ""}
           </aside>
         </div>
       </div>
@@ -843,6 +844,7 @@ function navigationMarkup(currentPath) {
       <div class="nav-menu">
         ${sixthFormLinks.map((item) => link(item.path, item.label)).join("")}
         ${link("/a-level-politics/30-mark-essay-guide", "Politics: 30-mark essay guide")}
+        ${link("/ib-history/ia-guide", "IB History: IA guide")}
       </div>
     </div>
     <a href="/skills-revision" data-link ${currentPath === "/skills-revision" ? 'aria-current="page"' : ""}>Skills & Revision</a>

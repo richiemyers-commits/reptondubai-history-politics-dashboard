@@ -786,6 +786,8 @@ export const courses = {
     title: "IB History",
     eyebrow: "IB Diploma Programme",
     qualification: "IB History HL and SL",
+    essayGuide: { path: "/ib-history/ia-guide", title: "Guide to the History IA (2028)" },
+    folderRoutes: [{ title: "Guide to the History Internal Assessment", path: "/ib-history/ia-guide", stage: "First assessment 2028 • SL and HL", summary: "Question selection, conceptual inquiry, sources and perspectives, synthesis, evaluation, criteria and referencing." }],
     overview:
       "IB History at Repton Dubai develops internationally minded historical thinking through Paper 1 source work, Paper 2 comparative essays, HL History of Asia and the Internal Assessment.",
     why:
@@ -802,7 +804,7 @@ export const courses = {
       { title: "Paper 1", text: "Source-based paper using Feminism and Change (1960-1979) and Revolution in Tunisia (1989-2015)." },
       { title: "Paper 2", text: "Comparative world history essays on Civil Rights in America and Apartheid South Africa." },
       { title: "Paper 3 HL", text: "History of Asia essays on Indian Independence and the Cold War in Asia." },
-      { title: "Internal Assessment", text: "Independent historical investigation. In the established IB assessment model, this is 25 marks and contributes 25% at SL or 20% at HL." }
+      { title: "Internal Assessment", text: "New course, first assessment 2028: independent historical investigation, 24 marks; 30% at SL and 20% at HL. Maximum 2,200 words and seven selected sources." }
     ],
     journey: [
       {
@@ -823,7 +825,7 @@ export const courses = {
       {
         title: "Internal Assessment",
         subtitle: "Historical investigation",
-        text: "Students design a focused historical question, evaluate two key sources, write an evidence-based investigation and reflect on method."
+        text: "Students develop a conceptual historical inquiry question, select diverse sources and perspectives, and synthesize and evaluate evidence to reach a judgement (first assessment 2028)."
       }
     ],
     topics: [
@@ -866,7 +868,7 @@ export const courses = {
       {
         title: "Internal Assessment",
         question: "How do historians design and test an independent enquiry?",
-        vocabulary: ["research question", "source evaluation", "method", "reflection"],
+        vocabulary: ["historical inquiry question", "perspectives", "synthesis", "evaluation"],
         timeline: "Coursework milestone"
       }
     ],
@@ -919,28 +921,28 @@ export const courses = {
       }
     ],
     iaGuide: {
-      title: "Internal Assessment: Historical Investigation",
-      overview:
-        "The IA is an independent historical investigation. Students choose a focused question, evaluate sources, build an evidence-based argument and reflect on the methods and limits of historical enquiry.",
+      title: "Internal Assessment — First assessment 2028",
+      path: "/ib-history/ia-guide",
+      overview: "The new IA has three sections: Historical inquiry question; Sources and perspectives; Synthesis and evaluation. Students assessed in 2027 should follow their teacher’s previous-course guidance.",
       details: [
-        { title: "What It Counts For", text: "The established IB History model assesses the IA out of 25 marks. It contributes 25% at SL and 20% at HL." },
-        { title: "What Students Produce", text: "A focused historical investigation, normally 1,500-2,000 words, built around a precise and answerable research question." },
-        { title: "Source Evaluation", text: "Students evaluate two key sources for origin, purpose, value and limitations, then use a wider evidence base in the investigation." },
-        { title: "Reflection", text: "The reflection explains what the investigation taught the student about the methods, challenges and limits of doing history." }
+        { title: "Weighting and Marks", text: "24 marks in total: Criterion A 6, Criterion B 6 and Criterion C 12. Weighting: 30% at SL and 20% at HL." },
+        { title: "Word Limit", text: "Maximum 2,200 words. Suggested allocation: 400 / 400 / 1,400. Headings, references and bibliography are excluded." },
+        { title: "Sources and Perspectives", text: "Select up to seven sources providing diverse perspectives. Explain their contribution in Section 2 and use them in Section 3." },
+        { title: "Synthesis and Evaluation", text: "Integrate evidence and targeted source evaluation into an analytical response ending in a reasoned judgement. No separate reflection section is required." }
       ],
       milestones: [
-        "Choose a narrow, genuinely historical research question.",
-        "Build a source base that includes strong primary and secondary material.",
-        "Evaluate two key sources in depth before writing the investigation.",
-        "Draft a sustained argument with clear evidence and precise referencing.",
-        "Use feedback to refine the question, argument, source use and reflection."
+        "Agree a focused, conceptual historical inquiry question with your teacher.",
+        "Select up to seven sources and explain the diverse perspectives they provide.",
+        "Plan an argument that connects evidence across the selected sources.",
+        "Integrate source evaluation and reach a reasoned judgement.",
+        "Use feedback on one draft to prepare the final referenced submission."
       ]
     },
     support: [
       "Paper 1 source analysis ladder",
       "Paper 2 comparative essay grid",
       "Paper 3 argument-building workshop",
-      "IA research question and reflection guide"
+      "IA conceptual question, perspectives and synthesis guide (2028)"
     ],
     resources: sharedResourceSets.exam,
     parentGuide: [
@@ -1559,7 +1561,7 @@ export const askAbeFaq = [
     prompts: ["What is the difference between Paper 2 and Paper 3?", "What is the IA?", "What does IB History cover?"],
     keywords: ["ib", "paper 1", "paper 2", "paper 3", "ia", "feminism", "tunisia", "civil rights", "apartheid", "india", "cold war asia"],
     answer:
-      "IB History at Repton Dubai covers Paper 1 Feminism and Change plus Revolution in Tunisia, Paper 2 Civil Rights in America and Apartheid South Africa, and HL Paper 3 History of Asia through Indian Independence and the Cold War in Asia. Paper 2 is comparative world history, while Paper 3 is the HL regional depth paper. The IA is an independent historical investigation where students design a focused question, evaluate sources, build an argument and reflect on method."
+      "IB History at Repton Dubai covers Paper 1 Feminism and Change plus Revolution in Tunisia, Paper 2 Civil Rights in America and Apartheid South Africa, and HL Paper 3 History of Asia through Indian Independence and the Cold War in Asia. Paper 2 is comparative world history, while Paper 3 is the HL regional depth paper. For first assessment 2028, the IA is a 24-mark investigation with three sections: Historical inquiry question (6), Sources and perspectives (6), and Synthesis and evaluation (12). It has a 2,200-word maximum and up to seven selected sources. Weighting is 30% at SL and 20% at HL. See /ib-history/ia-guide; students assessed in 2027 use their teacher’s previous-course guidance."
   },
   {
     course: "Integrity",

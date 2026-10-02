@@ -1,12 +1,15 @@
 import { glossaryPage, wireGlossary } from "./pages/glossary.js";
+import { ibIaGuidePage } from "./pages/ib-ia-guide.js";
 import { searchIndex, askAbeFaq } from "./data/curriculum.js";
 import { buildShell, escapeHtml } from "./components/ui.js";
 import { routes } from "./pages/routes.js";
 
 searchIndex.push({ title: "History and Politics Key Term Glossary", type: "Student tool", text: "A–Z definitions for KS3, IGCSE, IB History, Pearson Edexcel A Level History and Politics", path: "/glossary" });
 searchIndex.push({ title: "Guide to writing 30-mark Politics essays", type: "A Level Politics student guide", text: "AO1 AO2 AO3 planning answer the question examples evidence judgement UK source questions USA Paper 3A", path: "/a-level-politics/30-mark-essay-guide" });
+searchIndex.push({ title: "IB History IA guide — first assessment 2028", type: "IB History student guide", text: "Internal assessment historical inquiry question sources perspectives synthesis evaluation criteria 24 marks 2200 words seven sources", path: "/ib-history/ia-guide" });
 
 routes["/glossary"] = glossaryPage;
+routes["/ib-history/ia-guide"] = ibIaGuidePage;
 const glossaryStyles = document.createElement("link");
 glossaryStyles.rel = "stylesheet";
 glossaryStyles.href = "/src/pages/glossary.css";
@@ -67,6 +70,7 @@ function pageTitle(path) {
     "/a-level-politics": "A Level Politics | Repton Dubai",
     "/a-level-politics/30-mark-essay-guide": "Guide to writing 30-mark Politics essays | Repton Dubai",
     "/ib-history": "IB History | Repton Dubai",
+    "/ib-history/ia-guide": "IB History IA Guide — First assessment 2028 | Repton Dubai",
     "/skills-revision": "Skills & Revision | Repton Dubai",
     "/enrichment": "Enrichment | Repton Dubai",
     "/university-careers": "University & Careers | Repton Dubai",

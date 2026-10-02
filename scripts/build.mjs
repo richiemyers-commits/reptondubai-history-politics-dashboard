@@ -21,6 +21,7 @@ const appRoutes = [
   "/a-level-politics",
   "/a-level-politics/30-mark-essay-guide",
   "/ib-history",
+  "/ib-history/ia-guide",
   "/skills-revision",
   "/enrichment",
   "/university-careers",
