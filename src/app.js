@@ -172,41 +172,39 @@ function wireSkillFilters() {
 }
 
 function wirePoliticsTicker() {
-  document.querySelectorAll("[data-politics-tracker]").forEach(async (tracker) => {
+  document.querySelectorAll("[data-politics-tracker]").forEach(tracker => {
     const track = tracker.querySelector("[data-ticker-track]");
     const status = tracker.querySelector("[data-ticker-status]");
-    const apiPath = tracker.dataset.apiPath;
-    const sourceUrl = tracker.dataset.sourceUrl || "https://www.bbc.com/news/politics";
-    if (!track || !status || !apiPath) return;
-
-    try {
-      const response = await fetch(apiPath, { headers: { Accept: "application/json" } });
-      if (!response.ok) throw new Error("BBC Politics feed unavailable");
-      const data = await response.json();
-      const headlines = Array.isArray(data.headlines) ? data.headlines.slice(0, 12) : [];
-      if (!headlines.length) throw new Error("No BBC Politics headlines returned");
-
-      track.innerHTML = [...headlines, ...headlines].map(politicsTickerItem).join("");
-      status.textContent = `Updated ${formatFeedDate(data.updated)} from BBC Politics`;
-    } catch {
-      const fallbackItems = [...track.querySelectorAll(".ticker-item")].map((item) => ({
-        title: item.textContent.trim(),
-        link: item.getAttribute("href") || sourceUrl
-      }));
-      track.innerHTML = [...fallbackItems, ...fallbackItems].map(politicsTickerItem).join("");
-      status.textContent = "BBC Politics headlines are unavailable right now. Open BBC Politics for the latest stories.";
-    }
+    const refresh = tracker.querySelector("[data-news-refresh]");
+    const { apiPath, sourceUrl, sourceName } = tracker.dataset;
+    if (!track || !status || !apiPath || !refresh) return;
+    const load = async () => {
+      refresh.disabled = true;
+      status.textContent = "Loading headlines…";
+      tracker.setAttribute("aria-busy", "true");
+      try {
+        const response = await fetch(apiPath, { headers: { Accept: "application/json" }, signal: AbortSignal.timeout(20000) });
+        if (!response.ok) throw Error("Headlines unavailable");
+        const data = await response.json();
+        const host = new URL(sourceUrl).hostname.replace(/^www\./, "");
+        const headlines = (Array.isArray(data.headlines) ? data.headlines : []).filter(item => {
+          try { const url = new URL(item.link); return item.title && url.protocol === "https:" && (url.hostname === host || url.hostname.endsWith("." + host) || (sourceName === "BBC Politics" && ["www.bbc.co.uk", "bbc.co.uk"].includes(url.hostname))); } catch { return false; }
+        }).slice(0, 10);
+        if (!headlines.length) throw Error("No headlines");
+        if (!tracker.isConnected) return;
+        track.innerHTML = headlines.map(item => `<li><a href="${escapeHtml(item.link)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a>${item.pubDate ? `<time datetime="${escapeHtml(item.pubDate)}">${escapeHtml(item.dateOnly ? new Intl.DateTimeFormat("en-GB", {dateStyle: "medium", timeZone: "UTC"}).format(new Date(item.pubDate)) : formatFeedDate(item.pubDate))}</time>` : ""}</li>`).join("");
+        status.textContent = `Headlines checked ${formatFeedDate(data.updated)} · refreshed on opening; cached for up to 5 minutes.`;
+      } catch {
+        if (!tracker.isConnected) return;
+        status.textContent = track.children.length ? `Could not refresh ${sourceName}. Previously loaded headlines remain below; open the publisher to check its latest coverage.` : `${sourceName} headlines are temporarily unavailable. Use the publisher link below for the latest stories.`;
+      } finally {
+        refresh.disabled = false;
+        tracker.removeAttribute("aria-busy");
+      }
+    };
+    refresh.addEventListener("click", load);
+    load();
   });
-}
-
-function politicsTickerItem(item) {
-  const linkTarget = item.link || "https://www.bbc.com/news/politics";
-  const title = item.title || "BBC Politics";
-  return `
-    <a class="ticker-item" href="${escapeHtml(linkTarget)}" target="_blank" rel="noopener noreferrer">
-      <span>${escapeHtml(title)}</span>
-    </a>
-  `;
 }
 
 function formatFeedDate(value) {

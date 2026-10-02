@@ -639,7 +639,7 @@ export const courses = {
     why:
       "Students build argument, judgement and current-affairs awareness while learning to compare political systems and apply political theory to real events.",
     spec:
-      "The official Pearson Edexcel A Level Politics specification is available below as a local download. The BBC Politics tracker on this page helps students gather current examples for essays and debate.",
+      "The official Pearson Edexcel A Level Politics specification is available below as a local download. The BBC and CNN headline trackers on this page help students gather current examples for essays and debate.",
     specificationButtons: [
       {
         title: "Official Pearson Edexcel A Level Politics specification",
@@ -651,26 +651,10 @@ export const courses = {
         href: "/university-politics-reading-list"
       }
     ],
-    currentAffairsTracker: {
-      title: "A Level Politics Tracker",
-      sourceName: "BBC Politics",
-      sourceUrl: "https://www.bbc.com/news/politics",
-      apiPath: "/api/bbc-politics",
-      feedUrl: "https://feeds.bbci.co.uk/news/politics/rss.xml",
-      note: "Use the ticker as a starting point for examples, not as a substitute for wider reading and evaluation.",
-      fallbackHeadlines: [
-        {
-          title: "BBC Politics headlines are temporarily unavailable",
-          link: "https://www.bbc.com/news/politics",
-          pubDate: ""
-        },
-        {
-          title: "Open BBC Politics for the latest UK politics stories",
-          link: "https://www.bbc.com/news/politics",
-          pubDate: ""
-        }
-      ]
-    },
+    currentAffairsTrackers: [
+      { sourceName: "BBC Politics", region: "UK Politics", sourceUrl: "https://www.bbc.com/news/politics", apiPath: "/api/bbc-politics" },
+      { sourceName: "CNN Politics", region: "USA Politics", sourceUrl: "https://www.cnn.com/politics", apiPath: "/api/cnn-politics" }
+    ],
     assessment: [
       { title: "Paper 1", text: "UK Politics and Core Political Ideas." },
       { title: "Paper 2", text: "UK Government and Non-core Political Ideas. Repton teaches Nationalism." },

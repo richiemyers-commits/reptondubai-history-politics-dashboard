@@ -187,45 +187,18 @@ export function restrictedResourceCards(items = []) {
   `;
 }
 
-function currentAffairsTracker(tracker) {
-  const fallbackItems = tracker.fallbackHeadlines || [];
-
-  return `
-    <section class="section politics-tracker-section">
-      <div class="container">
-        ${sectionHeader("Live Source Tracker", tracker.title, tracker.note)}
-        <div
-          class="politics-ticker"
-          data-politics-tracker
-          data-api-path="${escapeHtml(tracker.apiPath)}"
-          data-source-url="${escapeHtml(tracker.sourceUrl)}"
-        >
-          <div class="ticker-header">
-            <div>
-              <p class="card-label">Live source</p>
-              <h3>${escapeHtml(tracker.sourceName)}</h3>
-            </div>
-            <a class="text-link" href="${escapeHtml(tracker.sourceUrl)}" target="_blank" rel="noopener noreferrer">Open BBC Politics</a>
-          </div>
-          <div class="ticker-window" aria-label="Latest BBC Politics headlines" aria-live="polite">
-            <div class="ticker-track" data-ticker-track>
-              ${fallbackItems.map((item) => tickerFallbackItem(item)).join("")}
-            </div>
-          </div>
-          <p class="ticker-status" data-ticker-status>Loading latest headlines...</p>
-        </div>
-      </div>
-    </section>
-  `;
-}
-
-function tickerFallbackItem(item) {
-  const linkTarget = item.link || "#";
-  return `
-    <a class="ticker-item" href="${escapeHtml(linkTarget)}" target="_blank" rel="noopener noreferrer">
-      <span>${escapeHtml(item.title)}</span>
-    </a>
-  `;
+function currentAffairsTracker(trackers) {
+  return `<section class="section politics-tracker-section"><div class="container">
+    ${sectionHeader("Current affairs", "Politics headlines", "Open a story, check the evidence and connect it to a course topic before using it in an essay.")}
+    <div class="politics-news-grid">${trackers.map(tracker => `
+      <article class="politics-ticker politics-news-panel" data-politics-tracker data-api-path="${escapeHtml(tracker.apiPath)}" data-source-url="${escapeHtml(tracker.sourceUrl)}" data-source-name="${escapeHtml(tracker.sourceName)}">
+        <div class="ticker-header"><div><p class="card-label">${escapeHtml(tracker.region || "Politics")}</p><h3>${escapeHtml(tracker.sourceName)}</h3></div>
+        <button class="filter-button" type="button" data-news-refresh>Refresh</button></div>
+        <p class="ticker-status" data-ticker-status role="status">Loading headlines…</p>
+        <ul class="politics-news-list" data-ticker-track aria-label="${escapeHtml(tracker.sourceName)} headlines"></ul>
+        <a class="text-link" href="${escapeHtml(tracker.sourceUrl)}" target="_blank" rel="noopener noreferrer">Open ${escapeHtml(tracker.sourceName)}</a>
+      </article>`).join("")}</div>
+  </div></section>`;
 }
 
 export function coursePage(course) {
@@ -245,7 +218,7 @@ export function coursePage(course) {
       </div>
     </section>
 
-    ${course.currentAffairsTracker ? currentAffairsTracker(course.currentAffairsTracker) : ""}
+    ${course.currentAffairsTrackers ? currentAffairsTracker(course.currentAffairsTrackers) : ""}
 
     <section class="band">
       <div class="container split-section">
