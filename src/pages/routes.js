@@ -614,6 +614,15 @@ function literacyReadingListsPage() {
     <section class="section paper-band">
       <div class="container literacy-policy">
         <h1>KS3–KS5 Reading Lists</h1>
+        <section id="ks3" aria-labelledby="ks3-reading-title">
+          <h2 id="ks3-reading-title">KS3 History</h2>
+          <ul class="plain-list reading-list">
+            <li>Terry Deary, Horrible Histories series</li>
+            <li>Judith Flanders, The Victorian City</li>
+            <li>Michael Morpurgo, Private Peaceful</li>
+            <li>Michael Morpurgo, War Horse</li>
+          </ul>
+        </section>
         <a class="text-link" href="/literacy" data-link>Back to the Literacy Guide</a>
       </div>
     </section>
