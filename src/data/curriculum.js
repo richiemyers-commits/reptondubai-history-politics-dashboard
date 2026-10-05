@@ -236,7 +236,7 @@ export const courses = {
     why:
       "The course prepares pupils for IGCSE by making enquiry, evidence, causation, consequence and significance feel familiar long before public examinations begin.",
     spec: "The KS3 History curriculum and assessment overview for Years 7 to 9 is summarised on this page.",
-    specificationButtons: [],
+    specificationButtons: [{ title: "KS3 History Reading List", href: "/literacy/reading-lists#ks3" }],
     yearRoutes: [
       {
         title: "Year 7 History",
@@ -1279,13 +1279,23 @@ export const aLevelHistoryReadingList = {
       items: [
         "William H. Chafe, The Unfinished Journey: America Since World War II",
         "David M. Kennedy, Freedom from Fear: The American People in Depression and War, 1929-1945",
-        "James T. Patterson, Grand Expectations: The United States, 1945-1974",
+        "James T. Patterson, Grand Expectations: The United States, 1945–1974 (1996)",
         "Harvard Sitkoff, The Struggle for Black Equality",
         "Robert Dallek, Lyndon B. Johnson: Portrait of a President",
         "Allen J. Matusow, The Unraveling of America",
         "Rick Perlstein, Before the Storm",
         "Bruce J. Schulman, The Seventies",
-        "John Lewis, Walking with the Wind"
+        "John Lewis, Walking with the Wind",
+        "John Morton Blum, Years of Discord: American Politics and Society, 1961–1974 (1991)",
+        "Sidney Blumenthal and Thomas Byrne Edsall (eds.), The Reagan Legacy (1988)",
+        "Paul S. Boyer, American History: A Very Short Introduction (2012)",
+        "H. W. Brands, American Dreams: The United States Since 1945 (2010)",
+        "Hugh Brogan, The Penguin History of the USA (second edition, 1999)",
+        "Adam Fairclough, Better Day Coming: Blacks and Equality, 1890–2000 (2002)",
+        "Alan Farmer and Vivienne Saunders, An Introduction to American History, 1860–1990 (2002)",
+        "Eric Foner, The Story of American Freedom (1998)",
+        "Fred I. Greenstein, The Presidential Difference: Leadership Style from FDR to George W. Bush (second edition, 2004)",
+        "Sean Wilentz, The Age of Reagan: A History, 1974–2008 (2008)"
       ]
     },
     {
@@ -1297,10 +1307,18 @@ export const aLevelHistoryReadingList = {
         "Judith M. Brown, Gandhi: Prisoner of Hope",
         "Sugata Bose and Ayesha Jalal, Modern South Asia",
         "Ayesha Jalal, The Sole Spokesman",
-        "Yasmin Khan, The Great Partition",
+        "Yasmin Khan, The Great Partition: The Making of India and Pakistan (Yale, 2008)",
         "Ramachandra Guha, India After Gandhi",
         "Lawrence James, Raj: The Making and Unmaking of British India",
-        "Penderel Moon, Divide and Quit"
+        "Penderel Moon, Divide and Quit",
+        "Ian Copland, India 1885–1947: The Unmaking of an Empire (Routledge, 2001)",
+        "Tim Leadbeater, Britain and India, 1845–1947 (Hodder, 2008)",
+        "Rosemary Rees, Britain and the Nationalist Challenge in India, 1900–47 (Pearson, 2010)",
+        "Ian Colvin, The Life of General Dyer (Blackwood, 1929)",
+        "Alfred Draper, The Amritsar Massacre (Ashford, Buchan and Enwright; supplied edition date 1963 — details to confirm)",
+        "Ian J. B. McLachlan, India: The History of British Rule (title and author details to confirm)",
+        "Ian J. C. Verma, The Partition of India (title and author details to confirm)",
+        "David Gilmour, The British in India: A Social History of the Raj"
       ]
     },
     {
@@ -1457,6 +1475,16 @@ export const universityPoliticsReadingList = {
     }
   ],
   sections: [
+    {
+      title: "A Level Politics: UK Politics And Government",
+      description: "Wider reading on Parliament, government, prime ministers and political representation.",
+      items: [
+        "Ian Dunt, How Westminster Works... and Why It Doesn’t",
+        "Stig Abell, How Britain Really Works",
+        "Steve Richards, The Prime Ministers",
+        "Isabel Hardman, Why We Get the Wrong Politicians"
+      ]
+    },
     {
       title: "Politics And Democracy",
       description: "Accessible starting points for democracy, populism, institutions and why politics matters.",
