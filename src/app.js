@@ -1,5 +1,6 @@
 import { glossaryPage, wireGlossary } from "./pages/glossary.js";
 import { ibIaGuidePage } from "./pages/ib-ia-guide.js";
+import { getAbeResponse, abeCourses } from "./data/ask-abe.js";
 import { searchIndex, askAbeFaq } from "./data/curriculum.js";
 import { buildShell, escapeHtml } from "./components/ui.js";
 import { routes } from "./pages/routes.js";
@@ -7,6 +8,11 @@ import { routes } from "./pages/routes.js";
 searchIndex.push({ title: "History and Politics Key Term Glossary", type: "Student tool", text: "A–Z definitions for KS3, IGCSE, IB History, Pearson Edexcel A Level History and Politics", path: "/glossary" });
 searchIndex.push({ title: "Guide to writing 30-mark Politics essays", type: "A Level Politics student guide", text: "AO1 AO2 AO3 planning answer the question examples evidence judgement UK source questions USA Paper 3A", path: "/a-level-politics/30-mark-essay-guide" });
 searchIndex.push({ title: "IB History IA guide — first assessment 2028", type: "IB History student guide", text: "Internal assessment historical inquiry question sources perspectives synthesis evaluation criteria 24 marks 2200 words seven sources", path: "/ib-history/ia-guide" });
+
+const abeStyles = document.createElement("link");
+abeStyles.rel = "stylesheet";
+abeStyles.href = "/src/pages/ask-abe.css";
+document.head.append(abeStyles);
 
 routes["/glossary"] = glossaryPage;
 routes["/ib-history/ia-guide"] = ibIaGuidePage;
@@ -224,47 +230,57 @@ function formatFeedDate(value) {
 function wireAskAbe() {
   const form = document.querySelector("[data-chat-form]");
   const messages = document.querySelector("[data-chat-messages]");
-  if (!form || !messages) return;
+  const course = document.querySelector("[data-abe-course]");
+  if (!form || !messages || !course) return;
 
-  document.querySelectorAll("[data-prompt]").forEach((button) => {
-    button.addEventListener("click", () => {
-      form.question.value = button.dataset.prompt;
-      form.requestSubmit();
-    });
+  const askPrompt = (prompt) => {
+    form.question.value = prompt;
+    form.requestSubmit();
+    form.question.focus();
+  };
+  document.querySelectorAll(".prompt-panel [data-prompt]").forEach(button => {
+    button.addEventListener("click", () => askPrompt(button.dataset.prompt));
   });
-
-  form.addEventListener("submit", (event) => {
+  messages.addEventListener("click", event => {
+    const button = event.target.closest("[data-prompt]");
+    if (button) askPrompt(button.dataset.prompt);
+  });
+  const initialMessage = messages.innerHTML;
+  document.querySelector("[data-abe-reset]")?.addEventListener("click", () => {
+    messages.innerHTML = initialMessage;
+    form.reset();
+    form.question.focus();
+  });
+  form.addEventListener("submit", event => {
     event.preventDefault();
     const question = form.question.value.trim();
     if (!question) return;
     appendMessage(messages, "you", "You", question);
-    appendMessage(messages, "abe", "Ask Abe", answerQuestion(question));
+    const response = getAbeResponse(question, course.value, askAbeFaq);
+    appendMessage(messages, "abe", "Ask Abe", response);
     form.reset();
     messages.scrollTop = messages.scrollHeight;
   });
 }
 
-function appendMessage(container, role, speaker, text) {
+function appendMessage(container, role, speaker, content) {
   const message = document.createElement("article");
   message.className = `message ${role}`;
-  message.innerHTML = `<p class="speaker">${escapeHtml(speaker)}</p><p>${escapeHtml(text)}</p>`;
-  container.append(message);
-}
-
-function answerQuestion(question) {
-  const cleanQuestion = question.toLowerCase();
-  const scored = askAbeFaq
-    .map((item) => ({
-      item,
-      score: item.keywords.reduce((total, keyword) => total + (cleanQuestion.includes(keyword) ? 1 : 0), 0)
-    }))
-    .sort((a, b) => b.score - a.score);
-
-  if (scored[0]?.score > 0) {
-    return scored[0].item.answer;
+  if (typeof content === "string") {
+    message.innerHTML = `<p class="speaker">${escapeHtml(speaker)}</p><p>${escapeHtml(content)}</p>`;
+  } else {
+    const courseLabel = abeCourses.find(course => course.id === content.course)?.label;
+    message.innerHTML = `
+      <p class="speaker">${escapeHtml(speaker)}${courseLabel ? ` · ${escapeHtml(courseLabel)}` : ""}</p>
+      <h3>${escapeHtml(content.title)}</h3>
+      <p>${escapeHtml(content.intro)}</p>
+      ${content.steps.length ? `<ol>${content.steps.map(step => `<li>${escapeHtml(step)}</li>`).join("")}</ol>` : ""}
+      ${content.task ? `<p class="abe-task"><strong>Try this:</strong> ${escapeHtml(content.task)}</p>` : ""}
+      ${content.resources.length ? `<div class="abe-resources">${content.resources.map(resource => `<a class="text-link" href="${escapeHtml(resource.path)}" data-link>${escapeHtml(resource.label)}</a>`).join("")}</div>` : ""}
+      ${content.followups.length ? `<div class="abe-followups"><p><strong>Keep practising</strong></p>${content.followups.map(prompt => `<button type="button" class="prompt-button" data-prompt="${escapeHtml(prompt)}">${escapeHtml(prompt)}</button>`).join("")}</div>` : ""}
+    `;
   }
-
-  return "I can answer from the local Repton History and Politics FAQ dataset. Try asking about KS3, IGCSE, A Level History, A Level Politics, IB History, source skills, essays or revision planning.";
+  container.append(message);
 }
 
 function restorePromptFromUrl() {

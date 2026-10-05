@@ -1,3 +1,4 @@
+import { abeCourses, abeAdvice, abePromptGroups } from "../data/ask-abe.js";
 import { politicsEssayGuidePage } from "./politics-essay-guide.js";
 import {
   aLevelHistoryReadingList,
@@ -499,7 +500,7 @@ function askAbePage() {
         <div class="ask-intro">
           <p class="kicker">Ask Abe</p>
           <h1>Repton History & Politics Assistant</h1>
-          <p>Ask course and revision questions grounded in the local department FAQ dataset.</p>
+          <p>Get practical advice on revision, essays, sources and political arguments. Choose your course, then ask about the skill you want to improve.</p>
           <div class="integrity-note">
             <strong>Academic integrity</strong>
             <span>Ask Abe can help you understand, revise and plan. Do not submit generated work as your own.</span>
@@ -514,36 +515,37 @@ function askAbePage() {
     <section class="section">
       <div class="container chat-layout">
         <aside class="prompt-panel">
-          <h2>Suggested Prompts</h2>
+          <h2>What would you like to improve?</h2>
           <div class="prompt-groups">
-            ${askAbeFaq
-              .map(
-                (group) => `
-                  <section>
-                    <p class="card-label">${escapeHtml(group.course)}</p>
-                    ${group.prompts
-                      .map((prompt) => `<button type="button" class="prompt-button" data-prompt="${escapeHtml(prompt)}">${escapeHtml(prompt)}</button>`)
-                      .join("")}
-                  </section>
-                `
-              )
-              .join("")}
+            ${abePromptGroups.map((group, index) => `
+              <details ${index === 0 ? "open" : ""}>
+                <summary>${escapeHtml(group.title)}</summary>
+                ${group.ids.map(id => abeAdvice.find(item => item.id === id)).map(item => `<button type="button" class="prompt-button" data-prompt="${escapeHtml(item.prompt)}">${escapeHtml(item.title)}</button>`).join("")}
+              </details>
+            `).join("")}
+            <details><summary>Course information</summary>
+              ${askAbeFaq.filter(group => group.course !== "Integrity").map(group => `<button type="button" class="prompt-button" data-prompt="${escapeHtml(group.prompts[group.prompts.length - 1])}">${escapeHtml(group.course)}</button>`).join("")}
+            </details>
           </div>
         </aside>
 
         <section class="chat-panel" aria-label="Ask Abe chat">
+          <div class="abe-controls">
+            <div><label for="abe-course">Your course</label><select id="abe-course" data-abe-course>${abeCourses.map(course => `<option value="${escapeHtml(course.id)}">${escapeHtml(course.label)}</option>`).join("")}</select></div>
+            <button type="button" class="prompt-button" data-abe-reset>Clear conversation</button>
+          </div>
           <div class="chat-messages" data-chat-messages aria-live="polite">
             <article class="message abe">
               <p class="speaker">Ask Abe</p>
-              <p>Hello. I can help with Repton History and Politics course information, revision planning and assessment guidance. What would you like to ask?</p>
+              <p>Hello. Choose your course so I can tailor my advice. Try a study question, or select a skill on the left. I’ll suggest practical steps, a short activity and useful department guides.</p>
             </article>
           </div>
           <form class="chat-form" data-chat-form>
             <label for="abe-question" class="sr-only">Ask Abe a question</label>
-            <input id="abe-question" name="question" type="text" placeholder="Ask about a course, topic or revision skill" autocomplete="off" />
+            <input id="abe-question" name="question" type="text" placeholder="For example: how do I improve my evaluation?" maxlength="1000" required autocomplete="off" />
             <button class="button primary-button" type="submit">Ask</button>
           </form>
-          <p class="chat-disclaimer">Version 1 uses local approved FAQ content only. No external AI service is connected.</p>
+          <p class="chat-disclaimer">Ask Abe offers prepared study guidance and course information. It does not check live facts or formally mark work. Use your teacher’s instructions and your paper’s assessment criteria.</p>
         </section>
       </div>
     </section>
