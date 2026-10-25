@@ -25,6 +25,8 @@ essayStyles.rel = "stylesheet";
 essayStyles.href = "/src/pages/politics-essay-guide.css";
 document.head.append(essayStyles);
 
+searchIndex.push({title: "Year 8 Industrial Revolution Revision", type: "Interactive revision enquiry", text: "Liberty’s Dawn Emma Griffin Arnold Toynbee men women children interpretations achievements", path: "/year-8-history/industrial-revolution"});
+searchIndex.push({title: "Year 9 Empire Armies of WWI Revision", type: "Interactive revision enquiry", text: "David Olusoga Ganga Singh Algerian troops Chinese Labour Corps Mike Mountain Horse meaningful contribution Western Front", path: "/year-9-history/empire-armies"});
 const app = document.querySelector("#app");
 searchIndex.push({ title: "Year 7 Norman Conquest Revision", type: "Interactive revision", text: "Conquest 1066 knowledge questions Learn the Conquest Essay Workshop exercise book revision", path: "/year-7-history/norman-conquest" });
 
@@ -66,7 +68,9 @@ function pageTitle(path) {
     "/year-7-history": "Year 7 History | Repton Dubai",
     "/year-7-history/norman-conquest": "Norman Conquest Revision | Year 7 | Repton Dubai",
     "/year-8-history": "Year 8 History | Repton Dubai",
+    "/year-8-history/industrial-revolution": "Industrial Revolution Revision | Year 8 | Repton Dubai",
     "/year-9-history": "Year 9 History | Repton Dubai",
+    "/year-9-history/empire-armies": "Empire Armies of WWI Revision | Year 9 | Repton Dubai",
     "/igcse-history": "IGCSE History | Repton Dubai",
     "/igcse-history/year-10-pearson": "Year 10 Pearson Edexcel IGCSE History | Repton Dubai",
     "/igcse-history/year-11-cie": "Year 11 Cambridge CIE IGCSE History | Repton Dubai",

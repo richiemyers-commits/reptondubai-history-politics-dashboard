@@ -27,7 +27,9 @@ export const routes = {
   "/year-7-history": () => ks3YearPage(ks3YearPages["year-7"]),
   "/year-7-history/norman-conquest": normanConquestPage,
   "/year-8-history": () => ks3YearPage(ks3YearPages["year-8"]),
+  "/year-8-history/industrial-revolution": () => revisionLabPage(8),
   "/year-9-history": () => ks3YearPage(ks3YearPages["year-9"]),
+  "/year-9-history/empire-armies": () => revisionLabPage(9),
   "/igcse-history": igcseYearGroupsPage,
   "/igcse-history/year-10-pearson": () => coursePage(courses.igcsePearson),
   "/igcse-history/year-11-cie": () => coursePage(courses.igcse),
@@ -63,7 +65,17 @@ function igcseYearGroupsPage() {
     <section class="section paper-band"><div class="container"><h2>Year 9 into Year 10</h2><p>Explore the Pearson Edexcel pathway and build your historical reading, writing and source skills.</p><a class="button secondary-button" href="/igcse-history/year-9-into-10" data-link>Preparation and advice</a></div></section>`;
 }
 
+const revisionLabs = {
+  8: {title: "Industrial Revolution", label: "Liberty’s Dawn?", path: "/year-8-history/industrial-revolution", app: "/public/industrial-revolution/index.html", copy: "Explore Griffin and Toynbee, compare men’s, women’s and children’s experiences, and argue how far industrialisation brought greater freedom."},
+  9: {title: "Empire Armies of WWI", label: "The World’s War", path: "/year-9-history/empire-armies", app: "/public/empire-armies/index.html", copy: "Investigate Olusoga’s interpretation through Indian troops, Algerian troops, Chinese labourers and Mike Mountain Horse. Judge what counts as a meaningful contribution."}
+};
+function revisionLabPage(number) {
+  const lab = revisionLabs[number];
+  return `<section class="section"><div class="container"><p class="kicker">Year ${number} History · ${lab.label}</p><h1>${lab.title} Revision</h1><p>${lab.copy}</p><p><strong>Exercise books ready:</strong> make your own notes, practise ten knowledge questions, investigate interpretations and develop an evidence-led argument.</p><div class="hero-actions"><a class="button primary-button" href="${lab.app}" target="_blank" rel="noopener">Open full screen ↗</a><a class="button secondary-button" href="/year-${number}-history" data-link>Back to Year ${number}</a></div><p id="revision-progress-note">Your profile, drafts, reflections and achievements save only in this browser/device. Download a revision record from your learner profile to keep a copy.</p></div><div class="conquest-embed"><iframe src="${lab.app}" title="Year ${number}: ${lab.title} interactive revision" aria-describedby="revision-progress-note"></iframe></div><div class="container"><p>For more writing space, use <a href="${lab.app}" target="_blank" rel="noopener">Open full screen</a>.</p></div></section>`;
+}
 function ks3YearPage(year) {
+  const number = Number(year.path.match(/year-(\d+)/)?.[1]);
+  const revision = revisionLabs[number];
   return `
     <section class="page-hero">
       <div class="hero-image" aria-hidden="true"></div>
@@ -73,12 +85,14 @@ function ks3YearPage(year) {
         <p>${escapeHtml(year.overview)}</p>
         <div class="hero-actions">
           <a class="button primary-button" href="${year.downloadHref}" download>Download Booklet</a>
+          ${revision ? `<a class="button primary-button" href="${revision.path}" data-link>${revision.title} Revision</a>` : ""}
           ${year.path === "/year-7-history" ? `<a class="button primary-button" href="/year-7-history/norman-conquest" data-link>Norman Conquest Revision</a>` : ""}
           ${year.path === "/year-9-history" ? `<a class="button secondary-button" href="${gcsePreparation.path}" data-link>GCSE Advice</a>` : `<a class="button secondary-button" href="/ks3-history" data-link>Back to KS3</a>`}
         </div>
       </div>
     </section>
 
+    ${revision ? `<section class="section paper-band"><div class="container"><article class="feature-panel"><p class="kicker">Year ${number} · ${revision.label}</p><h2>${revision.title}: investigate, revise, argue</h2><p>${revision.copy}</p><p>Includes six learning chapters, interpretations, knowledge practice, an argument workshop, learner profiles and topic-themed achievements.</p><a class="button primary-button" href="${revision.path}" data-link>Open the revision enquiry →</a></article></div></section>` : ""}
     ${year.path === "/year-7-history" ? `<section class="section paper-band"><div class="container"><article class="feature-panel">
       <p class="kicker">Year 7 · Conquest 1066</p><h2>Ready for your Norman Conquest assessment?</h2>
       <p>Revise for the 10 knowledge questions and extended-writing task. Learn the Conquest, test your knowledge and practise your explanation in the Essay Workshop.</p>
