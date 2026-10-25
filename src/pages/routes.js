@@ -25,6 +25,7 @@ export const routes = {
   "/": homePage,
   "/ks3-history": () => coursePage(courses.ks3),
   "/year-7-history": () => ks3YearPage(ks3YearPages["year-7"]),
+  "/year-7-history/norman-conquest": normanConquestPage,
   "/year-8-history": () => ks3YearPage(ks3YearPages["year-8"]),
   "/year-9-history": () => ks3YearPage(ks3YearPages["year-9"]),
   "/igcse-history": igcseYearGroupsPage,
@@ -72,10 +73,17 @@ function ks3YearPage(year) {
         <p>${escapeHtml(year.overview)}</p>
         <div class="hero-actions">
           <a class="button primary-button" href="${year.downloadHref}" download>Download Booklet</a>
+          ${year.path === "/year-7-history" ? `<a class="button primary-button" href="/year-7-history/norman-conquest" data-link>Norman Conquest Revision</a>` : ""}
           ${year.path === "/year-9-history" ? `<a class="button secondary-button" href="${gcsePreparation.path}" data-link>GCSE Advice</a>` : `<a class="button secondary-button" href="/ks3-history" data-link>Back to KS3</a>`}
         </div>
       </div>
     </section>
+
+    ${year.path === "/year-7-history" ? `<section class="section paper-band"><div class="container"><article class="feature-panel">
+      <p class="kicker">Year 7 · Conquest 1066</p><h2>Ready for your Norman Conquest assessment?</h2>
+      <p>Revise for the 10 knowledge questions and extended-writing task. Learn the Conquest, test your knowledge and practise your explanation in the Essay Workshop.</p>
+      <a class="button primary-button" href="/year-7-history/norman-conquest" data-link>Start Norman Conquest Revision →</a>
+    </article></div></section>` : ""}
 
     <section class="section">
       <div class="container split-section">
@@ -136,6 +144,28 @@ function ks3YearPage(year) {
           <a class="button primary-button" href="${year.downloadHref}" download>Download booklet</a>
         </aside>
       </div>
+    </section>
+  `;
+}
+
+function normanConquestPage() {
+  return `
+    <section class="section">
+      <div class="container">
+        <p class="kicker">Year 7 History · Conquest 1066</p>
+        <h1>Norman Conquest Revision</h1>
+        <p>Prepare for your 10 knowledge questions and extended-writing task. Work through Learn the Conquest, test yourself in the Knowledge Arena, then develop your answer in the Essay Workshop.</p>
+        <p><strong>Exercise books ready:</strong> write the key notes in your exercise book, close the app and recall them from memory. Add specific evidence to support your judgement.</p>
+        <div class="hero-actions">
+          <a class="button primary-button" href="/public/conquest1066/index.html" target="_blank" rel="noopener">Open full screen ↗</a>
+          <a class="button secondary-button" href="/year-7-history" data-link>Back to Year 7</a>
+        </div>
+        <p id="conquest-progress-note">Choose your class from 7A–7J when creating your pupil profile. Progress is saved only in this browser on this device; use the same browser when you return.</p>
+      </div>
+      <div class="conquest-embed">
+        <iframe src="/public/conquest1066/index.html" title="Conquest 1066 — Year 7 Norman Conquest revision app" aria-describedby="conquest-progress-note"></iframe>
+      </div>
+      <div class="container"><p>If the app does not load or you need more space, use <a href="/public/conquest1066/index.html" target="_blank" rel="noopener">Open full screen</a>.</p></div>
     </section>
   `;
 }
@@ -630,3 +660,4 @@ function literacyReadingListsPage() {
     </section>
   `;
 }
+

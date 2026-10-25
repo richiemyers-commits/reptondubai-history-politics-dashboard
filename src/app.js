@@ -26,6 +26,7 @@ essayStyles.href = "/src/pages/politics-essay-guide.css";
 document.head.append(essayStyles);
 
 const app = document.querySelector("#app");
+searchIndex.push({ title: "Year 7 Norman Conquest Revision", type: "Interactive revision", text: "Conquest 1066 knowledge questions Learn the Conquest Essay Workshop exercise book revision", path: "/year-7-history/norman-conquest" });
 
 function getPath() {
   const path = window.location.pathname.replace(/\/$/, "") || "/";
@@ -63,6 +64,7 @@ function pageTitle(path) {
     "/": "Repton Dubai History & Politics",
     "/ks3-history": "KS3 History | Repton Dubai",
     "/year-7-history": "Year 7 History | Repton Dubai",
+    "/year-7-history/norman-conquest": "Norman Conquest Revision | Year 7 | Repton Dubai",
     "/year-8-history": "Year 8 History | Repton Dubai",
     "/year-9-history": "Year 9 History | Repton Dubai",
     "/igcse-history": "IGCSE History | Repton Dubai",
@@ -293,3 +295,4 @@ function restorePromptFromUrl() {
 
 window.addEventListener("popstate", render);
 render();
+

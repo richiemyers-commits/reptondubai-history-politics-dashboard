@@ -8,6 +8,7 @@ const entries = ["index.html", "_headers", "src", "public"];
 const appRoutes = [
   "/ks3-history",
   "/year-7-history",
+  "/year-7-history/norman-conquest",
   "/year-8-history",
   "/year-9-history",
   "/igcse-history",
@@ -50,3 +51,4 @@ for (const route of appRoutes) {
 }
 
 console.log("Production build created in dist/");
+
