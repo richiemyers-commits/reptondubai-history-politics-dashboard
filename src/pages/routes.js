@@ -76,6 +76,11 @@ function revisionLabPage(number) {
 function ks3YearPage(year) {
   const number = Number(year.path.match(/year-(\d+)/)?.[1]);
   const revision = revisionLabs[number];
+  const project = {
+    7: { title: "Castles Project", file: "year-7-castles-project.pdf" },
+    8: { title: "Industrial Revolution Project", file: "year-8-industrial-revolution-project.pdf" },
+    9: { title: "WWI Eastern Front & Trench Project", file: "year-9-wwi-eastern-front-project.pdf" }
+  }[number];
   return `
     <section class="page-hero">
       <div class="hero-image" aria-hidden="true"></div>
@@ -90,6 +95,15 @@ function ks3YearPage(year) {
           ${year.path === "/year-9-history" ? `<a class="button secondary-button" href="${gcsePreparation.path}" data-link>GCSE Advice</a>` : `<a class="button secondary-button" href="/ks3-history" data-link>Back to KS3</a>`}
         </div>
       </div>
+    </section>
+
+    <section class="section paper-band" id="home-learning-project">
+      <div class="container"><article class="feature-panel">
+        <p class="kicker">Year ${number} · Home Learning</p>
+        <h2>${project.title}</h2>
+        <p>Download your project brief, read the instructions and use the PDF to plan and complete your work. Your teacher will confirm the deadline and how to submit your project.</p>
+        <a class="button primary-button" href="/public/resources/projects/${project.file}" download>Download ${project.title} (PDF)</a>
+      </article></div>
     </section>
 
     ${revision ? `<section class="section paper-band"><div class="container"><article class="feature-panel"><p class="kicker">Year ${number} · ${revision.label}</p><h2>${revision.title}: investigate, revise, argue</h2><p>${revision.copy}</p><p>Includes six learning chapters, interpretations, knowledge practice, an argument workshop, learner profiles and topic-themed achievements.</p><a class="button primary-button" href="${revision.path}" data-link>Open the revision enquiry →</a></article></div></section>` : ""}
