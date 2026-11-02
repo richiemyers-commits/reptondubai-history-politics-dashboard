@@ -1,0 +1,781 @@
+{
+  "updated": "2 November 2026",
+  "topics": {
+    "15": {
+      "title": "Political developments",
+      "subtitle": "United States 1945–1980 · Canada 1945–1982",
+      "chapter": 6,
+      "pages": "291–357"
+    },
+    "16": {
+      "title": "The Cold War and the Americas",
+      "subtitle": "1945–1981",
+      "chapter": 7,
+      "pages": "360–420"
+    },
+    "17": {
+      "title": "Civil rights and social movements",
+      "subtitle": "Americas post-1945",
+      "chapter": 8,
+      "pages": "424–497"
+    }
+  },
+  "records": [
+    {
+      "id": "15-1",
+      "topic": 15,
+      "title": "Truman: reconversion and the Fair Deal",
+      "country": "USA",
+      "period": "1945–1953",
+      "pages": "292–297",
+      "summary": "Truman sought to retain the social ambitions of the New Deal while managing demobilisation, inflation and labour conflict. Congressional opposition limited the reach of reform.",
+      "evidence": [
+        "Employment Act (1946)",
+        "Taft–Hartley Act (1947), passed over Truman’s veto",
+        "Military desegregation order (1948)",
+        "Fair Deal programme (1949); expansion of Social Security (1950)"
+      ],
+      "debate": "Distinguish proposals from legislation: limited enactment does not mean no lasting change.",
+      "recall": "Why did conservative opposition constrain the Fair Deal?",
+      "questions": [
+        "To what extent did Truman achieve his domestic reform objectives?",
+        "Evaluate the importance of Congress in shaping Truman’s domestic record."
+      ]
+    },
+    {
+      "id": "15-2",
+      "topic": 15,
+      "title": "Eisenhower: Modern Republicanism",
+      "country": "USA",
+      "period": "1953–1961",
+      "pages": "298–302",
+      "summary": "Eisenhower combined fiscal caution with acceptance of important New Deal institutions. His presidency offers a test of continuity alongside selective federal intervention.",
+      "evidence": [
+        "Department of Health, Education and Welfare (1953)",
+        "Federal-Aid Highway Act (1956)",
+        "Little Rock federal intervention (1957)",
+        "National Defense Education Act (1958)"
+      ],
+      "debate": "Weigh restrained rhetoric against the actual expansion of federal responsibilities.",
+      "recall": "Identify two continuities with the New Deal and one departure.",
+      "questions": [
+        "How far did Eisenhower change the role of the federal government?",
+        "Compare the domestic priorities of Truman and Eisenhower."
+      ]
+    },
+    {
+      "id": "15-3",
+      "topic": 15,
+      "title": "Kennedy and the New Frontier",
+      "country": "USA",
+      "period": "1961–1963",
+      "pages": "303–309",
+      "summary": "Kennedy’s programme promised renewal but faced a narrow electoral mandate and congressional resistance. Separate policy ambitions, measures enacted in his lifetime and later legislation.",
+      "evidence": [
+        "Narrow election victory (1960)",
+        "Equal Pay Act (1963)",
+        "Civil rights address and proposed legislation (1963)",
+        "Assassination in November 1963"
+      ],
+      "debate": "Avoid crediting Kennedy with Johnson’s legislative achievements without explaining the connection.",
+      "recall": "Which reforms were proposals rather than laws before November 1963?",
+      "questions": [
+        "Assess the domestic achievements of Kennedy’s presidency.",
+        "To what extent was congressional opposition responsible for the limitations of the New Frontier?"
+      ]
+    },
+    {
+      "id": "15-4",
+      "topic": 15,
+      "title": "Johnson and the Great Society",
+      "country": "USA",
+      "period": "1963–1969",
+      "pages": "310–316",
+      "summary": "Johnson used legislative experience and the 1964 electoral victory to extend social reform. Legal gains and poverty programmes coexisted with urban unrest and the costs of Vietnam.",
+      "evidence": [
+        "Civil Rights Act (1964)",
+        "Economic Opportunity Act (1964)",
+        "Medicare and Medicaid (1965)",
+        "Voting Rights Act (1965)"
+      ],
+      "debate": "Judge success using separate criteria for legal equality, poverty and durable social change.",
+      "recall": "Explain why legislative success did not remove economic inequality.",
+      "questions": [
+        "Evaluate the success of Johnson’s Great Society.",
+        "Compare the domestic achievements of Kennedy and Johnson."
+      ]
+    },
+    {
+      "id": "15-5",
+      "topic": 15,
+      "title": "Nixon: domestic policy and the economy",
+      "country": "USA",
+      "period": "1969–1974",
+      "pages": "317–327",
+      "summary": "Nixon mixed conservative electoral appeals with pragmatic federal intervention. Economic instability and social conflict complicate a simple picture of a uniformly conservative administration.",
+      "evidence": [
+        "Environmental Protection Agency (1970)",
+        "Wage and price controls (1971)",
+        "End of dollar convertibility into gold (1971)",
+        "Oil shock (1973)"
+      ],
+      "debate": "Assess policy by its effects as well as its ideological label.",
+      "recall": "How did intervention in the economy sit alongside conservative rhetoric?",
+      "questions": [
+        "How far were Nixon’s domestic policies conservative?",
+        "Evaluate Nixon’s response to the economic problems facing the United States."
+      ]
+    },
+    {
+      "id": "15-6",
+      "topic": 15,
+      "title": "Watergate and presidential accountability",
+      "country": "USA",
+      "period": "1972–1974",
+      "pages": "317–327",
+      "summary": "The break-in became a constitutional crisis through the cover-up, investigations and conflict over presidential evidence. Nixon resigned before the full House voted on impeachment.",
+      "evidence": [
+        "Watergate break-in (1972)",
+        "Senate investigation (1973)",
+        "United States v. Nixon (1974)",
+        "House Judiciary Committee impeachment articles; resignation (August 1974)"
+      ],
+      "debate": "Distinguish the original break-in from abuse of power and the cover-up.",
+      "recall": "Why is it inaccurate to say Nixon was impeached and removed?",
+      "questions": [
+        "Evaluate the consequences of Watergate for the presidency.",
+        "Assess the role of constitutional checks in bringing about Nixon’s resignation."
+      ]
+    },
+    {
+      "id": "15-7",
+      "topic": 15,
+      "title": "Ford and Carter: trust and stagflation",
+      "country": "USA",
+      "period": "1974–1980",
+      "pages": "328–337",
+      "summary": "Ford and Carter faced damaged public confidence and difficult economic conditions. Their records invite comparison between leadership choices and structural constraints.",
+      "evidence": [
+        "Ford’s pardon of Nixon (1974)",
+        "Whip Inflation Now campaign",
+        "Carter’s energy policy",
+        "Second oil shock (1979)"
+      ],
+      "debate": "Do not explain economic performance solely through presidential competence.",
+      "recall": "What political costs and possible benefits followed Ford’s pardon?",
+      "questions": [
+        "Compare Ford’s and Carter’s responses to domestic economic problems.",
+        "To what extent did Carter restore confidence in federal government?"
+      ]
+    },
+    {
+      "id": "15-8",
+      "topic": 15,
+      "title": "Party conflict and electoral change",
+      "country": "USA",
+      "period": "1960s–1970s",
+      "pages": "303–337",
+      "summary": "Civil rights, Vietnam and social change fractured existing party coalitions. Electoral victories reflected changing alliances as well as candidates and immediate events.",
+      "evidence": [
+        "Democratic divisions at Chicago (1968)",
+        "Southern strategy and the 1968 election",
+        "Nixon’s re-election (1972)",
+        "Carter’s election (1976)"
+      ],
+      "debate": "Separate short-term electoral shocks from a longer realignment of voters and regions.",
+      "recall": "How did civil rights policy affect party coalitions?",
+      "questions": [
+        "Assess the impact of internal party divisions on US elections in the 1960s and 1970s.",
+        "How important was social change in reshaping Republican and Democratic support?"
+      ]
+    },
+    {
+      "id": "15-9",
+      "topic": 15,
+      "title": "St Laurent and Diefenbaker",
+      "country": "Canada",
+      "period": "1948–1963",
+      "pages": "338–348",
+      "summary": "Post-war Canadian governments balanced development, welfare, national identity and relations with the United States. Compare the priorities of Liberal and Progressive Conservative leadership.",
+      "evidence": [
+        "St Lawrence Seaway opened (1959)",
+        "Diefenbaker’s Bill of Rights (1960)",
+        "Federal voting rights extended to status First Nations people without loss of status (1960)",
+        "Economic development and regional inequality"
+      ],
+      "debate": "Distinguish the 1960 statutory Bill of Rights from the constitutional Charter of 1982.",
+      "recall": "How far did economic development strengthen political stability?",
+      "questions": [
+        "Compare the domestic policies of St Laurent and Diefenbaker.",
+        "Evaluate Diefenbaker’s contribution to political and social change in Canada."
+      ]
+    },
+    {
+      "id": "15-10",
+      "topic": 15,
+      "title": "Pearson and Trudeau: reform and nationhood",
+      "country": "Canada",
+      "period": "1963–1982",
+      "pages": "338–348",
+      "summary": "Reform extended social provision and reshaped federal identity, while debates over bilingualism, rights and Quebec challenged national unity. The syllabus extends Canada to 1982.",
+      "evidence": [
+        "Maple Leaf flag (1965)",
+        "Medical Care Act (1966)",
+        "Official Languages Act (1969)",
+        "Constitution Act and Charter of Rights and Freedoms (1982)"
+      ],
+      "debate": "Assess inclusion and national cohesion separately; reform could also deepen disagreements.",
+      "recall": "Why did bilingualism matter to Trudeau’s vision of Canada?",
+      "questions": [
+        "Evaluate the domestic achievements of Pearson and Trudeau.",
+        "How far did Trudeau strengthen Canadian national unity by 1982?"
+      ]
+    },
+    {
+      "id": "15-11",
+      "topic": 15,
+      "title": "Quiet Revolution and Quebec nationalism",
+      "country": "Canada",
+      "period": "1960–1980",
+      "pages": "349–356",
+      "summary": "Secularisation, state-led modernisation and greater Francophone confidence transformed Quebec. Constitutional nationalism and the FLQ’s violence pursued different paths.",
+      "evidence": [
+        "Jean Lesage’s election (1960)",
+        "Hydro-Québec expansion and nationalisation (1962–1963)",
+        "Parti Québécois founded (1968)",
+        "Sovereignty-association referendum rejected (1980)"
+      ],
+      "debate": "Avoid treating all Quebec nationalists as separatists or supporters of violence.",
+      "recall": "How did economic and cultural change reinforce nationalism?",
+      "questions": [
+        "Analyse the causes of the Quiet Revolution.",
+        "Evaluate the impact of Quebec nationalism on Canada up to 1980."
+      ]
+    },
+    {
+      "id": "15-12",
+      "topic": 15,
+      "title": "October Crisis: security and liberty",
+      "country": "Canada",
+      "period": "1970",
+      "pages": "349–356",
+      "summary": "FLQ kidnappings provoked an exceptional federal response. The crisis raises questions about public protection, civil liberties and the political consequences of coercion.",
+      "evidence": [
+        "Kidnappings of James Cross and Pierre Laporte",
+        "War Measures Act invoked",
+        "Laporte killed",
+        "Arrests and subsequent debate over emergency powers"
+      ],
+      "debate": "Differentiate the immediate security outcome from the wider consequences for rights and nationalism.",
+      "recall": "What evidence could support and challenge Trudeau’s response?",
+      "questions": [
+        "Assess the consequences of the October Crisis for Canada.",
+        "To what extent was Trudeau’s handling of the October Crisis justified by its outcomes?"
+      ]
+    },
+    {
+      "id": "16-1",
+      "topic": 16,
+      "title": "Truman: containment in the hemisphere",
+      "country": "Americas",
+      "period": "1945–1953",
+      "pages": "362–376",
+      "summary": "US policy prioritised the prevention of communist influence. Latin American demands for development and sovereign equality could conflict with Washington’s focus on security.",
+      "evidence": [
+        "Truman Doctrine (1947)",
+        "Rio Treaty (1947)",
+        "Organization of American States (1948)",
+        "Unequal priorities over aid and defence"
+      ],
+      "debate": "Distinguish the stated defence of freedom from support for anti-communist stability.",
+      "recall": "Why could Latin American governments resent containment?",
+      "questions": [
+        "Evaluate the impact of Truman’s containment policy on the Americas.",
+        "How far did security concerns outweigh economic development in US policy towards Latin America?"
+      ]
+    },
+    {
+      "id": "16-2",
+      "topic": 16,
+      "title": "McCarthyism and the Red Scare",
+      "country": "USA",
+      "period": "late 1940s–1950s",
+      "pages": "362–376",
+      "summary": "Anti-communism shaped employment, culture and political debate. McCarthy was one actor within a broader climate involving executive action, congressional investigations and public anxiety.",
+      "evidence": [
+        "Federal loyalty programme (1947)",
+        "HUAC and Hollywood blacklisting",
+        "McCarthy’s rise (1950)",
+        "Army–McCarthy hearings and Senate censure (1954)"
+      ],
+      "debate": "Do not attribute every loyalty investigation or blacklist to McCarthy personally.",
+      "recall": "How did fear of communism affect free expression?",
+      "questions": [
+        "Assess the social and cultural effects of McCarthyism.",
+        "Evaluate the influence of anti-communism on US domestic and foreign policy."
+      ]
+    },
+    {
+      "id": "16-3",
+      "topic": 16,
+      "title": "Korea: participation and consequences",
+      "country": "USA and Canada",
+      "period": "1950–1953",
+      "pages": "377–383",
+      "summary": "The Korean War internationalised containment through a UN intervention. Study changes in military aims and the consequences for US and Canadian policy.",
+      "evidence": [
+        "North Korean invasion (June 1950)",
+        "Inchon landing (1950)",
+        "Chinese intervention (1950)",
+        "Armistice (1953)"
+      ],
+      "debate": "Separate the defence of South Korea from the later attempt to reunify Korea by force.",
+      "recall": "Why did the war become a limited conflict rather than a decisive victory?",
+      "questions": [
+        "Evaluate the reasons for US participation in the Korean War.",
+        "Assess the political and diplomatic consequences of the Korean War for the Americas."
+      ]
+    },
+    {
+      "id": "16-4",
+      "topic": 16,
+      "title": "Eisenhower and Dulles: the New Look",
+      "country": "USA and Latin America",
+      "period": "1953–1961",
+      "pages": "384–390",
+      "summary": "The New Look sought to contain communism while controlling costs through nuclear deterrence, alliances and covert action. Regional outcomes could undermine democratic commitments.",
+      "evidence": [
+        "Massive retaliation",
+        "Covert intervention in Guatemala (1954)",
+        "Support for anti-communist governments",
+        "Cuban Revolution (1959)"
+      ],
+      "debate": "Measure success through both immediate strategic goals and longer-term legitimacy.",
+      "recall": "Why did covert action appeal to Eisenhower?",
+      "questions": [
+        "Evaluate the impact of the New Look on Latin America.",
+        "How successful was Eisenhower’s foreign policy in protecting US interests in the Americas?"
+      ]
+    },
+    {
+      "id": "16-5",
+      "topic": 16,
+      "title": "Kennedy: Cuba and the Alliance for Progress",
+      "country": "USA and Latin America",
+      "period": "1961–1963",
+      "pages": "402–411",
+      "summary": "Kennedy combined development aid with determined opposition to communist influence. Cuba exposed the limits of intervention and the dangers of superpower confrontation.",
+      "evidence": [
+        "Alliance for Progress (1961)",
+        "Bay of Pigs failure (1961)",
+        "Cuban Missile Crisis (1962)",
+        "Development reform and anti-communist priorities"
+      ],
+      "debate": "Distinguish crisis management from the long-term success of development policies.",
+      "recall": "Why could reform and intervention work against each other?",
+      "questions": [
+        "Assess the achievements of Kennedy’s Alliance for Progress.",
+        "To what extent did Kennedy improve US relations with Latin America?"
+      ]
+    },
+    {
+      "id": "16-6",
+      "topic": 16,
+      "title": "Vietnam: reasons and stages of involvement",
+      "country": "USA",
+      "period": "1950s–1973",
+      "pages": "391–401",
+      "summary": "US involvement moved from assistance and advisers to large-scale war, then Vietnamisation and withdrawal. Explain decisions in the context of containment, credibility and perceived local weakness.",
+      "evidence": [
+        "Support for France and then South Vietnam",
+        "Gulf of Tonkin Resolution (1964)",
+        "US combat deployment (1965)",
+        "Vietnamisation; Paris Peace Accords (1973)"
+      ],
+      "debate": "Avoid treating escalation as an inevitable or unchanging policy.",
+      "recall": "How did the reasons for involvement change between presidents?",
+      "questions": [
+        "Analyse the reasons for the escalation of US involvement in Vietnam.",
+        "Compare the approaches of Johnson and Nixon to the Vietnam War."
+      ]
+    },
+    {
+      "id": "16-7",
+      "topic": 16,
+      "title": "Vietnam: domestic opposition and the end",
+      "country": "USA",
+      "period": "1960s–1975",
+      "pages": "391–401",
+      "summary": "War costs, casualties, conscription and the credibility gap weakened support. Withdrawal and the later fall of South Vietnam need distinct explanations.",
+      "evidence": [
+        "Tet Offensive (1968)",
+        "Kent State shootings (1970)",
+        "Pentagon Papers (1971)",
+        "Paris agreement (1973); fall of Saigon (1975)"
+      ],
+      "debate": "Weigh protest against military, diplomatic and electoral pressures rather than assuming one cause.",
+      "recall": "Why are 1973 and 1975 both important dates?",
+      "questions": [
+        "Evaluate the domestic impact of the Vietnam War on the United States.",
+        "How important was opposition at home in ending US military involvement in Vietnam?"
+      ]
+    },
+    {
+      "id": "16-8",
+      "topic": 16,
+      "title": "Vietnam: Canadian and Latin American responses",
+      "country": "Canada and Latin America",
+      "period": "1960s–1970s",
+      "pages": "391–401; 412–419",
+      "summary": "Responses outside the US complicate a simple picture of hemispheric solidarity. Canada’s refusal to send combat forces coexisted with close economic and strategic ties.",
+      "evidence": [
+        "Pearson’s Temple University speech (1965)",
+        "US draft resisters in Canada",
+        "Canadian trade and defence connections with the US",
+        "Anti-war protest in Latin America"
+      ],
+      "debate": "Distinguish official policy, economic relationships and popular opposition.",
+      "recall": "Why is Canadian non-participation different from complete disengagement?",
+      "questions": [
+        "Assess Canada’s response to the Vietnam War.",
+        "Evaluate the significance of opposition to the Vietnam War elsewhere in the Americas."
+      ]
+    },
+    {
+      "id": "16-9",
+      "topic": 16,
+      "title": "Nixon: Chile and covert intervention",
+      "country": "USA and Chile",
+      "period": "1970–1973",
+      "pages": "402–411",
+      "summary": "Washington sought to undermine Allende, but Chilean actors and domestic conflict were also crucial. Explain external pressure without erasing local agency.",
+      "evidence": [
+        "Allende elected (1970)",
+        "US economic and covert pressure",
+        "Domestic polarisation",
+        "Military coup (September 1973)"
+      ],
+      "debate": "Distinguish evidence of US destabilisation from an unsupported claim that the US directly controlled every action in the coup.",
+      "recall": "How would you weigh external pressure against domestic causes?",
+      "questions": [
+        "Evaluate the impact of Nixon’s policies towards Chile.",
+        "To what extent did Cold War priorities shape US intervention in Latin America?"
+      ]
+    },
+    {
+      "id": "16-10",
+      "topic": 16,
+      "title": "Carter: human rights and Panama",
+      "country": "USA and Latin America",
+      "period": "1977–1981",
+      "pages": "402–411",
+      "summary": "Carter foregrounded human rights and renegotiated control of the Panama Canal. Strategic considerations and inconsistent application limited the coherence of his approach.",
+      "evidence": [
+        "Panama Canal treaties (1977)",
+        "Human-rights pressure on military governments",
+        "Debates over strategic interests",
+        "Changing regional conflicts by 1979–1980"
+      ],
+      "debate": "Assess the difference between a declared principle and its implementation.",
+      "recall": "Why did the Panama treaties matter for regional relations?",
+      "questions": [
+        "Evaluate Carter’s human-rights policy in the Americas.",
+        "Compare the priorities of Nixon and Carter in Latin America."
+      ]
+    },
+    {
+      "id": "16-11",
+      "topic": 16,
+      "title": "Case study: Canada in the Cold War",
+      "country": "Canada",
+      "period": "1945–1981",
+      "pages": "412–419",
+      "summary": "Canada pursued collective defence alongside diplomacy and a measure of autonomy. Link foreign-policy choices to domestic politics and public debate.",
+      "evidence": [
+        "Gouzenko affair (1945)",
+        "NATO membership (1949)",
+        "Suez peacekeeping initiative (1956)",
+        "NORAD cooperation; nuclear weapons controversy"
+      ],
+      "debate": "Avoid assuming that alliance membership eliminated independent Canadian choices.",
+      "recall": "How did Canada balance cooperation with the US and independent diplomacy?",
+      "questions": [
+        "Evaluate the effects of the Cold War on Canadian foreign policy.",
+        "Assess the relationship between Cold War security and domestic politics in Canada."
+      ]
+    },
+    {
+      "id": "16-12",
+      "topic": 16,
+      "title": "Case study workshop: one non-US country",
+      "country": "Americas",
+      "period": "1945–1981",
+      "pages": "412–419; chapter 5 for Latin American context",
+      "summary": "The syllabus requires a non-US case study. Canada is developed here; another country can be used if studied in comparable depth and agreed with your teacher.",
+      "evidence": [
+        "Choose one consistent country",
+        "Explain foreign and domestic objectives",
+        "Trace policy implementation",
+        "Assess effects on government, economy and society"
+      ],
+      "debate": "A few references to Cuba or Chile are not a substitute for a coherent national case study.",
+      "recall": "Can you build a timeline linking external pressures and internal policy?",
+      "questions": [
+        "How far did Cold War pressures determine the policies of one country of the Americas other than the USA?",
+        "Evaluate the domestic impact of the Cold War in one non-US country of the Americas."
+      ]
+    },
+    {
+      "id": "17-1",
+      "topic": 17,
+      "title": "Indigenous rights: Canada",
+      "country": "Canada",
+      "period": "post-1945",
+      "pages": "426–440",
+      "summary": "Indigenous campaigns challenged assimilation and demanded recognition, land rights and political voice. Treat First Nations, Inuit and Métis experiences with care rather than as a single uniform story.",
+      "evidence": [
+        "Federal franchise reform (1960)",
+        "White Paper (1969)",
+        "Red Paper response (1970)",
+        "Constitution Act section 35 (1982)"
+      ],
+      "debate": "Legal recognition and substantive self-determination are different measures of progress.",
+      "recall": "Why did many Indigenous leaders oppose the 1969 White Paper?",
+      "questions": [
+        "Evaluate the achievements of Indigenous rights movements in Canada.",
+        "How far did government policy advance Indigenous rights in post-war Canada?"
+      ]
+    },
+    {
+      "id": "17-2",
+      "topic": 17,
+      "title": "Indigenous rights: wider Americas",
+      "country": "Americas",
+      "period": "post-1945",
+      "pages": "426–440",
+      "summary": "Campaigns for land, cultural recognition and autonomy took different forms across the region. Compare specific communities and states, using precise evidence.",
+      "evidence": [
+        "American Indian Movement founded (1968)",
+        "Occupation of Alcatraz (1969–1971)",
+        "Wounded Knee occupation (1973)",
+        "Land and recognition campaigns in Latin America"
+      ],
+      "debate": "Avoid projecting US protest tactics onto all Indigenous movements.",
+      "recall": "How did land and sovereignty distinguish these campaigns from other rights movements?",
+      "questions": [
+        "Compare the challenges faced by Indigenous rights movements in two countries of the Americas.",
+        "Assess the effectiveness of protest in advancing Indigenous rights."
+      ]
+    },
+    {
+      "id": "17-3",
+      "topic": 17,
+      "title": "Origins, litigation and school desegregation",
+      "country": "USA",
+      "period": "1940s–1950s",
+      "pages": "441–467",
+      "summary": "Legal activism built on long-standing organising against segregation. Supreme Court decisions created opportunities, but local resistance made implementation uneven.",
+      "evidence": [
+        "NAACP legal strategy",
+        "Brown v. Board of Education (1954)",
+        "Brown II (1955)",
+        "Little Rock (1957)"
+      ],
+      "debate": "Separate the legal destruction of segregation from the pace of actual integration.",
+      "recall": "Why did Brown require enforcement beyond the courtroom?",
+      "questions": [
+        "Evaluate the role of the Supreme Court in advancing African American civil rights.",
+        "Analyse the origins of the post-war African American civil rights movement."
+      ]
+    },
+    {
+      "id": "17-4",
+      "topic": 17,
+      "title": "Grassroots action and civil rights organisations",
+      "country": "USA",
+      "period": "1955–1965",
+      "pages": "441–467",
+      "summary": "Boycotts, sit-ins, freedom rides and voter registration widened participation. Organisations differed over priorities and methods while interacting with federal politics.",
+      "evidence": [
+        "Montgomery bus boycott (1955–1956)",
+        "Greensboro sit-ins (1960)",
+        "Freedom Rides (1961)",
+        "Freedom Summer (1964)"
+      ],
+      "debate": "Compare the contributions of local activists, SNCC, CORE, SCLC and NAACP instead of writing a single-leader narrative.",
+      "recall": "How did direct action place pressure on national government?",
+      "questions": [
+        "Assess the effectiveness of non-violent direct action in the civil rights movement.",
+        "How important were grassroots organisations in securing civil rights gains?"
+      ]
+    },
+    {
+      "id": "17-5",
+      "topic": 17,
+      "title": "Martin Luther King Jr: leadership and limits",
+      "country": "USA",
+      "period": "1955–1968",
+      "pages": "441–467",
+      "summary": "King connected moral leadership, organisation and publicity with specific campaigns. His widening focus on economic justice and Vietnam also exposed tensions within the movement.",
+      "evidence": [
+        "Birmingham campaign (1963)",
+        "March on Washington (1963)",
+        "Selma campaign (1965)",
+        "Poor People’s Campaign; assassination (1968)"
+      ],
+      "debate": "Assess leadership in relation to activists, opponents and federal action rather than in isolation.",
+      "recall": "Which achievements depended on King, and which had broader causes?",
+      "questions": [
+        "Evaluate King’s contribution to African American civil rights.",
+        "To what extent was national leadership the main cause of civil rights progress?"
+      ]
+    },
+    {
+      "id": "17-6",
+      "topic": 17,
+      "title": "Malcolm X, Black Power and the Panthers",
+      "country": "USA",
+      "period": "1960s",
+      "pages": "441–467",
+      "summary": "Radical activism questioned the pace and goals of integration. Nationalism, self-defence and community programmes were distinct ideas whose development should not be collapsed together.",
+      "evidence": [
+        "Malcolm X’s evolving position before his death (1965)",
+        "Black Power slogan (1966)",
+        "Black Panther Party founded (1966)",
+        "Community programmes and police confrontation"
+      ],
+      "debate": "Malcolm X died before the 1966 popularisation of Black Power; influence is different from organisational leadership.",
+      "recall": "How did aims and methods differ between Malcolm X and the Panthers?",
+      "questions": [
+        "Analyse the reasons for the growth of radical African American activism.",
+        "Evaluate the impact of Black Power on the civil rights movement."
+      ]
+    },
+    {
+      "id": "17-7",
+      "topic": 17,
+      "title": "Government action and the limits of equality",
+      "country": "USA",
+      "period": "1955–1980",
+      "pages": "441–467",
+      "summary": "Courts, presidents and Congress enabled important gains but also reflected political calculation and resistance. Assess legal, political and socioeconomic outcomes separately.",
+      "evidence": [
+        "Civil Rights Act (1964)",
+        "Voting Rights Act (1965)",
+        "Fair Housing Act (1968)",
+        "Continuing inequality and resistance to school integration"
+      ],
+      "debate": "A change in law is necessary evidence of progress, but not proof of equal outcomes.",
+      "recall": "How could the federal government both assist and restrict change?",
+      "questions": [
+        "Evaluate the role of the federal government in advancing African American civil rights.",
+        "How far had the civil rights movement achieved its aims by 1980?"
+      ]
+    },
+    {
+      "id": "17-8",
+      "topic": 17,
+      "title": "Feminism: United States",
+      "country": "USA",
+      "period": "1960s–1980",
+      "pages": "468–475",
+      "summary": "Second-wave feminism challenged legal discrimination, employment barriers and assumptions about family roles. Class, race and ideological divisions shaped experiences and priorities.",
+      "evidence": [
+        "The Feminine Mystique (1963)",
+        "NOW founded (1966)",
+        "Title IX (1972)",
+        "Roe v. Wade (1973); ERA ratification campaign"
+      ],
+      "debate": "Assess achievements within the period; do not present a failed constitutional amendment as enacted law.",
+      "recall": "What differed between legal reform and changing everyday expectations?",
+      "questions": [
+        "Analyse the reasons for the growth of feminism in the United States.",
+        "Evaluate the achievements and limitations of US feminist movements by 1980."
+      ]
+    },
+    {
+      "id": "17-9",
+      "topic": 17,
+      "title": "Feminism: Canada and regional comparison",
+      "country": "Canada and Americas",
+      "period": "1960s–1980s",
+      "pages": "468–475",
+      "summary": "Canadian campaigns connected employment, political representation and family policy. Compare national institutional opportunities while recognising diversity within movements.",
+      "evidence": [
+        "Royal Commission on the Status of Women established (1967)",
+        "Commission report (1970)",
+        "National Action Committee (1971)",
+        "Rights debates during constitutional reform (1982)"
+      ],
+      "debate": "Avoid using one country as a proxy for the whole Americas; match the dates required by the question.",
+      "recall": "Why did government commissions offer both opportunities and limits?",
+      "questions": [
+        "Compare the achievements of feminist movements in two countries of the Americas.",
+        "Evaluate the impact of feminism on Canadian society."
+      ]
+    },
+    {
+      "id": "17-10",
+      "topic": 17,
+      "title": "Hispanic American movement and labour rights",
+      "country": "USA",
+      "period": "1960s–1970s",
+      "pages": "476–482",
+      "summary": "Labour organising, cultural affirmation and political participation challenged exclusion. Chavez and Huerta linked workplace demands to broader campaigns for dignity and rights.",
+      "evidence": [
+        "Delano grape strike (1965)",
+        "United Farm Workers formed (1966)",
+        "Consumer boycotts and non-violent mobilisation",
+        "Chicano student activism"
+      ],
+      "debate": "The 1965 merger announcement and the 1966 union formation are sometimes dated differently; distinguish organisational stages.",
+      "recall": "How did a consumer boycott increase workers’ bargaining power?",
+      "questions": [
+        "Evaluate Cesar Chavez’s contribution to Hispanic American rights.",
+        "Assess the effectiveness of the methods used by the Hispanic American movement."
+      ]
+    },
+    {
+      "id": "17-11",
+      "topic": 17,
+      "title": "Immigration reform and Hispanic communities",
+      "country": "USA",
+      "period": "1960s–1980",
+      "pages": "476–482",
+      "summary": "Immigration law and labour movements overlapped without being identical. Policy changes affected opportunities and restrictions differently across groups.",
+      "evidence": [
+        "End of the Bracero programme (1964)",
+        "Immigration and Nationality Act (1965)",
+        "Changes to national-origins selection",
+        "Continuing debates over migrant labour and status"
+      ],
+      "debate": "Do not assume that reform removed all restrictions or benefited every Hispanic community equally.",
+      "recall": "How did immigration policy interact with labour rights?",
+      "questions": [
+        "Evaluate the significance of immigration reform for Hispanic Americans.",
+        "How far did government policy meet the demands of Hispanic American movements?"
+      ]
+    },
+    {
+      "id": "17-12",
+      "topic": 17,
+      "title": "Youth culture, protest and counterculture",
+      "country": "Americas",
+      "period": "1960s–1970s",
+      "pages": "483–496",
+      "summary": "Youth activism challenged war, authority and social conventions. Political organising and countercultural lifestyles overlapped but did not represent all young people.",
+      "evidence": [
+        "Port Huron Statement (1962)",
+        "Free Speech Movement at Berkeley (1964)",
+        "Mexico City student movement and Tlatelolco repression (1968)",
+        "Anti-war protests and alternative cultural practices"
+      ],
+      "debate": "Compare political demands, cultural expression and government responses rather than assuming a unified youth movement.",
+      "recall": "How did youth protest differ between the US and Mexico?",
+      "questions": [
+        "Evaluate the impact of youth protest in the Americas.",
+        "To what extent did counterculture transform society in the 1960s and 1970s?"
+      ]
+    }
+  ]
+}

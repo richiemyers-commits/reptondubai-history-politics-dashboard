@@ -1,3 +1,4 @@
+import { americasPage } from "./pages/ib-americas.js";
 import { glossaryPage, wireGlossary } from "./pages/glossary.js";
 import { ibIaGuidePage } from "./pages/ib-ia-guide.js";
 import { getAbeResponse, abeCourses } from "./data/ask-abe.js";
@@ -14,6 +15,7 @@ abeStyles.rel = "stylesheet";
 abeStyles.href = "/src/pages/ask-abe.css";
 document.head.append(abeStyles);
 
+routes["/ib-history/americas"] = americasPage;
 routes["/glossary"] = glossaryPage;
 routes["/ib-history/ia-guide"] = ibIaGuidePage;
 const glossaryStyles = document.createElement("link");
@@ -27,6 +29,7 @@ document.head.append(essayStyles);
 
 searchIndex.push({title: "Year 8 Industrial Revolution Revision", type: "Interactive revision enquiry", text: "Liberty’s Dawn Emma Griffin Arnold Toynbee men women children interpretations achievements", path: "/year-8-history/industrial-revolution"});
 searchIndex.push({title: "Year 9 Empire Armies of WWI Revision", type: "Interactive revision enquiry", text: "David Olusoga Ganga Singh Algerian troops Chinese Labour Corps Mike Mountain Horse meaningful contribution Western Front", path: "/year-9-history/empire-armies"});
+searchIndex.push({title:"Year 13 IB Paper 3: History of the Americas",type:"IB HL · assessment 2027",text:"Topics 15 16 17 USA Canada Cold War civil rights database question bank exam preparation past papers",path:"/ib-history/americas"});
 const app = document.querySelector("#app");
 searchIndex.push({ title: "Year 7 Norman Conquest Revision", type: "Interactive revision", text: "Conquest 1066 knowledge questions Learn the Conquest Essay Workshop exercise book revision", path: "/year-7-history/norman-conquest" });
 
@@ -81,6 +84,7 @@ function pageTitle(path) {
     "/a-level-history/reading-list": "A Level History Reading List | Repton Dubai",
     "/a-level-politics": "A Level Politics | Repton Dubai",
     "/a-level-politics/30-mark-essay-guide": "Guide to writing 30-mark Politics essays | Repton Dubai",
+    "/ib-history/americas": "Year 13 Paper 3 Americas | Repton Dubai",
     "/ib-history": "IB History | Repton Dubai",
     "/ib-history/ia-guide": "IB History IA Guide — First assessment 2028 | Repton Dubai",
     "/skills-revision": "Skills & Revision | Repton Dubai",

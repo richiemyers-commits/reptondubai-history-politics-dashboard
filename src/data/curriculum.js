@@ -787,12 +787,12 @@ export const courses = {
     eyebrow: "IB Diploma Programme",
     qualification: "IB History HL and SL",
     essayGuide: { path: "/ib-history/ia-guide", title: "Guide to the History IA (2028)" },
-    folderRoutes: [{ title: "Guide to the History Internal Assessment", path: "/ib-history/ia-guide", stage: "First assessment 2028 • SL and HL", summary: "Question selection, conceptual inquiry, sources and perspectives, synthesis, evaluation, criteria and referencing." }],
+    folderRoutes: [{ title: "Year 13: Paper 3 History of the Americas", path: "/ib-history/americas", stage: "HL · Topics 15, 16 & 17 · assessment 2027", summary: "Study database, 72 original practice questions, specification checklists, exam preparation and official past-paper access." }, { title: "Guide to the History Internal Assessment", path: "/ib-history/ia-guide", stage: "First assessment 2028 • SL and HL", summary: "Question selection, conceptual inquiry, sources and perspectives, synthesis, evaluation, criteria and referencing." }],
     overview:
-      "IB History at Repton Dubai develops internationally minded historical thinking through Paper 1 source work, Paper 2 comparative essays, HL History of Asia and the Internal Assessment.",
+      "IB History at Repton Dubai develops internationally minded historical thinking through sources, comparative essays, regional depth and independent investigation. Year 13 students preparing for 2027 use the Americas Paper 3 study room; the newer course resources below are labelled for first assessment 2028.",
     why:
       "Students learn to question evidence, compare societies, evaluate historians' arguments and write analytically across feminism, revolution, civil rights, apartheid, Indian independence and Cold War Asia.",
-    spec: "The Repton Dubai route covers Paper 1 Feminism and Change (1960-1979) and Revolution in Tunisia (1989-2015), Paper 2 Civil Rights in America and Apartheid South Africa, Paper 3 HL History of Asia, and the IB History Internal Assessment. The new IB History guide for 2026-2028 is available below as a local download.",
+    spec: "Year 13 (assessment 2027): use the Paper 3 History of the Americas study room for Topics 15, 16 and 17. The newer route (first assessment 2028) covers Paper 1 Feminism and Change (1960-1979) and Revolution in Tunisia (1989-2015), Paper 2 Civil Rights in America and Apartheid South Africa, Paper 3 HL History of Asia, and the IB History Internal Assessment. The new IB History guide for 2026-2028 is available below as a local download.",
     specificationButtons: [
       {
         title: "IB History Guide (2026-2028)",
