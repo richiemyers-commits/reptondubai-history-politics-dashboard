@@ -210,7 +210,7 @@ export function coursePage(course) {
         <h1>${escapeHtml(course.title)}</h1>
         <p>${escapeHtml(course.overview)}</p>
         <div class="hero-actions">
-          ${course.path === "/ib-history" ? `<a class="button primary-button" href="/ib-history/americas" data-link>Year 13 · Paper 3 Americas →</a>` : ""}
+          ${course.path === "/ib-history" ? `<a class="button primary-button" href="/ib-history/americas" data-link>Year 13 · Paper 3 Americas →</a><a class="button primary-button" href="/ib-history/paper2" data-link>Year 13 · Paper 2 Cold War & Authoritarian States →</a>` : ""}
           ${course.path.startsWith("/igcse-history/") ? `<a class="button secondary-button" href="/igcse-history" data-link>IGCSE year groups</a>` : ""}
           ${course.essayGuide ? `<a class="button secondary-button" href="${course.essayGuide.path}" data-link>${escapeHtml(course.essayGuide.title)}</a>` : ""}
           <a class="button primary-button" href="#assessment">Assessment</a>

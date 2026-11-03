@@ -26,6 +26,7 @@ const appRoutes = [
   "/ib-history",
   "/ib-history/ia-guide",
   "/ib-history/americas",
+  "/ib-history/paper2",
   "/skills-revision",
   "/enrichment",
   "/university-careers",

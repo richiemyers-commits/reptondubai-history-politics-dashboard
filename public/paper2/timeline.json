@@ -1,0 +1,330 @@
+[
+  {
+    "year": 1917,
+    "topic": "Authoritarian states",
+    "leader": "Lenin",
+    "region": "Europe",
+    "title": "Bolshevik seizure of power",
+    "note": "The October Revolution brought the Bolsheviks to power; seizure of government did not immediately secure control of Russia."
+  },
+  {
+    "year": 1918,
+    "topic": "Authoritarian states",
+    "leader": "Lenin",
+    "region": "Europe",
+    "title": "Assembly dissolved; civil war deepens",
+    "note": "The Constituent Assembly was dispersed and Brest-Litovsk ended Russia’s war with Germany; civil war encouraged coercive government."
+  },
+  {
+    "year": 1921,
+    "topic": "Authoritarian states",
+    "leader": "Lenin",
+    "region": "Europe",
+    "title": "Kronstadt, NEP and the faction ban",
+    "note": "Economic retreat towards limited markets accompanied tighter political discipline."
+  },
+  {
+    "year": 1922,
+    "topic": "Authoritarian states",
+    "leader": "Stalin",
+    "region": "Europe",
+    "title": "Stalin becomes General Secretary",
+    "note": "Party appointments became an important institutional resource in the succession struggle."
+  },
+  {
+    "year": 1924,
+    "topic": "Authoritarian states",
+    "leader": "Stalin",
+    "region": "Europe",
+    "title": "Lenin dies",
+    "note": "Stalin used shifting alliances and ideological positioning during a multi-year struggle for supremacy."
+  },
+  {
+    "year": 1928,
+    "topic": "Authoritarian states",
+    "leader": "Stalin",
+    "region": "Europe",
+    "title": "First Five-Year Plan begins",
+    "note": "Industrial priorities and coercive agricultural change reshaped Soviet society."
+  },
+  {
+    "year": 1929,
+    "topic": "Authoritarian states",
+    "leader": "Stalin",
+    "region": "Europe",
+    "title": "Forced collectivisation accelerates",
+    "note": "The drive to restructure agriculture brought resistance, repression and severe disruption."
+  },
+  {
+    "year": 1936,
+    "topic": "Authoritarian states",
+    "leader": "Stalin",
+    "region": "Europe",
+    "title": "Show trials and new constitution",
+    "note": "Formal rights coexisted with escalating terror; test the gap between legal claims and political practice."
+  },
+  {
+    "year": 1937,
+    "topic": "Authoritarian states",
+    "leader": "Stalin",
+    "region": "Europe",
+    "title": "Great Terror peaks, 1937–1938",
+    "note": "Repression extended beyond prominent party leaders through mass operations."
+  },
+  {
+    "year": 1943,
+    "topic": "Cold War",
+    "leader": "Stalin",
+    "region": "Europe",
+    "title": "Tehran Conference",
+    "note": "Wartime cooperation coexisted with concerns about the future European settlement."
+  },
+  {
+    "year": 1945,
+    "topic": "Cold War",
+    "leader": "Stalin / Truman",
+    "region": "Europe",
+    "title": "Yalta and Potsdam",
+    "note": "German defeat removed the common enemy; disagreements over Poland, reparations and security deepened."
+  },
+  {
+    "year": 1947,
+    "topic": "Cold War",
+    "leader": "Truman",
+    "region": "Europe / Americas",
+    "title": "Truman Doctrine and Marshall Plan",
+    "note": "Aid and containment linked economic recovery to competing interpretations of security."
+  },
+  {
+    "year": 1948,
+    "topic": "Cold War",
+    "leader": "Stalin / Truman",
+    "region": "Europe",
+    "title": "Berlin Blockade, 1948–1949",
+    "note": "The airlift frustrated Soviet pressure and accelerated the division of Germany."
+  },
+  {
+    "year": 1949,
+    "topic": "Cold War",
+    "leader": "Truman / Stalin / Mao",
+    "region": "Europe / Asia",
+    "title": "NATO, Soviet atomic test and PRC",
+    "note": "Alliance formation and a changing nuclear and Asian balance widened the rivalry."
+  },
+  {
+    "year": 1950,
+    "topic": "Cold War",
+    "leader": "Truman / Stalin / Mao",
+    "region": "Asia",
+    "title": "Korean War, 1950–1953",
+    "note": "Containment became a major military conflict with decisive Korean and Chinese agency."
+  },
+  {
+    "year": 1952,
+    "topic": "Authoritarian states",
+    "leader": "Castro",
+    "region": "Americas",
+    "title": "Batista’s coup",
+    "note": "The closure of constitutional politics helped radicalise opposition."
+  },
+  {
+    "year": 1953,
+    "topic": "Authoritarian states",
+    "leader": "Castro",
+    "region": "Americas",
+    "title": "Moncada attack",
+    "note": "A military failure subsequently became a symbol of revolutionary legitimacy."
+  },
+  {
+    "year": 1953,
+    "topic": "Cold War",
+    "leader": "Khrushchev",
+    "region": "Europe",
+    "title": "Stalin dies",
+    "note": "New leadership opened possibilities for negotiation without ending bloc rivalry."
+  },
+  {
+    "year": 1956,
+    "topic": "Cold War",
+    "leader": "Khrushchev",
+    "region": "Europe",
+    "title": "Hungarian uprising suppressed",
+    "note": "De-Stalinisation did not mean accepting the loss of Soviet control in Eastern Europe."
+  },
+  {
+    "year": 1956,
+    "topic": "Authoritarian states",
+    "leader": "Castro",
+    "region": "Americas",
+    "title": "Granma landing",
+    "note": "Survivors established the Sierra Maestra guerrilla campaign alongside urban opposition."
+  },
+  {
+    "year": 1959,
+    "topic": "Authoritarian states",
+    "leader": "Castro",
+    "region": "Americas",
+    "title": "Cuban Revolution",
+    "note": "Batista fled on 1 January; revolutionary victory preceded the consolidation of a communist state."
+  },
+  {
+    "year": 1960,
+    "topic": "Authoritarian states",
+    "leader": "Castro",
+    "region": "Americas",
+    "title": "Nationalisation and CDRs",
+    "note": "Economic transformation and neighbourhood organisation intertwined mobilisation and surveillance."
+  },
+  {
+    "year": 1961,
+    "topic": "Cold War",
+    "leader": "Kennedy / Khrushchev",
+    "region": "Europe / Americas",
+    "title": "Bay of Pigs and Berlin Wall",
+    "note": "US-backed invasion failed in Cuba; the Wall stemmed migration while entrenching Germany’s division."
+  },
+  {
+    "year": 1961,
+    "topic": "Authoritarian states",
+    "leader": "Castro",
+    "region": "Americas",
+    "title": "Literacy campaign",
+    "note": "Mass mobilisation expanded education while tying reform to revolutionary identity."
+  },
+  {
+    "year": 1962,
+    "topic": "Cold War",
+    "leader": "Kennedy / Khrushchev / Castro",
+    "region": "Americas",
+    "title": "Cuban Missile Crisis",
+    "note": "Nuclear confrontation ended through public and private compromises, largely without Cuban control of negotiations."
+  },
+  {
+    "year": 1963,
+    "topic": "Cold War",
+    "leader": "Kennedy / Khrushchev",
+    "region": "Global",
+    "title": "Hotline and Partial Test Ban Treaty",
+    "note": "Crisis management improved, but rivalry and the arms race continued."
+  },
+  {
+    "year": 1965,
+    "topic": "Authoritarian states",
+    "leader": "Castro",
+    "region": "Americas",
+    "title": "Cuban Communist Party",
+    "note": "A consolidated party framework institutionalised revolutionary rule."
+  },
+  {
+    "year": 1968,
+    "topic": "Cold War",
+    "leader": "Brezhnev",
+    "region": "Europe",
+    "title": "Prague Spring suppressed",
+    "note": "The limits of sovereignty within the Soviet bloc were reaffirmed."
+  },
+  {
+    "year": 1969,
+    "topic": "Cold War",
+    "leader": "Mao / Brezhnev",
+    "region": "Asia",
+    "title": "Sino-Soviet border clashes",
+    "note": "Ideological rivalry and national-security competition split the communist world."
+  },
+  {
+    "year": 1970,
+    "topic": "Authoritarian states",
+    "leader": "Castro",
+    "region": "Americas",
+    "title": "Ten-million-ton sugar target missed",
+    "note": "The campaign exposed the costs of mobilisation and continued sugar dependence."
+  },
+  {
+    "year": 1972,
+    "topic": "Cold War",
+    "leader": "Nixon / Mao / Brezhnev",
+    "region": "Global",
+    "title": "China visit and SALT I",
+    "note": "Triangular diplomacy and arms agreements managed competition without eliminating it."
+  },
+  {
+    "year": 1975,
+    "topic": "Cold War",
+    "leader": "Brezhnev / Ford",
+    "region": "Europe / Africa",
+    "title": "Helsinki and Angola",
+    "note": "European diplomacy advanced while conflict in Africa exposed the geographic limits of détente."
+  },
+  {
+    "year": 1976,
+    "topic": "Authoritarian states",
+    "leader": "Castro",
+    "region": "Americas",
+    "title": "Cuban socialist constitution",
+    "note": "Formal institutions developed within a one-party political structure."
+  },
+  {
+    "year": 1979,
+    "topic": "Cold War",
+    "leader": "Carter / Brezhnev",
+    "region": "Asia",
+    "title": "Soviet intervention in Afghanistan",
+    "note": "The intervention intensified confrontation, but détente had already been weakening."
+  },
+  {
+    "year": 1980,
+    "topic": "Cold War",
+    "leader": "Reagan / Soviet leadership",
+    "region": "Europe / Americas",
+    "title": "Solidarity and renewed confrontation",
+    "note": "Dissent in Poland and renewed superpower pressure exposed the limits of bloc control."
+  },
+  {
+    "year": 1983,
+    "topic": "Cold War",
+    "leader": "Reagan",
+    "region": "Europe / Americas",
+    "title": "SDI and heightened nuclear tension",
+    "note": "Arms competition and mutual fears raised the costs and dangers of confrontation."
+  },
+  {
+    "year": 1985,
+    "topic": "Cold War",
+    "leader": "Gorbachev",
+    "region": "Europe",
+    "title": "Gorbachev takes power",
+    "note": "Reform and new thinking gradually transformed Soviet domestic and foreign policy."
+  },
+  {
+    "year": 1987,
+    "topic": "Cold War",
+    "leader": "Reagan / Gorbachev",
+    "region": "Europe / Americas",
+    "title": "INF Treaty",
+    "note": "An entire category of land-based intermediate-range missiles was eliminated."
+  },
+  {
+    "year": 1989,
+    "topic": "Cold War",
+    "leader": "Gorbachev",
+    "region": "Europe",
+    "title": "Eastern European revolutions",
+    "note": "Non-intervention enabled changes that weakened the bloc; the Berlin Wall opened on 9 November."
+  },
+  {
+    "year": 1991,
+    "topic": "Cold War",
+    "leader": "Gorbachev",
+    "region": "Europe",
+    "title": "Soviet Union dissolves",
+    "note": "USSR collapse followed the ending of bipolar confrontation; these are connected but distinct outcomes."
+  },
+  {
+    "year": 1991,
+    "topic": "Authoritarian states",
+    "leader": "Castro",
+    "region": "Americas",
+    "title": "Cuba’s Special Period deepens",
+    "note": "Loss of Soviet support forced adjustment but did not produce regime collapse."
+  }
+]

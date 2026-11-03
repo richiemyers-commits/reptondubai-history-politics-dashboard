@@ -1,3 +1,4 @@
+import { paper2Page } from "./pages/ib-paper2.js";
 import { americasPage } from "./pages/ib-americas.js";
 import { glossaryPage, wireGlossary } from "./pages/glossary.js";
 import { ibIaGuidePage } from "./pages/ib-ia-guide.js";
@@ -16,6 +17,8 @@ abeStyles.href = "/src/pages/ask-abe.css";
 document.head.append(abeStyles);
 
 routes["/ib-history/americas"] = americasPage;
+routes["/ib-history/paper2"] = paper2Page;
+searchIndex.push({title:"Year 13 IB Paper 2: Cold War and Authoritarian States",type:"IB SL & HL · assessment 2027",text:"Lenin Stalin Castro Cold War Topic 10 12 study database comparison timeline essay questions past papers revision",path:"/ib-history/paper2"});
 routes["/glossary"] = glossaryPage;
 routes["/ib-history/ia-guide"] = ibIaGuidePage;
 const glossaryStyles = document.createElement("link");
@@ -85,6 +88,7 @@ function pageTitle(path) {
     "/a-level-politics": "A Level Politics | Repton Dubai",
     "/a-level-politics/30-mark-essay-guide": "Guide to writing 30-mark Politics essays | Repton Dubai",
     "/ib-history/americas": "Year 13 Paper 3 Americas | Repton Dubai",
+    "/ib-history/paper2": "Year 13 Paper 2 | Repton Dubai",
     "/ib-history": "IB History | Repton Dubai",
     "/ib-history/ia-guide": "IB History IA Guide — First assessment 2028 | Repton Dubai",
     "/skills-revision": "Skills & Revision | Repton Dubai",
