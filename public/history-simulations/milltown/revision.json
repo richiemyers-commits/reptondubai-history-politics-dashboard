@@ -1,0 +1,798 @@
+{
+  "id": "industrial",
+  "year": 8,
+  "theme": "industrial",
+  "title": "Liberty’s Dawn?",
+  "subtitle": "The Industrial Revolution",
+  "dates": "BRITAIN · c.1750–1900",
+  "enquiry": "Was the Industrial Revolution a “Liberty’s Dawn” for some people?",
+  "intro": "Enter the workshop of a changing Britain. Follow the workers, examine competing interpretations and decide who gained greater freedom — and who did not.",
+  "learnTitle": "Inside Industrial Britain",
+  "homeLabel": "Workshop HQ",
+  "quizLabel": "Knowledge Foundry",
+  "writingLabel": "Argument Workshop",
+  "interpretLabel": "Historians’ Debate",
+  "profileLabel": "Historian’s Ledger",
+  "symbol": "⚙",
+  "stage": "Developing historian",
+  "expectation": "Distinguish different experiences, support a claim with precise examples and explain why historians disagree.",
+  "minWords": 15,
+  "interpretWords": 20,
+  "writingWords": 25,
+  "back": "/year-8-history",
+  "dashboard": "/year-8-history/industrial-revolution",
+  "skills": [
+    "Knowledge & chronology",
+    "Using precise evidence",
+    "Comparing interpretations",
+    "Explaining differences",
+    "Balanced judgement"
+  ],
+  "chapters": [
+    {
+      "id": "change",
+      "icon": "⚙",
+      "title": "A country transformed",
+      "subtitle": "From rural work to factories, coal and growing towns",
+      "sections": [
+        [
+          "What changed?",
+          "Industrialisation changed how goods were made and where people worked. Water and steam powered machinery; factories brought workers and machines together. Britain became a major manufacturing economy, but farming and domestic production did not disappear overnight. Our enquiry covers roughly 1750–1900, with change arriving at different times in different places."
+        ],
+        [
+          "Why did towns grow?",
+          "Jobs drew people towards industrial towns. Coal supported steam power and iron production; canals and later railways connected mines, factories and markets. Manchester became associated with cotton, while Birmingham developed varied metal industries. Increased output and national wealth do not, by themselves, tell us whether individual families lived better."
+        ],
+        [
+          "Change compared with what?",
+          "Rural life before industrialisation was not a comfortable golden age. Farm labour could be seasonal and insecure. Compare a factory worker with a real alternative, rather than comparing the past with your own life. Ask about pay, regular employment, health, independence and family responsibilities."
+        ]
+      ],
+      "terms": [
+        "Industrialisation: growth of machine-based production",
+        "Urbanisation: growth in the proportion living in towns",
+        "Productivity: output produced for a given input"
+      ],
+      "tasks": [
+        "Define industrialisation and urbanisation in your own words.",
+        "Draw a chain linking coal, steam power, factories, transport and jobs.",
+        "Explain why greater national wealth need not mean greater well-being for everyone."
+      ],
+      "think": "Which measure would you use first to judge improvement, and why?",
+      "source": "Year 8 Knowledge Organiser; Nineteenth-Century Britain, “Industrial Development”."
+    },
+    {
+      "id": "men",
+      "icon": "⌁",
+      "title": "Men, wages & independence",
+      "subtitle": "More work could create room to make choices",
+      "sections": [
+        [
+          "Opportunities in the accounts",
+          "Griffin found workers who valued more regular employment and the chance to leave one employer for another. In Liberty’s Dawn, Samuel Catton moved from agricultural service to a chemical works and described the wages favourably. This supports a claim about opportunity for some men; it does not establish that every factory paid well."
+        ],
+        [
+          "More than a wage packet",
+          "A wider range of jobs could help workers save, marry or move. Feeling able to walk away from an employer could matter as much as the amount earned. Regular industrial work might compare favourably with seasonal farm employment, even when the hours and conditions remained demanding."
+        ],
+        [
+          "Limits to the argument",
+          "Workers could still face unemployment, dangerous conditions and dependence on employers. Changes also damaged some skilled trades: handloom weavers did not all find an easy route to prosperity. Wages must be considered alongside living costs, health, security and control over time."
+        ]
+      ],
+      "terms": [
+        "Wages: pay earned from employment",
+        "Seasonal work: employment available only at certain times",
+        "Autonomy: ability to make decisions about your own life"
+      ],
+      "tasks": [
+        "Record Catton’s experience as a specific example, with its source.",
+        "Explain how changing jobs could increase independence.",
+        "Add one reason why Catton cannot stand for all working people."
+      ],
+      "think": "Could someone gain freedom and still work under harsh conditions?",
+      "source": "Emma Griffin, Liberty’s Dawn (2013), chapter 2, especially printed p.41; Year 8 Knowledge Organiser."
+    },
+    {
+      "id": "women",
+      "icon": "✦",
+      "title": "Women, work & family",
+      "subtitle": "Opportunity was shaped by pay, gender and childcare",
+      "sections": [
+        [
+          "Unequal access",
+          "Some unmarried women found paid work in mills. Yet women often earned less and had fewer routes into recognised skilled work than men. Griffin’s argument therefore needs qualification: the opportunities she identifies were distributed unevenly, rather than shared equally across a household."
+        ],
+        [
+          "Betty Shaw and Eliza Mitchell",
+          "Betty Shaw worked in a mill before motherhood restricted her regular employment. She later earned occasional income from winding and baking. Eliza Mitchell learned children’s shoemaking and continued working after marriage; growing childcare demands and poor health eventually made this unsustainable. Neither story means mothers did no work."
+        ],
+        [
+          "What counts as work?",
+          "Caring, cooking, cleaning and home production sustained families even when they were unpaid or poorly recorded. Do not equate leaving a factory with becoming idle. Compare earning power, workload and freedom to choose. Family duties could limit women’s ability to turn economic growth into greater independence."
+        ]
+      ],
+      "terms": [
+        "Paid employment: work for a wage or payment",
+        "Unpaid labour: useful work without direct pay",
+        "Gender: social expectations associated with being male or female"
+      ],
+      "tasks": [
+        "Compare Betty Shaw with Eliza Mitchell in a two-column table.",
+        "Explain why marriage and motherhood are not identical turning points.",
+        "Write a sentence qualifying the claim that industrialisation increased freedom."
+      ],
+      "think": "Whose work disappears if historians count only wages?",
+      "source": "Griffin, Liberty’s Dawn, chapter 4, printed pp.94–100; Year 8 Knowledge Organiser. The book adds nuance to the organiser’s compressed examples."
+    },
+    {
+      "id": "children",
+      "icon": "◷",
+      "title": "Children in the working day",
+      "subtitle": "More jobs did not necessarily mean a better childhood",
+      "sections": [
+        [
+          "Early starts and long hours",
+          "Industrial workplaces employed children because some tasks required little strength and employers could pay them less. Poverty encouraged families to depend on children’s earnings. The Year 8 organiser describes Robert Lowery’s long working day; Griffin records Emanuel Lovekin starting mine work aged seven."
+        ],
+        [
+          "Emanuel Lovekin’s work",
+          "Lovekin began by opening underground doors for wagons. A simple task could still mean danger, isolation and a lost opportunity for schooling. Child labour existed before factories, but industrial demand could make employment earlier, more continuous and more demanding. Avoid treating a child’s wage as proof of freedom."
+        ],
+        [
+          "Reform and its limits",
+          "The 1833 Factory Act restricted child employment in covered textile factories and introduced inspectors. The 1842 Mines Act excluded women and girls, and boys under ten, from underground work. Legislation changed gradually, covered specific workplaces and needed enforcement. An Act’s date is not proof that every child’s life changed immediately."
+        ]
+      ],
+      "terms": [
+        "Child labour: employment of children",
+        "Legislation: laws made by Parliament",
+        "Enforcement: making sure a law is followed"
+      ],
+      "tasks": [
+        "Describe Lovekin’s work and explain one consequence beyond physical danger.",
+        "Compare seasonal rural work with continuous industrial work.",
+        "Explain why a law can be evidence of both a problem and an attempt to improve it."
+      ],
+      "think": "How does children’s experience qualify Griffin’s interpretation without disproving her whole argument?",
+      "source": "Year 8 Knowledge Organiser; Griffin, Liberty’s Dawn, chapter 3, printed pp.70–71; factory and mining reform context."
+    },
+    {
+      "id": "towns",
+      "icon": "▥",
+      "title": "Growing towns, uneven lives",
+      "subtitle": "Industry, housing, health and the pace of reform",
+      "sections": [
+        [
+          "Housing pressure",
+          "Rapid migration could outpace housing, clean water and waste removal. Crowded dwellings, polluted surroundings and insecure incomes made urban life difficult. Back-to-back houses shared rear and side walls; conditions varied, so use a precise example rather than assuming every street and town was identical."
+        ],
+        [
+          "Growth and welfare",
+          "Cheap production and expanding employment might coexist with overcrowding and disease. This helps explain Toynbee’s distinction between economic wealth and human well-being. However, finding hardship in a town does not tell us whether its inhabitants would have been better off in their earlier circumstances."
+        ],
+        [
+          "Change over time",
+          "Public-health reform developed during the nineteenth century; the 1848 Public Health Act was an important early step. Improvement depended on local action, resources and enforcement. Separate the early industrial period from later developments: a claim about 1800 need not describe 1900."
+        ]
+      ],
+      "terms": [
+        "Back-to-back housing: homes joined at the rear and sides",
+        "Sanitation: systems for safe water and waste disposal",
+        "Well-being: health, security and quality of life"
+      ],
+      "tasks": [
+        "Draw a cause-and-consequence chain for overcrowding.",
+        "Explain the difference between national wealth and household welfare.",
+        "Add a time qualification to a statement about industrial towns."
+      ],
+      "think": "What evidence would allow a fair comparison between rural and urban health?",
+      "source": "Year 8 Knowledge Organiser; Nineteenth-Century Britain, industrial development and reform context."
+    },
+    {
+      "id": "voices",
+      "icon": "✒",
+      "title": "Voices, learning & political confidence",
+      "subtitle": "Testing the “dawn” in Liberty’s Dawn",
+      "sections": [
+        [
+          "Listening to workers",
+          "For Liberty’s Dawn (2013), Emma Griffin consulted over 350 autobiographies, memoirs and related accounts. These were not simply 350 diaries. Life-writing can reveal how people understood work, family and freedom, alongside information collected by employers, government and reformers."
+        ],
+        [
+          "Freedom beyond the factory",
+          "Reading groups, religious communities and opportunities for self-education could develop confidence, organisation and public speaking. These experiences could support political activity. Griffin’s interpretation concerns changes in independence and outlook as well as money. It does not claim that industrial Britain gave everyone equal rights."
+        ],
+        [
+          "Reading critically",
+          "People writing later may select, reshape or misremember experiences. Those able and willing to leave an account are not a random sample, and women are under-represented. These limitations call for comparison with other evidence. They do not automatically make life-writing useless or its authors dishonest."
+        ]
+      ],
+      "terms": [
+        "Interpretation: an evidence-based account or explanation of the past",
+        "Autobiography: an account of a life written by its subject",
+        "Representativeness: how far evidence reflects a wider group"
+      ],
+      "tasks": [
+        "Explain how an autobiography differs from a diary.",
+        "Identify one strength and one limit of Griffin’s evidence.",
+        "Write your provisional answer, distinguishing at least two groups and explaining “for some”."
+      ],
+      "think": "Can Griffin and Toynbee both reveal something important about the same period?",
+      "source": "Griffin, Liberty’s Dawn, introduction and chapters 7–10; Ian Dawson, “Teaching the Industrial Revolution: What kinds of stories should we tell about it?” (2014)."
+    }
+  ],
+  "historians": [
+    {
+      "name": "Emma Griffin",
+      "work": "Liberty’s Dawn (2013)",
+      "tag": "Opportunity, with unequal benefits",
+      "view": "Industrialisation could expand the opportunities, independence and confidence of working people. These gains were especially evident for some men, while women and children faced major constraints.",
+      "method": "Over 350 autobiographies, memoirs and life accounts, read across work, family, education, religion and political participation.",
+      "strength": "Workers’ accounts show what choices meant to people themselves, rather than measuring welfare only through national wealth or reformers’ descriptions.",
+      "limit": "Retrospective memory and the survival of written accounts raise questions of selection; women appear much less often. Test how far an example represents other lives.",
+      "context": "A modern social historian revisiting a well-established pessimistic account. Her focus includes agency and cultural freedom, not just income.",
+      "source": "Liberty’s Dawn, introduction, printed pp.1–20; chapters 2–4 and 7–10."
+    },
+    {
+      "name": "Arnold Toynbee",
+      "work": "Lectures on the Industrial Revolution in England (1884)",
+      "tag": "Wealth is not the same as well-being",
+      "view": "The growth of industry and wealth could accompany poverty, insecurity and the deterioration of workers’ lives. Economic success should not be mistaken for broad human improvement.",
+      "method": "Economic and social analysis in lectures given in the 1880s, drawing on evidence about industry, competition and working conditions. The lectures were published after his death.",
+      "strength": "His emphasis makes us test who received the benefits of growth and take poverty seriously.",
+      "limit": "A broad pessimistic account may understate differences between occupations, periods and families, or the opportunities workers valued. Test the argument rather than accepting or rejecting it because of its date.",
+      "context": "The economic historian Arnold Toynbee (1852–1883), not the later historian Arnold J. Toynbee. He looked back on earlier industrial change from the late nineteenth century.",
+      "source": "Lectures (1884); discussion in Griffin’s introduction, printed pp.12–14."
+    }
+  ],
+  "interpretIntro": "Compare the arguments, the questions asked and the evidence used. Different interpretations are not simply different feelings. The summaries below are paraphrases, not direct quotations.",
+  "interpretPrompts": [
+    "What is the precise difference between Griffin’s and Toynbee’s interpretations?",
+    "Which named example supports one interpretation, and how?",
+    "Which evidence challenges or qualifies that interpretation?",
+    "How might the historians’ evidence or focus help explain their different arguments?",
+    "How convincing is “Liberty’s Dawn” for some people? Explain your overall judgement."
+  ],
+  "criteria": [
+    "Regular employment and income",
+    "Independence and choice",
+    "Health and working conditions",
+    "Education and opportunity",
+    "Differences by gender, age and time"
+  ],
+  "evidence": [
+    [
+      "catton",
+      "Samuel Catton",
+      "Catton moved from agricultural service to chemical work and valued the pay.",
+      "Griffin, chapter 2, printed p.41",
+      "Adult men / employment",
+      "A named example supports opportunity; it does not establish typical wages."
+    ],
+    [
+      "betty",
+      "Betty Shaw",
+      "Motherhood limited regular mill work; occasional winding and baking still contributed income.",
+      "Griffin, chapter 4, printed pp.97–100",
+      "Women / family",
+      "Distinguish regular paid work from unpaid and occasional labour."
+    ],
+    [
+      "eliza",
+      "Eliza Mitchell",
+      "Learning shoemaking opened an opportunity, but childcare and poor health restricted it.",
+      "Griffin, chapter 4, printed pp.94–100",
+      "Women / skills",
+      "An individual can experience both opportunity and constraint."
+    ],
+    [
+      "emanuel",
+      "Emanuel Lovekin",
+      "He began underground door work aged seven.",
+      "Griffin, chapter 3, printed p.71",
+      "Children / work",
+      "Ask about schooling and choice as well as wages."
+    ],
+    [
+      "rural",
+      "Seasonal rural employment",
+      "Farm work could be irregular, making industrial work attractive to some families.",
+      "Year 8 organiser; Griffin, chapter 2",
+      "Comparison / baseline",
+      "The pre-industrial countryside was not automatically better."
+    ],
+    [
+      "towns",
+      "Crowded housing",
+      "Rapid town growth could produce poor housing and sanitation.",
+      "Year 8 organiser; Nineteenth-Century Britain",
+      "Towns / welfare",
+      "National wealth and household well-being can move differently."
+    ],
+    [
+      "reading",
+      "Self-education and organisation",
+      "Reading, religious groups and self-education could develop confidence for public life.",
+      "Griffin, chapters 7–9; Dawson (2014)",
+      "Culture / agency",
+      "Freedom is broader than a wage: explain the mechanism."
+    ],
+    [
+      "laws",
+      "Factory and mining reform",
+      "The Acts of 1833 and 1842 restricted certain forms of child employment.",
+      "Reform context for the Year 8 enquiry",
+      "Time / reform",
+      "Restrictions reveal serious problems; passage is not instant enforcement."
+    ]
+  ],
+  "timeline": [
+    [
+      "c.1750",
+      "A changing economy",
+      "Rural work, domestic production and growing industry coexist.",
+      "britain"
+    ],
+    [
+      "c.1764",
+      "Spinning jenny",
+      "Mechanisation increases spinning capacity; effects depend on the worker and trade.",
+      "manchester"
+    ],
+    [
+      "1769",
+      "Watt’s steam-engine patent",
+      "Steam technology develops over time and later supports wider industrial growth.",
+      "birmingham"
+    ],
+    [
+      "1830",
+      "Liverpool–Manchester Railway",
+      "Rail links connect two commercial and industrial centres.",
+      "liverpool"
+    ],
+    [
+      "1833",
+      "Factory Act",
+      "Restrictions on child work in covered textile factories and the appointment of inspectors.",
+      "manchester"
+    ],
+    [
+      "1842",
+      "Mines Act",
+      "Women and girls, and boys under ten, are excluded from underground work.",
+      "coal"
+    ],
+    [
+      "1848",
+      "Public Health Act",
+      "An early framework for improving public health; change is uneven.",
+      "britain"
+    ],
+    [
+      "1851",
+      "Urban England and Wales",
+      "More than half the population of England and Wales lives in urban areas.",
+      "britain"
+    ],
+    [
+      "1884",
+      "Toynbee’s lectures published",
+      "Industrialisation is interpreted through questions of wealth and welfare.",
+      "britain"
+    ],
+    [
+      "2013",
+      "Liberty’s Dawn published",
+      "Griffin revisits workers’ experiences using life-writing. This is later interpretation, not an industrial event.",
+      "britain"
+    ]
+  ],
+  "questions": [
+    {
+      "text": "What does urbanisation describe?",
+      "options": [
+        "A growing share of people living in towns",
+        "A decline in all manufacturing",
+        "A system of overseas government",
+        "A new farming tool"
+      ],
+      "answer": 0,
+      "explain": "Urbanisation concerns the growth of towns and the urban population.",
+      "chapter": "change"
+    },
+    {
+      "text": "What is a factory?",
+      "options": [
+        "A building where machinery and workers produce goods",
+        "Any house with a garden",
+        "A parliamentary debate",
+        "An autobiography"
+      ],
+      "answer": 0,
+      "explain": "Factories concentrate production, machinery and labour.",
+      "chapter": "change"
+    },
+    {
+      "text": "Why could coal matter to industrialisation?",
+      "options": [
+        "It supplied energy for steam and industrial production",
+        "It guaranteed equal wages",
+        "It removed the need for transport",
+        "It prevented pollution"
+      ],
+      "answer": 0,
+      "explain": "Coal supported steam power and industrial processes, with environmental costs.",
+      "chapter": "change"
+    },
+    {
+      "text": "Which writer produced Liberty’s Dawn?",
+      "options": [
+        "Emma Griffin",
+        "David Olusoga",
+        "Arnold J. Toynbee",
+        "Kaiser Wilhelm II"
+      ],
+      "answer": 0,
+      "explain": "Emma Griffin’s book was first published in 2013.",
+      "chapter": "voices"
+    },
+    {
+      "text": "Which evidence is central to Griffin’s book?",
+      "options": [
+        "Over 350 autobiographies and related life accounts",
+        "Only factory owners’ profit reports",
+        "Only modern opinion polls",
+        "A single railway timetable"
+      ],
+      "answer": 0,
+      "explain": "Her evidence includes memoirs and autobiographies, not simply diaries.",
+      "chapter": "voices"
+    },
+    {
+      "text": "What is Toynbee’s central caution?",
+      "options": [
+        "Greater wealth need not mean greater well-being",
+        "All workers benefited equally",
+        "Poverty started only in 1900",
+        "Industrialisation changed nothing"
+      ],
+      "answer": 0,
+      "explain": "His concern is the distribution and human cost of economic change.",
+      "chapter": "towns"
+    },
+    {
+      "text": "Whose experience illustrates favourable chemical-work wages?",
+      "options": [
+        "Samuel Catton",
+        "Emanuel Lovekin",
+        "Mike Mountain Horse",
+        "Ganga Singh"
+      ],
+      "answer": 0,
+      "explain": "Griffin uses Catton as one example of men finding valued employment.",
+      "chapter": "men"
+    },
+    {
+      "text": "Why might factory work attract a farm labourer?",
+      "options": [
+        "More regular employment than seasonal farm work",
+        "Guaranteed political equality",
+        "No working hours",
+        "Free housing everywhere"
+      ],
+      "answer": 0,
+      "explain": "A realistic comparison includes insecurity before industrialisation.",
+      "chapter": "men"
+    },
+    {
+      "text": "What restricted Betty Shaw’s regular paid employment?",
+      "options": [
+        "Childcare responsibilities",
+        "A ban on all women working after 1750",
+        "Her becoming a factory owner",
+        "The end of every mill in Britain"
+      ],
+      "answer": 0,
+      "explain": "Motherhood constrained regular work; she also undertook occasional home earning.",
+      "chapter": "women"
+    },
+    {
+      "text": "What trade did Eliza Mitchell learn?",
+      "options": [
+        "Children’s shoemaking",
+        "Tank repair",
+        "Railway signalling",
+        "Coal mining"
+      ],
+      "answer": 0,
+      "explain": "Her example shows both a new skill and later constraints.",
+      "chapter": "women"
+    },
+    {
+      "text": "How old was Lovekin when he began mine work?",
+      "options": [
+        "Seven",
+        "Seventeen",
+        "Twenty-seven",
+        "Thirty-seven"
+      ],
+      "answer": 0,
+      "explain": "His underground door work began at seven, according to the account Griffin uses.",
+      "chapter": "children"
+    },
+    {
+      "text": "What did Lovekin initially do underground?",
+      "options": [
+        "Opened a door for wagons",
+        "Managed the whole mine",
+        "Designed a steam engine",
+        "Inspected factories for Parliament"
+      ],
+      "answer": 0,
+      "explain": "A physically simple task could still carry danger and deny schooling.",
+      "chapter": "children"
+    },
+    {
+      "text": "Which statement best represents Griffin’s view?",
+      "options": [
+        "Benefits differed for men, women and children",
+        "Everyone became equally free",
+        "Children never faced hardship",
+        "Industrialisation brought only disaster"
+      ],
+      "answer": 0,
+      "explain": "Her argument about opportunity includes strong qualifications.",
+      "chapter": "voices"
+    },
+    {
+      "text": "What is back-to-back housing?",
+      "options": [
+        "Homes joined at the rear and sides",
+        "Homes built only on farms",
+        "Detached houses with large gardens",
+        "Railway carriages"
+      ],
+      "answer": 0,
+      "explain": "The term refers to the arrangement of the dwellings.",
+      "chapter": "towns"
+    },
+    {
+      "text": "Why should an autobiography be questioned?",
+      "options": [
+        "Memory and selection may shape a later account",
+        "It must always be false",
+        "Only governments can provide evidence",
+        "It cannot describe feelings"
+      ],
+      "answer": 0,
+      "explain": "Questioning evidence means testing its strengths and limits, not discarding it automatically.",
+      "chapter": "voices"
+    },
+    {
+      "text": "Which Act restricted child labour in certain textile factories?",
+      "options": [
+        "The 1833 Factory Act",
+        "The 1918 Armistice",
+        "The 1842 Peace Treaty",
+        "The 2013 Railway Act"
+      ],
+      "answer": 0,
+      "explain": "The 1833 Act also established inspectors; its coverage was specific.",
+      "chapter": "children"
+    },
+    {
+      "text": "What did the 1842 Mines Act prohibit?",
+      "options": [
+        "Women and girls, and boys under ten, working underground",
+        "All adults working underground",
+        "Every factory in Britain",
+        "Every railway journey"
+      ],
+      "answer": 0,
+      "explain": "Its restrictions were specific, rather than the end of all child work.",
+      "chapter": "children"
+    },
+    {
+      "text": "Why compare early and late industrial experiences?",
+      "options": [
+        "Change occurred unevenly over time",
+        "All reforms happened in 1750",
+        "Nothing changed after the first factory",
+        "Dates cannot affect an argument"
+      ],
+      "answer": 0,
+      "explain": "A claim about 1800 should not automatically describe 1900.",
+      "chapter": "towns"
+    },
+    {
+      "text": "Which distinction helps evaluate “Liberty’s Dawn”?",
+      "options": [
+        "National wealth versus individual welfare",
+        "Rivers versus oceans only",
+        "Names versus dates only",
+        "Factories versus all other buildings"
+      ],
+      "answer": 0,
+      "explain": "Economic output alone cannot measure choice, health or family responsibilities.",
+      "chapter": "towns"
+    },
+    {
+      "text": "Which makes the strongest historical judgement?",
+      "options": [
+        "A qualified claim supported with different groups’ experiences",
+        "A list of inventions with no explanation",
+        "Choosing the newest historian automatically",
+        "Assuming one worker represents everyone"
+      ],
+      "answer": 0,
+      "explain": "A convincing judgement connects criteria, evidence and qualifications.",
+      "chapter": "voices"
+    }
+  ],
+  "badges": [
+    [
+      "recruit",
+      "⚙",
+      "Apprentice Historian",
+      10,
+      "Create your learner profile"
+    ],
+    [
+      "chapter:change",
+      "▥",
+      "Engine of Change",
+      20,
+      "Complete the transformation chapter"
+    ],
+    [
+      "chapter:men",
+      "⌁",
+      "Wage Investigator",
+      20,
+      "Complete the men and employment chapter"
+    ],
+    [
+      "chapter:women",
+      "✦",
+      "Family Historian",
+      20,
+      "Complete the women and family chapter"
+    ],
+    [
+      "chapter:children",
+      "◷",
+      "Childhood Investigator",
+      20,
+      "Complete the child-work chapter"
+    ],
+    [
+      "chapter:towns",
+      "▦",
+      "Town Surveyor",
+      20,
+      "Complete the towns and reform chapter"
+    ],
+    [
+      "chapter:voices",
+      "✒",
+      "Voice of the Worker",
+      20,
+      "Complete the voices chapter"
+    ],
+    [
+      "all",
+      "⚒",
+      "Master of the Workshop",
+      30,
+      "Complete all six chapters"
+    ],
+    [
+      "quiz",
+      "✓",
+      "Knowledge Forged",
+      20,
+      "Finish a ten-question practice"
+    ],
+    [
+      "perfect",
+      "✧",
+      "Precision Engineer",
+      25,
+      "Score ten out of ten"
+    ],
+    [
+      "improve",
+      "↗",
+      "Stronger Recall",
+      15,
+      "Beat an earlier knowledge score"
+    ],
+    [
+      "evidence",
+      "▤",
+      "Evidence Collector",
+      25,
+      "Save three reasoned evidence annotations"
+    ],
+    [
+      "interpret",
+      "⚖",
+      "Interpretation Analyst",
+      45,
+      "Complete the five-part historian comparison"
+    ],
+    [
+      "plan",
+      "✒",
+      "Argument Builder",
+      35,
+      "Save a complete argument plan"
+    ],
+    [
+      "judgement",
+      "◈",
+      "Qualified Judgement",
+      25,
+      "Save a counterargument and final judgement"
+    ],
+    [
+      "reflection",
+      "◎",
+      "Reflective Historian",
+      20,
+      "Record a specific learning reflection"
+    ],
+    [
+      "review",
+      "↻",
+      "Revision Engineer",
+      15,
+      "Record a later review with a changed view"
+    ]
+  ],
+  "writingPrompts": [
+    "Make a qualified point about one group.",
+    "Use a named example from the evidence bank.",
+    "Explain how it changed income, freedom, health or opportunity.",
+    "Connect the evidence to Griffin or Toynbee.",
+    "Weigh this paragraph’s significance for “for some”."
+  ],
+  "sourceNotes": [
+    [
+      "Class knowledge organiser",
+      "Year 8 Knowledge Organiser: Was the Industrial Revolution Liberty’s Dawn? Teacher-supplied."
+    ],
+    [
+      "Historian’s study",
+      "Emma Griffin, Liberty’s Dawn: A People’s History of the Industrial Revolution (Yale, 2013), especially introduction; chapters 2–4, 7–10."
+    ],
+    [
+      "Class interpretations lesson",
+      "Lesson 2: What do historians say about the Industrial Revolution? Teacher-supplied."
+    ],
+    [
+      "Teaching commentary",
+      "Ian Dawson, Teaching the Industrial Revolution: What kinds of stories should we tell about it? (2014)."
+    ],
+    [
+      "Wider context",
+      "Nineteenth-Century Britain, teacher-supplied; industrial development and reform chapters."
+    ],
+    [
+      "Toynbee",
+      "Arnold Toynbee, Lectures on the Industrial Revolution in England, published posthumously in 1884."
+    ]
+  ],
+  "links": [
+    [
+      "Liberty’s Dawn — university research record",
+      "https://research-portal.uea.ac.uk/en/publications/libertys-dawn-a-peoples-history-of-the-industrial-revolution/"
+    ],
+    [
+      "Toynbee’s lectures — Cambridge University Press",
+      "https://www.cambridge.org/core/books/abs/lectures-on-the-industrial-revolution-in-england/industry-and-democracy/8A07F8D85361967AFE62696E31D773AF"
+    ]
+  ]
+}
