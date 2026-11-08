@@ -7,6 +7,9 @@ const dist = join(root, "dist");
 const entries = ["index.html", "_headers", "src", "public"];
 const appRoutes = [
   "/ks3-history",
+  "/year-7-history/simulation-games",
+  "/year-8-history/simulation-games",
+  "/year-9-history/simulation-games",
   "/year-7-history",
   "/year-7-history/norman-conquest",
   "/year-8-history",

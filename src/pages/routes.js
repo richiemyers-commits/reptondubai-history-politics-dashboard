@@ -25,10 +25,13 @@ export const routes = {
   "/": homePage,
   "/ks3-history": () => coursePage(courses.ks3),
   "/year-7-history": () => ks3YearPage(ks3YearPages["year-7"]),
+  "/year-7-history/simulation-games": () => simulationGamesPage(7),
   "/year-7-history/norman-conquest": normanConquestPage,
   "/year-8-history": () => ks3YearPage(ks3YearPages["year-8"]),
+  "/year-8-history/simulation-games": () => simulationGamesPage(8),
   "/year-8-history/industrial-revolution": () => revisionLabPage(8),
   "/year-9-history": () => ks3YearPage(ks3YearPages["year-9"]),
+  "/year-9-history/simulation-games": () => simulationGamesPage(9),
   "/year-9-history/empire-armies": () => revisionLabPage(9),
   "/igcse-history": igcseYearGroupsPage,
   "/igcse-history/year-10-pearson": () => coursePage(courses.igcsePearson),
@@ -71,7 +74,7 @@ const revisionLabs = {
 };
 function revisionLabPage(number) {
   const lab = revisionLabs[number];
-  return `<section class="section"><div class="container"><p class="kicker">Year ${number} History · ${lab.label}</p><h1>${lab.title} Revision</h1><p>${lab.copy}</p><p><strong>Exercise books ready:</strong> make your own notes, practise ten knowledge questions, investigate interpretations and develop an evidence-led argument.</p><div class="hero-actions">${number === 8 ? `<a class="button primary-button" href="/public/history-simulations/milltown/index.html">Play Milltown · Industrial Revolution →</a>` : ""}${number === 9 ? `<a class="button primary-button" href="/public/history-simulations/index.html?year=9">Play the four WWI campaigns →</a>` : ""}<a class="button primary-button" href="${lab.app}" target="_blank" rel="noopener">Open full screen ↗</a><a class="button secondary-button" href="/year-${number}-history" data-link>Back to Year ${number}</a></div><p id="revision-progress-note">Your profile, drafts, reflections and achievements save only in this browser/device. Download a revision record from your learner profile to keep a copy.</p></div><div class="conquest-embed"><iframe src="${lab.app}" title="Year ${number}: ${lab.title} interactive revision" aria-describedby="revision-progress-note"></iframe></div><div class="container"><p>For more writing space, use <a href="${lab.app}" target="_blank" rel="noopener">Open full screen</a>.</p></div></section>`;
+  return `<section class="section"><div class="container"><p class="kicker">Year ${number} History · ${lab.label}</p><h1>${lab.title} Revision</h1><p>${lab.copy}</p><p><strong>Exercise books ready:</strong> make your own notes, practise ten knowledge questions, investigate interpretations and develop an evidence-led argument.</p><div class="hero-actions">${number === 8 ? `<a class="button primary-button" href="/year-8-history/simulation-games" data-link>Play Milltown · Industrial Revolution →</a>` : ""}${number === 9 ? `<a class="button primary-button" href="/year-9-history/simulation-games" data-link>Play the four WWI campaigns →</a>` : ""}<a class="button primary-button" href="${lab.app}" target="_blank" rel="noopener">Open full screen ↗</a><a class="button secondary-button" href="/year-${number}-history" data-link>Back to Year ${number}</a></div><p id="revision-progress-note">Your profile, drafts, reflections and achievements save only in this browser/device. Download a revision record from your learner profile to keep a copy.</p></div><div class="conquest-embed"><iframe src="${lab.app}" title="Year ${number}: ${lab.title} interactive revision" aria-describedby="revision-progress-note"></iframe></div><div class="container"><p>For more writing space, use <a href="${lab.app}" target="_blank" rel="noopener">Open full screen</a>.</p></div></section>`;
 }
 function ks3YearPage(year) {
   const number = Number(year.path.match(/year-(\d+)/)?.[1]);
@@ -90,12 +93,22 @@ function ks3YearPage(year) {
         <p>${escapeHtml(year.overview)}</p>
         <div class="hero-actions">
           <a class="button primary-button" href="${year.downloadHref}" download>Download Booklet</a>
-          ${number === 7 || number === 8 || number === 9 ? `<a class="button primary-button" href="/public/history-simulations/index.html?${number === 7 ? "campaign=normans" : number === 8 ? "year=8" : "year=9"}">${number === 7 ? "Play The Northern Earls" : number === 8 ? "Play Milltown" : "Play WWI Campaigns"} →</a>` : ""}
+          <a class="button primary-button" href="/year-${number}-history/simulation-games" data-link>Simulation games →</a>
           ${revision ? `<a class="button primary-button" href="${revision.path}" data-link>${revision.title} Revision</a>` : ""}
           ${year.path === "/year-7-history" ? `<a class="button primary-button" href="/year-7-history/norman-conquest" data-link>Norman Conquest Revision</a>` : ""}
           ${year.path === "/year-9-history" ? `<a class="button secondary-button" href="${gcsePreparation.path}" data-link>GCSE Advice</a>` : `<a class="button secondary-button" href="/ks3-history" data-link>Back to KS3</a>`}
         </div>
       </div>
+    </section>
+
+    <section class="section paper-band" id="simulation-games">
+      <div class="container"><article class="feature-panel">
+        <p class="kicker">Year ${number} · Historical simulation games</p>
+        <h2>${number === 7 ? "The Northern Earls: Edwin & Morcar" : number === 8 ? "Milltown: Liberty’s Dawn?" : "World War I: four experiences"}</h2>
+        <p>${number === 7 ? "Lead the earls’ council through Fulford, submission, rebellion and the consequences of Norman control." : number === 8 ? "Manage industrial growth and its effects on working people, then assess Griffin and Toynbee." : "Choose Ganga Singh, Algerian troops, Mike Mountain Horse or the Chinese Labour Corps. Manage resources and fatigue, then judge contribution."}</p>
+        <p>Designed for a 45–50-minute lesson, with evidence, decisions, teacher guidance and a final historical judgement.</p>
+        <a class="button primary-button" href="/year-${number}-history/simulation-games" data-link>Open Year ${number} simulation games →</a>
+      </article></div>
     </section>
 
     <section class="section paper-band" id="home-learning-project">
@@ -182,7 +195,7 @@ function normanConquestPage() {
     <section class="section">
       <div class="container">
         <p class="kicker">Year 7 History · Conquest 1066</p>
-        <h1>Norman Conquest Revision</h1><p><a class="button primary-button" href="/public/history-simulations/index.html?campaign=normans">Play The Northern Earls · 48-minute simulation →</a></p>
+        <h1>Norman Conquest Revision</h1><p><a class="button primary-button" href="/year-7-history/simulation-games" data-link>Play The Northern Earls · 48-minute simulation →</a></p>
         <p>Prepare for your 10 knowledge questions and extended-writing task. Work through Learn the Conquest, test yourself in the Knowledge Arena, then develop your answer in the Essay Workshop.</p>
         <p><strong>Exercise books ready:</strong> write the key notes in your exercise book, close the app and recall them from memory. Add specific evidence to support your judgement.</p>
         <div class="hero-actions">
@@ -690,3 +703,20 @@ function literacyReadingListsPage() {
   `;
 }
 
+
+const yearSimulationGames = {
+  7: {title: "The Northern Earls", topic: "Normans · Edwin & Morcar", app: "/public/history-simulations/index.html?campaign=normans", description: "Follow the northern earls from the invasion of 1066 through rebellion and the consolidation of Norman control."},
+  8: {title: "Milltown: Liberty’s Dawn?", topic: "Industrial Revolution", app: "/public/history-simulations/milltown/index.html", description: "Make decisions about industry, housing, family work, childhood, reform and learning, then use historical evidence to assess Griffin and Toynbee."},
+  9: {title: "World War I: four experiences", topic: "Empire armies & global contributions", app: "/public/history-simulations/index.html?year=9", description: "Choose Ganga Singh and the 57th Rifles, Algerian troops at Ypres, Mike Mountain Horse, or the Chinese Labour Corps. Each campaign is one lesson."}
+};
+function simulationGamesPage(number) {
+  const game = yearSimulationGames[number];
+  return `<section class="section"><div class="container">
+    <p class="kicker"><a href="/ks3-history" data-link>KS3 History</a> / <a href="/year-${number}-history" data-link>Year ${number}</a> / Simulation games</p>
+    <h1>${game.title}</h1><p><strong>Year ${number} · ${game.topic}</strong></p><p>${game.description}</p>
+    <p>Allow 45–50 minutes. Open the teacher guide inside the game for timings and classroom arrangements. Progress saves on this browser; download the final report to hand it in.</p>
+    <div class="hero-actions"><a class="button primary-button" href="${game.app}" target="_blank" rel="noopener">Play in full screen ↗</a><a class="button secondary-button" href="/year-${number}-history" data-link>Back to Year ${number}</a></div>
+    ${number === 9 ? `<p><strong>Choose your campaign:</strong> <a href="/public/history-simulations/index.html?campaign=ganga" target="_blank" rel="noopener">Ganga Singh</a> · <a href="/public/history-simulations/index.html?campaign=algeria" target="_blank" rel="noopener">Algerian troops</a> · <a href="/public/history-simulations/index.html?campaign=mike" target="_blank" rel="noopener">Mike Mountain Horse</a> · <a href="/public/history-simulations/index.html?campaign=clc" target="_blank" rel="noopener">Chinese Labour Corps</a></p>` : ""}
+    </div><div class="conquest-embed"><iframe src="${game.app}" title="Year ${number} simulation games: ${game.title}"></iframe></div>
+  </section>`;
+}
