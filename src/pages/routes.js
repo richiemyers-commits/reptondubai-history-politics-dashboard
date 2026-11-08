@@ -71,7 +71,7 @@ const revisionLabs = {
 };
 function revisionLabPage(number) {
   const lab = revisionLabs[number];
-  return `<section class="section"><div class="container"><p class="kicker">Year ${number} History · ${lab.label}</p><h1>${lab.title} Revision</h1><p>${lab.copy}</p><p><strong>Exercise books ready:</strong> make your own notes, practise ten knowledge questions, investigate interpretations and develop an evidence-led argument.</p><div class="hero-actions"><a class="button primary-button" href="${lab.app}" target="_blank" rel="noopener">Open full screen ↗</a><a class="button secondary-button" href="/year-${number}-history" data-link>Back to Year ${number}</a></div><p id="revision-progress-note">Your profile, drafts, reflections and achievements save only in this browser/device. Download a revision record from your learner profile to keep a copy.</p></div><div class="conquest-embed"><iframe src="${lab.app}" title="Year ${number}: ${lab.title} interactive revision" aria-describedby="revision-progress-note"></iframe></div><div class="container"><p>For more writing space, use <a href="${lab.app}" target="_blank" rel="noopener">Open full screen</a>.</p></div></section>`;
+  return `<section class="section"><div class="container"><p class="kicker">Year ${number} History · ${lab.label}</p><h1>${lab.title} Revision</h1><p>${lab.copy}</p><p><strong>Exercise books ready:</strong> make your own notes, practise ten knowledge questions, investigate interpretations and develop an evidence-led argument.</p><div class="hero-actions">${number === 9 ? `<a class="button primary-button" href="/public/history-simulations/index.html?year=9">Play the four WWI campaigns →</a>` : ""}<a class="button primary-button" href="${lab.app}" target="_blank" rel="noopener">Open full screen ↗</a><a class="button secondary-button" href="/year-${number}-history" data-link>Back to Year ${number}</a></div><p id="revision-progress-note">Your profile, drafts, reflections and achievements save only in this browser/device. Download a revision record from your learner profile to keep a copy.</p></div><div class="conquest-embed"><iframe src="${lab.app}" title="Year ${number}: ${lab.title} interactive revision" aria-describedby="revision-progress-note"></iframe></div><div class="container"><p>For more writing space, use <a href="${lab.app}" target="_blank" rel="noopener">Open full screen</a>.</p></div></section>`;
 }
 function ks3YearPage(year) {
   const number = Number(year.path.match(/year-(\d+)/)?.[1]);
@@ -90,6 +90,7 @@ function ks3YearPage(year) {
         <p>${escapeHtml(year.overview)}</p>
         <div class="hero-actions">
           <a class="button primary-button" href="${year.downloadHref}" download>Download Booklet</a>
+          ${number === 7 || number === 9 ? `<a class="button primary-button" href="/public/history-simulations/index.html?${number === 7 ? "campaign=normans" : "year=9"}">${number === 7 ? "Play The Northern Earls" : "Play WWI Campaigns"} →</a>` : ""}
           ${revision ? `<a class="button primary-button" href="${revision.path}" data-link>${revision.title} Revision</a>` : ""}
           ${year.path === "/year-7-history" ? `<a class="button primary-button" href="/year-7-history/norman-conquest" data-link>Norman Conquest Revision</a>` : ""}
           ${year.path === "/year-9-history" ? `<a class="button secondary-button" href="${gcsePreparation.path}" data-link>GCSE Advice</a>` : `<a class="button secondary-button" href="/ks3-history" data-link>Back to KS3</a>`}
@@ -181,7 +182,7 @@ function normanConquestPage() {
     <section class="section">
       <div class="container">
         <p class="kicker">Year 7 History · Conquest 1066</p>
-        <h1>Norman Conquest Revision</h1>
+        <h1>Norman Conquest Revision</h1><p><a class="button primary-button" href="/public/history-simulations/index.html?campaign=normans">Play The Northern Earls · 48-minute simulation →</a></p>
         <p>Prepare for your 10 knowledge questions and extended-writing task. Work through Learn the Conquest, test yourself in the Knowledge Arena, then develop your answer in the Essay Workshop.</p>
         <p><strong>Exercise books ready:</strong> write the key notes in your exercise book, close the app and recall them from memory. Add specific evidence to support your judgement.</p>
         <div class="hero-actions">

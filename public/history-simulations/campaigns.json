@@ -1,0 +1,2051 @@
+{
+  "duration": 48,
+  "sources": {
+    "chronicle": [
+      "Anglo-Saxon Chronicle, entries for 1066–1071",
+      "https://avalon.law.yale.edu/medieval/ang11.asp",
+      "A chronicle survives in different manuscript versions. This translated edition requires comparison and contextual reading."
+    ],
+    "fulford": [
+      "English Heritage: northern battles of 1066",
+      "https://www.english-heritage.org.uk/learn/histories/1066-and-the-norman-conquest/northern-battles-1066/",
+      "Modern historical synthesis; exact battlefield deployments remain uncertain."
+    ],
+    "norman": [
+      "English Heritage: Hastings and the conquest",
+      "https://www.english-heritage.org.uk/visit/places/1066-battle-of-hastings-abbey-and-battlefield/history-and-stories/what-happened-battle-hastings/",
+      "Distinguish victory in battle from the longer establishment of control."
+    ],
+    "india": [
+      "National Army Museum: Captain William Leith-Ross, 57th Rifles",
+      "https://ww1.nam.ac.uk/stories/captain-william-leith-ross/",
+      "A documented officer and unit context corroborate deployment, not every detail of the classroom Ganga Singh narrative."
+    ],
+    "ypres": [
+      "Veterans Affairs Canada: Second Ypres",
+      "https://www.veterans.gc.ca/en/remembrance/military-history/first-world-war/2nd-battle-ypres",
+      "A Canadian institutional account: compare its emphasis with French and North African testimony."
+    ],
+    "algeria": [
+      "French Ministry of Defence: North African soldiers, 1914–1918",
+      "https://www.defense.gouv.fr/chemins-memoire/histoire-memoires/ressources-historiques/premiere-guerre-mondiale/sorties-guerre/memoires-guerre-3",
+      "Different regiments and individuals had different experiences; do not treat all North Africans as one unit."
+    ],
+    "mike": [
+      "Open University: Mike Mountain Horse",
+      "https://www.open.edu/openlearn/mod/oucontent/view.php?id=144511&section=42.2",
+      "Draws on personal testimony and scholarship. Some popular accounts disagree on the date and location of his burial under rubble."
+    ],
+    "clc": [
+      "Royal Logistic Corps: Chinese Labour Corps",
+      "https://www.royallogisticcorps.co.uk/rlc-acquires-new-exhibit/",
+      "The British corps and the French labour programme were distinct. China was not a British or French colony."
+    ],
+    "china": [
+      "NZ History: China and the First World War",
+      "https://nzhistory.govt.nz/war/republic-china-facts",
+      "Government historical overview; distinguishes recruitment programmes and military control."
+    ],
+    "class": [
+      "Repton Year 9 revision evidence",
+      "revision-empire.json",
+      "Teacher-supplied cases and revision summaries; the Ganga Singh narrative is not a surviving personal diary."
+    ]
+  },
+  "notes": "All decision dialogue, local orders and numerical outcomes are educational reconstructions. Historical anchors remain fixed. Indices are not casualty counts or historical statistics.",
+  "campaigns": [
+    {
+      "id": "normans",
+      "year": 7,
+      "title": "The Northern Earls",
+      "subtitle": "Edwin & Morcar · survive the conquest",
+      "dates": "1066–1071 · epilogue 1086",
+      "type": "norman",
+      "enquiry": "How far did William bring a “truckload of trouble” to England?",
+      "role": "Coordinate the followers and councils of Edwin and Morcar. In pairs, one pupil speaks for each brother; roles diverge in 1071.",
+      "objective": "Agency & evidence",
+      "nodes": [
+        "York",
+        "Fulford",
+        "London",
+        "Mercia",
+        "The North",
+        "Ely"
+      ],
+      "rounds": [
+        {
+          "date": "September 1066",
+          "title": "The northern muster",
+          "place": "york",
+          "brief": "Hardrada and Tostig threaten York. As Edwin and Morcar, you coordinate a hurried defence. Men leaving farms need feeding; information travels slowly.",
+          "fact": "Edwin was Earl of Mercia and Morcar Earl of Northumbria. They faced the invaders before Harold Godwinson arrived.",
+          "sources": [
+            "chronicle",
+            "fulford"
+          ],
+          "question": "Who threatens the north?",
+          "answers": [
+            "William and Lanfranc",
+            "Harald Hardrada and Tostig",
+            "Harold Godwinson and Edwin"
+          ],
+          "correct": 1,
+          "explain": "Hardrada was the Norwegian king; Tostig was Harold Godwinson’s brother. Keep the two Harolds distinct.",
+          "choices": [
+            {
+              "title": "Concentrate the muster",
+              "description": "Gather a stronger force, taking men away from local communities.",
+              "cost": 6,
+              "effects": [
+                12,
+                8,
+                -3,
+                5
+              ],
+              "outcome": "More followers arrive together, but feeding them and leaving farms strains the district."
+            },
+            {
+              "title": "Scout and coordinate",
+              "description": "Send messengers and scouts while forming the levy.",
+              "cost": 4,
+              "effects": [
+                8,
+                4,
+                1,
+                4
+              ],
+              "outcome": "Your information improves. Scouts cannot remove uncertainty or summon Harold instantly."
+            },
+            {
+              "title": "Preserve local provisions",
+              "description": "Keep a smaller force and protect stores.",
+              "cost": 0,
+              "effects": [
+                -2,
+                0,
+                6,
+                1
+              ],
+              "outcome": "Communities retain provisions, but the available defence is weaker."
+            }
+          ],
+          "prompt": "Explain how gathering an army could create problems before fighting began.",
+          "voices": [
+            "Edwin’s council: Mercian followers need time to assemble.",
+            "Morcar’s council: York faces immediate pressure."
+          ],
+          "fixed": ""
+        },
+        {
+          "date": "20 September 1066",
+          "title": "Fulford: hold, then withdraw",
+          "place": "fulford",
+          "brief": "The forces clash near York. Reports describe heavy English losses, including men drowned during the defeat. Make a decision about cohesion and withdrawal. The battle’s historical result is fixed.",
+          "fact": "The northern earls lost at Fulford. Harold subsequently defeated Hardrada and Tostig at Stamford Bridge on 25 September. Your decision changes only a model of preparedness and disruption.",
+          "sources": [
+            "chronicle",
+            "fulford"
+          ],
+          "question": "Which sequence is correct?",
+          "answers": [
+            "Fulford → Stamford Bridge → Hastings",
+            "Hastings → Fulford → Stamford Bridge",
+            "Stamford Bridge → Hastings → Fulford"
+          ],
+          "correct": 0,
+          "explain": "Fulford: 20 September; Stamford Bridge: 25 September; Hastings: 14 October 1066.",
+          "choices": [
+            {
+              "title": "Maintain a reserve",
+              "description": "Hold some followers back to support a withdrawal.",
+              "cost": 5,
+              "effects": [
+                5,
+                9,
+                0,
+                6
+              ],
+              "outcome": "The reserve helps some groups withdraw in order. The English army still loses the battle."
+            },
+            {
+              "title": "Commit every available group",
+              "description": "Try to sustain the line with all your followers.",
+              "cost": 2,
+              "effects": [
+                3,
+                18,
+                -7,
+                3
+              ],
+              "outcome": "The line is reinforced temporarily, but exhaustion makes the eventual withdrawal harder."
+            },
+            {
+              "title": "Protect the retreat route",
+              "description": "Prioritise messengers and access to a way out.",
+              "cost": 0,
+              "effects": [
+                2,
+                8,
+                5,
+                5
+              ],
+              "outcome": "Withdrawal is less disorganised in this model. You cannot reverse the recorded defeat."
+            }
+          ],
+          "prompt": "Why does defeat at Fulford matter to the wider events of 1066?",
+          "voices": [
+            "A messenger: the line is under pressure.",
+            "A local reeve: followers need a route back to their communities."
+          ],
+          "fixed": "Historical anchor: defeat at Fulford. No option changes it."
+        },
+        {
+          "date": "October–December 1066",
+          "title": "A crown changes hands",
+          "place": "london",
+          "brief": "Hardrada is dead, but William has won at Hastings. English leaders face the question of accommodation. You can influence how to approach submission, not undo Hastings.",
+          "fact": "Harold Godwinson died at Hastings on 14 October. Edwin and Morcar eventually submitted to William, who was crowned at Westminster on 25 December.",
+          "sources": [
+            "chronicle",
+            "norman"
+          ],
+          "question": "Why was Hastings not the end of the conquest?",
+          "answers": [
+            "It happened after Domesday",
+            "Winning a battle did not ensure local obedience",
+            "William immediately left England forever"
+          ],
+          "correct": 1,
+          "explain": "William still needed to secure land, leaders and communities.",
+          "choices": [
+            {
+              "title": "Negotiate as a delegation",
+              "description": "Present concerns together while acknowledging William’s strength.",
+              "cost": 5,
+              "effects": [
+                2,
+                -3,
+                5,
+                7
+              ],
+              "outcome": "A joint approach preserves a negotiating voice, but the king can alter the balance later."
+            },
+            {
+              "title": "Submit promptly",
+              "description": "Seek to preserve estates through early cooperation.",
+              "cost": 1,
+              "effects": [
+                3,
+                -5,
+                2,
+                5
+              ],
+              "outcome": "Immediate danger eases. Some followers question how much independence remains."
+            },
+            {
+              "title": "Consult scattered supporters",
+              "description": "Delay the approach while hearing local leaders.",
+              "cost": 0,
+              "effects": [
+                -3,
+                5,
+                2,
+                2
+              ],
+              "outcome": "You hear more concerns, but delay brings uncertainty and mistrust."
+            }
+          ],
+          "prompt": "Explain why an earl might submit without welcoming all Norman changes.",
+          "voices": [
+            "Edwin’s council: preserve our family’s position.",
+            "Morcar’s council: our followers expect protection."
+          ],
+          "fixed": "Historical anchor: submission and William’s coronation."
+        },
+        {
+          "date": "1068",
+          "title": "Rebellion and castles",
+          "place": "mercia",
+          "brief": "Discontent grows as William consolidates power. You coordinate resistance, but strongholds and an advancing royal army limit your freedom.",
+          "fact": "Edwin and Morcar rebelled in 1068, then submitted as William advanced. Castle building strengthened Norman control. Their later paths must not be collapsed into immediate permanent imprisonment in 1068.",
+          "sources": [
+            "chronicle",
+            "norman"
+          ],
+          "question": "How could castles help William?",
+          "answers": [
+            "They replaced every village",
+            "They housed troops and controlled important places",
+            "They gave every English earl more land"
+          ],
+          "correct": 1,
+          "explain": "Castles combined military bases with visible authority.",
+          "choices": [
+            {
+              "title": "Seek a wider alliance",
+              "description": "Spend provisions maintaining contacts with other opponents.",
+              "cost": 6,
+              "effects": [
+                7,
+                7,
+                0,
+                6
+              ],
+              "outcome": "Connections broaden, but promises do not guarantee coordinated action."
+            },
+            {
+              "title": "Protect followers, then negotiate",
+              "description": "Avoid concentrating exposed communities around one confrontation.",
+              "cost": 4,
+              "effects": [
+                1,
+                1,
+                7,
+                5
+              ],
+              "outcome": "Local disruption is reduced in the model. You still face William’s superior position."
+            },
+            {
+              "title": "Rally quickly with existing supplies",
+              "description": "Demonstrate opposition before support is secure.",
+              "cost": 0,
+              "effects": [
+                4,
+                13,
+                -5,
+                2
+              ],
+              "outcome": "The rising is visible but fragile. Norman movement exposes its weaknesses."
+            }
+          ],
+          "prompt": "Link rebellion, castle building and the difficulty of controlling England.",
+          "voices": [
+            "Edwin’s council: authority in Mercia is slipping.",
+            "Morcar’s council: allies must act together, not merely promise."
+          ],
+          "fixed": "Historical anchor: the brothers submit in 1068."
+        },
+        {
+          "date": "1069–1070",
+          "title": "The cost to the North",
+          "place": "north",
+          "brief": "Northern revolt and Danish intervention provoke William’s response. View this regional crisis from the earls’ limited position: you are not commanders of every northern rebellion.",
+          "fact": "William’s Harrying of the North devastated communities and food supplies. It strengthened coercive control through severe suffering. Exact losses and the full extent of devastation are debated.",
+          "sources": [
+            "chronicle",
+            "norman"
+          ],
+          "question": "Which evidence best tests the human cost of control?",
+          "answers": [
+            "Only the number of castles",
+            "Damage to homes, crops and communities",
+            "Only the king’s title"
+          ],
+          "correct": 1,
+          "explain": "Ask who suffered and how long the consequences lasted; royal control and welfare are different criteria.",
+          "choices": [
+            {
+              "title": "Organise local relief",
+              "description": "Use stores and contacts to help displaced households.",
+              "cost": 6,
+              "effects": [
+                0,
+                4,
+                12,
+                5
+              ],
+              "outcome": "Some support reaches households; resources are limited against widespread destruction."
+            },
+            {
+              "title": "Disperse vulnerable groups",
+              "description": "Prioritise routes away from the worst disruption.",
+              "cost": 3,
+              "effects": [
+                -2,
+                7,
+                8,
+                4
+              ],
+              "outcome": "Some people move to relative safety, but travel and loss of homes bring further hardship."
+            },
+            {
+              "title": "Retain supplies for followers",
+              "description": "Preserve the ability of your own following to act.",
+              "cost": 0,
+              "effects": [
+                6,
+                2,
+                -7,
+                2
+              ],
+              "outcome": "Your following remains more prepared, while local needs go unmet."
+            }
+          ],
+          "prompt": "Was a method that increased royal control necessarily a successful change for the population?",
+          "voices": [
+            "A community representative: destroyed stores cannot feed families.",
+            "A council messenger: the wider region is beyond our control."
+          ],
+          "fixed": "Historical anchor: the Harrying occurs independently of your decision."
+        },
+        {
+          "date": "1071 → 1086",
+          "title": "Two brothers, different endings",
+          "place": "ely",
+          "brief": "The brothers flee William’s court in 1071. Their paths separate. Your final playable decision is about surviving followers and the evidence you will carry into your judgement.",
+          "fact": "Edwin was killed by his own men in 1071. Morcar went to Ely, submitted and was imprisoned. The Domesday survey came later, in 1086: it is an epilogue, not something the brothers jointly created.",
+          "sources": [
+            "chronicle"
+          ],
+          "question": "Which ending is historically accurate?",
+          "answers": [
+            "Both brothers ruled England",
+            "Edwin died; Morcar’s resistance ended in imprisonment",
+            "Both completed Domesday in 1071"
+          ],
+          "correct": 1,
+          "explain": "Keep individual lives and dates separate. Neither brother receives an invented victory ending.",
+          "choices": [
+            {
+              "title": "Record ordinary people’s experiences",
+              "description": "Prioritise accounts of loss, obligations and protection.",
+              "cost": 3,
+              "effects": [
+                0,
+                -2,
+                5,
+                5
+              ],
+              "outcome": "Your dossier gives communities a voice, but one locality cannot represent all England."
+            },
+            {
+              "title": "Record methods of control",
+              "description": "Trace castles, land grants and the suppression of resistance.",
+              "cost": 2,
+              "effects": [
+                2,
+                0,
+                1,
+                7
+              ],
+              "outcome": "Your dossier explains how power worked. You must also weigh its human cost."
+            },
+            {
+              "title": "Compare both perspectives",
+              "description": "Assemble a shorter record of control and its uneven consequences.",
+              "cost": 0,
+              "effects": [
+                0,
+                0,
+                3,
+                5
+              ],
+              "outcome": "Your account balances perspectives but needs precise evidence to avoid a vague compromise."
+            }
+          ],
+          "prompt": "Use at least two events and compare an earl, a villein and a Norman follower.",
+          "voices": [
+            "Edwin’s path: killed in 1071.",
+            "Morcar’s path: Ely, submission and imprisonment."
+          ],
+          "fixed": "Historical anchor: Edwin’s death and Morcar’s imprisonment."
+        }
+      ],
+      "revision": "/year-7-history/norman-conquest",
+      "colour": "#bd8f43"
+    },
+    {
+      "id": "ganga",
+      "year": 9,
+      "title": "Hold the Line",
+      "subtitle": "Ganga Singh case · 57th Rifles",
+      "dates": "Ypres · 1914",
+      "type": "india",
+      "enquiry": "Did Indian troops make a meaningful contribution to the war effort?",
+      "role": "A reconstructed section council within the 57th Rifles, following the teaching case. You are not the Maharaja of Bikaner or an army commander.",
+      "objective": "Defensive contribution",
+      "nodes": [
+        "Arrival",
+        "Depot",
+        "Front line",
+        "Reserve",
+        "Sector",
+        "Evidence"
+      ],
+      "rounds": [
+        {
+          "date": "October 1914",
+          "title": "Reinforcements arrive",
+          "place": "port",
+          "brief": "Follow the classroom Ganga Singh case through a representative 57th Rifles section. Your council chooses local priorities under orders, not the strategy of the whole army.",
+          "fact": "The 57th Wilde’s Rifles served in France in 1914. The classroom Ganga Singh story is a later teaching narrative, not a verified personal diary or the biography of the Maharaja of Bikaner.",
+          "sources": [
+            "india",
+            "class"
+          ],
+          "question": "Which scale fits this scenario?",
+          "answers": [
+            "A representative section within an Indian regiment",
+            "The whole Allied army",
+            "The Bikaner Camel Corps in Egypt"
+          ],
+          "correct": 0,
+          "explain": "The class case is a soldier of the 57th Rifles. Do not confuse people sharing a name.",
+          "choices": [
+            {
+              "title": "Check equipment and practise",
+              "description": "Invest time in familiarisation before forward movement.",
+              "cost": 5,
+              "effects": [
+                12,
+                4,
+                2,
+                5
+              ],
+              "outcome": "Handling and confidence improve; movement is slower."
+            },
+            {
+              "title": "Prioritise rations and clothing",
+              "description": "Prepare supplies for unfamiliar conditions.",
+              "cost": 4,
+              "effects": [
+                4,
+                -5,
+                9,
+                3
+              ],
+              "outcome": "Comfort and endurance improve. Equipment practice remains necessary."
+            },
+            {
+              "title": "Move with minimum delay",
+              "description": "Keep stores for later and accept a harder arrival.",
+              "cost": 0,
+              "effects": [
+                1,
+                10,
+                -3,
+                3
+              ],
+              "outcome": "The section reaches its assembly area quickly but is less settled."
+            }
+          ],
+          "prompt": "How can reinforcement be useful before a unit wins any ground?",
+          "voices": [
+            "Section council: arrival does not mean readiness.",
+            "Supply runner: food and usable equipment must reach the men."
+          ],
+          "fixed": ""
+        },
+        {
+          "date": "Late October 1914",
+          "title": "Routes under pressure",
+          "place": "depot",
+          "brief": "Roads are crowded. Supplies and messages must reach positions near Ypres. Your route choice trades speed against disruption.",
+          "fact": "Reinforcement, communications and transport connected Indian units to the wider British force. A unit’s contribution depended on more than individual bravery.",
+          "sources": [
+            "india",
+            "class"
+          ],
+          "question": "What makes a supply route militarily important?",
+          "answers": [
+            "It replaces the need for soldiers",
+            "It keeps positions supplied and usable",
+            "It guarantees victory"
+          ],
+          "correct": 1,
+          "explain": "Explain the chain: transport → supplies → readiness → ability to hold.",
+          "choices": [
+            {
+              "title": "Use a protected route",
+              "description": "Take longer and organise carriers in smaller groups.",
+              "cost": 5,
+              "effects": [
+                6,
+                4,
+                6,
+                5
+              ],
+              "outcome": "Fewer simulated disruptions reach the section, though deliveries take time."
+            },
+            {
+              "title": "Split deliveries",
+              "description": "Send essentials first and keep a second load behind.",
+              "cost": 3,
+              "effects": [
+                7,
+                6,
+                2,
+                6
+              ],
+              "outcome": "The position receives essentials, with some duplication of effort."
+            },
+            {
+              "title": "Use the shortest route",
+              "description": "Save resources but accept exposure and congestion.",
+              "cost": 0,
+              "effects": [
+                2,
+                12,
+                -4,
+                3
+              ],
+              "outcome": "Movement is quick when clear; interruptions create fatigue."
+            }
+          ],
+          "prompt": "Explain how logistics changes the value of reinforcements.",
+          "voices": [
+            "A carrier: the shortest route is not always the most reliable.",
+            "A messenger: neighbouring positions need to know our condition."
+          ],
+          "fixed": ""
+        },
+        {
+          "date": "First Ypres, 1914",
+          "title": "Hold a threatened sector",
+          "place": "front",
+          "brief": "Higher command orders your position held. Choose preparation and coordination, without inventing Ganga Singh’s exact spoken thoughts or movements.",
+          "fact": "Indian troops helped reinforce a hard-pressed front in 1914. Holding a position could gain time for other forces. One personal story cannot prove that one man saved the war.",
+          "sources": [
+            "class",
+            "india"
+          ],
+          "question": "Why can holding ground be meaningful?",
+          "answers": [
+            "It can deny a breakthrough and buy time",
+            "Only advances count",
+            "Every defence ends the war"
+          ],
+          "correct": 0,
+          "explain": "Military effect can be defensive and indirect.",
+          "choices": [
+            {
+              "title": "Coordinate with neighbours",
+              "description": "Allocate runners and prepare fallback messages.",
+              "cost": 5,
+              "effects": [
+                9,
+                8,
+                4,
+                9
+              ],
+              "outcome": "The line is better connected. There is still danger and pressure."
+            },
+            {
+              "title": "Strengthen cover",
+              "description": "Spend effort on immediate protection.",
+              "cost": 4,
+              "effects": [
+                6,
+                9,
+                8,
+                6
+              ],
+              "outcome": "Cover reduces simulated disruption, while the wider sector remains contested."
+            },
+            {
+              "title": "Keep all effort on observation",
+              "description": "Conserve stores and watch for changes.",
+              "cost": 0,
+              "effects": [
+                4,
+                13,
+                -2,
+                5
+              ],
+              "outcome": "You retain supplies, but fatigue grows and cover remains weak."
+            }
+          ],
+          "prompt": "Connect holding a sector to timing and the wider front.",
+          "voices": [
+            "Section council: our neighbours matter as much as our own trench.",
+            "A runner: orders and ground conditions do not always match."
+          ],
+          "fixed": ""
+        },
+        {
+          "date": "Winter 1914",
+          "title": "Cold, work and relief",
+          "place": "reserve",
+          "brief": "The section needs rest and maintenance. Immediate demands compete with recovery. Fatigue from earlier rounds now affects readiness.",
+          "fact": "Industrial warfare relied on repeated supply, repair and relief. Weather and exhaustion affected forces from many backgrounds; experience differed between units and individuals.",
+          "sources": [
+            "class",
+            "india"
+          ],
+          "question": "Why rotate duties?",
+          "answers": [
+            "To remove every risk",
+            "To sustain effectiveness while allowing recovery",
+            "Because supply no longer matters"
+          ],
+          "correct": 1,
+          "explain": "Rest is part of maintaining a force, not the absence of contribution.",
+          "choices": [
+            {
+              "title": "Rotate rest and maintenance",
+              "description": "Use support to cover shorter duty periods.",
+              "cost": 5,
+              "effects": [
+                7,
+                -14,
+                9,
+                5
+              ],
+              "outcome": "More people recover and equipment receives attention."
+            },
+            {
+              "title": "Repair first, then rest",
+              "description": "Accept fatigue to restore essential kit.",
+              "cost": 3,
+              "effects": [
+                12,
+                3,
+                2,
+                6
+              ],
+              "outcome": "Equipment improves quickly; tired personnel need later relief."
+            },
+            {
+              "title": "Maintain the existing pattern",
+              "description": "Keep provisions but accept accumulating strain.",
+              "cost": 0,
+              "effects": [
+                -3,
+                12,
+                -5,
+                1
+              ],
+              "outcome": "Resources remain, while exhaustion reduces resilience."
+            }
+          ],
+          "prompt": "How does fatigue complicate a simple story about courage?",
+          "voices": [
+            "A section representative: no one can work indefinitely.",
+            "A stores clerk: damaged kit makes routine tasks harder."
+          ],
+          "fixed": ""
+        },
+        {
+          "date": "End of 1914",
+          "title": "Measure the contribution",
+          "place": "front",
+          "brief": "Your staff summary must explain what the Indian Corps contributed. Select the evidence to prioritise before writing your conclusion.",
+          "fact": "The class sheet reports ten miles of a twenty-five-mile British sector held by the Indian Corps. That is a claim about that British sector, not forty per cent of the entire Western Front.",
+          "sources": [
+            "class"
+          ],
+          "question": "What does the sector figure measure?",
+          "answers": [
+            "All of Europe",
+            "A defined British sector",
+            "Every Indian unit throughout the war"
+          ],
+          "correct": 1,
+          "explain": "Always state the geographical and numerical denominator.",
+          "choices": [
+            {
+              "title": "Combine scale and timing",
+              "description": "Use deployment alongside the pressure on the front.",
+              "cost": 4,
+              "effects": [
+                4,
+                1,
+                1,
+                10
+              ],
+              "outcome": "Your explanation links manpower with need and timing."
+            },
+            {
+              "title": "Corroborate the individual story",
+              "description": "Compare the teaching narrative with unit context.",
+              "cost": 3,
+              "effects": [
+                3,
+                0,
+                2,
+                9
+              ],
+              "outcome": "Your account becomes more cautious and better supported."
+            },
+            {
+              "title": "Use the dramatic story alone",
+              "description": "Conserve effort but leave its reach untested.",
+              "cost": 0,
+              "effects": [
+                0,
+                0,
+                0,
+                2
+              ],
+              "outcome": "The story is memorable, but the argument has a weak evidential base."
+            }
+          ],
+          "prompt": "Distinguish a soldier’s experience, a regiment’s role and a corps-level claim.",
+          "voices": [
+            "An evidence officer: numbers need a denominator.",
+            "A researcher: a later teaching story is not a contemporary diary."
+          ],
+          "fixed": ""
+        },
+        {
+          "date": "After service: remembrance",
+          "title": "Beyond a battlefield score",
+          "place": "archive",
+          "brief": "The final task is to judge contribution and recognition separately. Do not let the simulation’s indices stand in for real evidence.",
+          "fact": "India was under British rule. Military service took place within unequal imperial relationships. Useful service did not automatically create equality or equal remembrance.",
+          "sources": [
+            "class"
+          ],
+          "question": "Which conclusion is strongest?",
+          "answers": [
+            "Discrimination proves the work had no value",
+            "Contribution and recognition must be assessed separately",
+            "A high game score proves every claim"
+          ],
+          "correct": 1,
+          "explain": "An unfairly treated group can still make a significant contribution.",
+          "choices": [
+            {
+              "title": "Explain a causal chain",
+              "description": "Link reinforcement to holding, time and wider operations.",
+              "cost": 2,
+              "effects": [
+                0,
+                -3,
+                3,
+                8
+              ],
+              "outcome": "Your dossier explains military effect rather than listing suffering."
+            },
+            {
+              "title": "Compare with another group",
+              "description": "Set this case beside labour or another combat case.",
+              "cost": 3,
+              "effects": [
+                1,
+                -2,
+                3,
+                9
+              ],
+              "outcome": "Comparison shows different ways to contribute, with limits of scale."
+            },
+            {
+              "title": "Identify evidence still needed",
+              "description": "Record a supported conclusion and a question for further research.",
+              "cost": 0,
+              "effects": [
+                0,
+                -2,
+                2,
+                6
+              ],
+              "outcome": "Your qualified judgement makes uncertainty visible."
+            }
+          ],
+          "prompt": "Was this a meaningful contribution? Use evidence, a mechanism and a limitation.",
+          "voices": [
+            "A historian: meaningful does not have to mean decisive alone.",
+            "A pupil council: whose contribution is remembered?"
+          ],
+          "fixed": ""
+        }
+      ],
+      "revision": "/year-9-history/empire-armies",
+      "colour": "#c59346"
+    },
+    {
+      "id": "algeria",
+      "year": 9,
+      "title": "Under the Gas Cloud",
+      "subtitle": "Algerian tirailleurs · Ypres",
+      "dates": "Second Ypres · April 1915",
+      "type": "algeria",
+      "enquiry": "How should Algerian troops’ contribution be judged in the context of Second Ypres?",
+      "role": "A reconstructed local council within the French 45th Division’s Algerian troops. You do not direct the entire division or neighbouring Allied armies.",
+      "objective": "Cohesion & contribution",
+      "nodes": [
+        "French sector",
+        "Front line",
+        "Rally point",
+        "Depot",
+        "Evidence",
+        "Remembrance"
+      ],
+      "rounds": [
+        {
+          "date": "April 1915",
+          "title": "The Ypres salient",
+          "place": "front",
+          "brief": "Represent a local group of Algerian tirailleurs within the French 45th Division’s sector. This is a reconstructed unit perspective, not a named soldier’s diary.",
+          "fact": "French positions at Second Ypres included North African troops. The war effort linked different imperial forces; not all units, languages or experiences were identical.",
+          "sources": [
+            "ypres",
+            "algeria"
+          ],
+          "question": "What was Algeria’s political relationship with France?",
+          "answers": [
+            "A French colonial relationship",
+            "A British Dominion",
+            "An independent Canadian province"
+          ],
+          "correct": 0,
+          "explain": "Different imperial relationships shaped service and rights.",
+          "choices": [
+            {
+              "title": "Clarify routes and messages",
+              "description": "Spend time checking neighbouring units and fallback information.",
+              "cost": 5,
+              "effects": [
+                10,
+                3,
+                4,
+                5
+              ],
+              "outcome": "Communication improves, although higher-level decisions remain outside your control."
+            },
+            {
+              "title": "Improve shelter and supplies",
+              "description": "Prepare the local position for continued duty.",
+              "cost": 4,
+              "effects": [
+                6,
+                3,
+                8,
+                4
+              ],
+              "outcome": "The position is better sustained but remains exposed to enemy weapons."
+            },
+            {
+              "title": "Maintain the existing position",
+              "description": "Keep stores in reserve.",
+              "cost": 0,
+              "effects": [
+                2,
+                7,
+                0,
+                2
+              ],
+              "outcome": "The group conserves resources and accepts a less prepared position."
+            }
+          ],
+          "prompt": "Why does the exact unit context matter when judging a group?",
+          "voices": [
+            "A liaison runner: neighbouring units have different chains of command.",
+            "A section council: we need clear routes, not just orders."
+          ],
+          "fixed": ""
+        },
+        {
+          "date": "22 April 1915",
+          "title": "An unfamiliar cloud",
+          "place": "front",
+          "brief": "Chlorine gas reaches French positions. Effective protection is lacking. Choose how to organise warnings and movement in a crisis. This is historical analysis, not modern gas-safety advice.",
+          "fact": "The German chlorine attack caused severe casualties and opened a gap in the Allied line. Withdrawal under such conditions is not evidence of cowardice.",
+          "sources": [
+            "ypres"
+          ],
+          "question": "What must be considered before judging the withdrawal?",
+          "answers": [
+            "Only whether soldiers moved backwards",
+            "Weapon effects, protection, orders and conditions",
+            "Only a later stereotype"
+          ],
+          "correct": 1,
+          "explain": "Judge actions in their context. An unfamiliar weapon and inadequate protection constrained choices.",
+          "choices": [
+            {
+              "title": "Warn and organise withdrawal",
+              "description": "Use runners and a rally point while helping affected comrades.",
+              "cost": 5,
+              "effects": [
+                1,
+                16,
+                10,
+                7
+              ],
+              "outcome": "Some groups remain connected in the simulation. The historical gas attack still causes severe disruption."
+            },
+            {
+              "title": "Prioritise contact with neighbours",
+              "description": "Communicate the danger and gaps in the line.",
+              "cost": 3,
+              "effects": [
+                3,
+                18,
+                4,
+                8
+              ],
+              "outcome": "Information travels, but exposure and confusion still impose severe costs."
+            },
+            {
+              "title": "Try to maintain the position",
+              "description": "Conserve stores while attempting the existing task.",
+              "cost": 0,
+              "effects": [
+                -8,
+                25,
+                -10,
+                1
+              ],
+              "outcome": "Inadequate protection makes continued duty extremely costly in this model. Resolve alone cannot cancel the weapon’s effects."
+            }
+          ],
+          "prompt": "Explain why this setback cannot fairly be reduced to a judgement about courage.",
+          "voices": [
+            "A runner: men are struggling to understand what has reached the line.",
+            "A medical orderly: help is needed immediately."
+          ],
+          "fixed": "Historical anchor: gas causes serious losses and a gap; no option creates perfect protection."
+        },
+        {
+          "date": "Night of 22–23 April",
+          "title": "Reconnect the line",
+          "place": "reserve",
+          "brief": "Survivors and neighbouring troops need information, care and coordination. You do not command the Canadian or British forces responding elsewhere.",
+          "fact": "Allied efforts to stabilise the front involved several forces. The failure to achieve a decisive German breakthrough cannot be credited to one unit alone.",
+          "sources": [
+            "ypres"
+          ],
+          "question": "Which explanation avoids overclaiming?",
+          "answers": [
+            "One small group alone saved the front",
+            "Several forces and German limitations shaped the outcome",
+            "The gas had no military effect"
+          ],
+          "correct": 1,
+          "explain": "Explain a contribution without assigning every outcome to a single cause.",
+          "choices": [
+            {
+              "title": "Rally and relay information",
+              "description": "Coordinate a local assembly point and messages.",
+              "cost": 4,
+              "effects": [
+                10,
+                8,
+                4,
+                8
+              ],
+              "outcome": "The group becomes easier to support; the wider line depends on others too."
+            },
+            {
+              "title": "Medical and welfare priority",
+              "description": "Move effort towards affected personnel.",
+              "cost": 5,
+              "effects": [
+                3,
+                -6,
+                14,
+                5
+              ],
+              "outcome": "Care improves local welfare while immediate operational capacity recovers slowly."
+            },
+            {
+              "title": "Reorganise with available means",
+              "description": "Conserve resources and accept slower recovery.",
+              "cost": 0,
+              "effects": [
+                3,
+                10,
+                1,
+                3
+              ],
+              "outcome": "Some cohesion returns, with unresolved exhaustion and care needs."
+            }
+          ],
+          "prompt": "Distinguish local action from the wider battle outcome.",
+          "voices": [
+            "A liaison runner: our information is one part of a larger response.",
+            "A section council: regrouping is necessary work."
+          ],
+          "fixed": ""
+        },
+        {
+          "date": "Following days, 1915",
+          "title": "Relief under pressure",
+          "place": "depot",
+          "brief": "Your group faces competing needs: supplies, relief and continued duties. Earlier fatigue changes what can be sustained.",
+          "fact": "Second Ypres continued beyond 22 April. Ammunition, transport, relief and medical support mattered alongside fighting.",
+          "sources": [
+            "ypres",
+            "class"
+          ],
+          "question": "What does a high casualty total establish by itself?",
+          "answers": [
+            "The exact military effect of a unit",
+            "That people suffered, requiring further evidence to assess effect",
+            "That the unit was irrelevant"
+          ],
+          "correct": 1,
+          "explain": "Suffering matters, but it is not the same measure as operational effect.",
+          "choices": [
+            {
+              "title": "Arrange relief and resupply",
+              "description": "Use resources to restore capacity without abandoning care.",
+              "cost": 5,
+              "effects": [
+                8,
+                -11,
+                9,
+                7
+              ],
+              "outcome": "Readiness recovers and the group is better sustained."
+            },
+            {
+              "title": "Resupply first",
+              "description": "Restore equipment while accepting ongoing fatigue.",
+              "cost": 3,
+              "effects": [
+                12,
+                5,
+                1,
+                7
+              ],
+              "outcome": "Operational capacity rises, with a welfare cost."
+            },
+            {
+              "title": "Continue with reduced means",
+              "description": "Preserve stores but take on greater strain.",
+              "cost": 0,
+              "effects": [
+                -2,
+                12,
+                -4,
+                2
+              ],
+              "outcome": "The task continues at the expense of resilience."
+            }
+          ],
+          "prompt": "Explain how a unit can contribute while needing help from others.",
+          "voices": [
+            "A supply runner: readiness depends on delivery.",
+            "An orderly: illness and exhaustion do not follow a neat timetable."
+          ],
+          "fixed": ""
+        },
+        {
+          "date": "After the battle",
+          "title": "Challenge the stereotype",
+          "place": "archive",
+          "brief": "A report labels the retreat a failure of character. Build an evidence-based response that neither romanticises nor dismisses the troops.",
+          "fact": "Colonial soldiers served within unequal systems. To assess this episode fairly, compare the weapons, protection, orders and operational context.",
+          "sources": [
+            "algeria",
+            "ypres"
+          ],
+          "question": "Which evidence challenges a stereotype most directly?",
+          "answers": [
+            "A claim about an entire people",
+            "Specific conditions and the weapon used",
+            "An invented quotation"
+          ],
+          "correct": 1,
+          "explain": "Contextual explanation is stronger than replacing one stereotype with another.",
+          "choices": [
+            {
+              "title": "Compare conditions and tasks",
+              "description": "Set the original assignment beside the effects of gas.",
+              "cost": 3,
+              "effects": [
+                2,
+                -1,
+                5,
+                10
+              ],
+              "outcome": "Your report explains constraints and avoids treating retreat as a national trait."
+            },
+            {
+              "title": "Corroborate across accounts",
+              "description": "Compare French, Canadian and North African perspectives where available.",
+              "cost": 4,
+              "effects": [
+                3,
+                0,
+                4,
+                11
+              ],
+              "outcome": "Multiple perspectives improve the account, though surviving testimony is uneven."
+            },
+            {
+              "title": "Record the uncertainty",
+              "description": "Reject unsupported claims and state what still needs investigation.",
+              "cost": 0,
+              "effects": [
+                0,
+                0,
+                3,
+                6
+              ],
+              "outcome": "Your conclusion is cautious and makes the evidence gap clear."
+            }
+          ],
+          "prompt": "Why are sacrifice, military effect and recognition different questions?",
+          "voices": [
+            "An evidence officer: whose account survives?",
+            "A historian: a national label cannot explain a battlefield decision."
+          ],
+          "fixed": ""
+        },
+        {
+          "date": "Remembrance",
+          "title": "Contribution and recognition",
+          "place": "archive",
+          "brief": "Finish the campaign by deciding what evidence deserves emphasis in public remembrance.",
+          "fact": "The class enquiry asks whether empire forces made a meaningful contribution. This requires criteria such as manpower, timing, holding positions and sustaining operations, alongside recognition.",
+          "sources": [
+            "class",
+            "algeria"
+          ],
+          "question": "Which criterion is useful for “meaningful”?",
+          "answers": [
+            "Only whether a group won the war alone",
+            "What its role enabled in the wider war effort",
+            "Only the number of monuments"
+          ],
+          "correct": 1,
+          "explain": "Meaningful is broader than decisive alone, and military effect differs from remembrance.",
+          "choices": [
+            {
+              "title": "Explain the combat role",
+              "description": "Connect service to a clearly defined operational task.",
+              "cost": 2,
+              "effects": [
+                0,
+                -3,
+                3,
+                8
+              ],
+              "outcome": "The report has a causal argument with a defined scope."
+            },
+            {
+              "title": "Compare service and treatment",
+              "description": "Examine how usefulness coexisted with inequality.",
+              "cost": 3,
+              "effects": [
+                0,
+                -2,
+                6,
+                9
+              ],
+              "outcome": "The report separates contribution from equal rights or recognition."
+            },
+            {
+              "title": "Keep a balanced evidence dossier",
+              "description": "Include a supported claim, counterargument and source limit.",
+              "cost": 0,
+              "effects": [
+                0,
+                -2,
+                3,
+                6
+              ],
+              "outcome": "The account makes its reach and limitations explicit."
+            }
+          ],
+          "prompt": "Use the Ypres case to make a qualified judgement, then compare another campaign.",
+          "voices": [
+            "A historian: acknowledge suffering without making it the only measure.",
+            "A pupil council: what would a fair account include?"
+          ],
+          "fixed": ""
+        }
+      ],
+      "revision": "/year-9-history/empire-armies",
+      "colour": "#5d9b95"
+    },
+    {
+      "id": "mike",
+      "year": 9,
+      "title": "Service & Survival",
+      "subtitle": "Mike Mountain Horse · Kainai soldier",
+      "dates": "Canada & Western Front · 1916–1919",
+      "type": "mike",
+      "enquiry": "What does Mike Mountain Horse’s experience reveal about contribution and recognition?",
+      "role": "A reconstructed section council following Mountain Horse’s service. Historical events are not decisions you can undo; dialogue is not his testimony.",
+      "objective": "Service & understanding",
+      "nodes": [
+        "Deployment",
+        "Section",
+        "Recovery",
+        "Operations",
+        "Home",
+        "War robe"
+      ],
+      "rounds": [
+        {
+          "date": "1916",
+          "title": "A Kainai soldier enlists",
+          "place": "port",
+          "brief": "Follow Mike Mountain Horse’s documented service through a reconstructed section council. You are not deciding his real enlistment or speaking his private thoughts.",
+          "fact": "Mike Mountain Horse of the Kainai Nation enlisted in 1916, after his brother Albert’s death following wartime gas exposure. He served in the Canadian Expeditionary Force.",
+          "sources": [
+            "mike"
+          ],
+          "question": "Which description is accurate?",
+          "answers": [
+            "A Kainai man serving in the Canadian Expeditionary Force",
+            "Commander of all Canadian troops",
+            "A member of the Chinese Labour Corps"
+          ],
+          "correct": 0,
+          "explain": "His Indigenous identity and Canadian service must both remain visible.",
+          "choices": [
+            {
+              "title": "Training and familiarisation",
+              "description": "Prioritise practical preparation with the section.",
+              "cost": 5,
+              "effects": [
+                12,
+                4,
+                3,
+                5
+              ],
+              "outcome": "The model section develops skills, while training remains demanding."
+            },
+            {
+              "title": "Cohesion and welfare",
+              "description": "Make space for communication and mutual support.",
+              "cost": 4,
+              "effects": [
+                6,
+                -4,
+                10,
+                4
+              ],
+              "outcome": "Trust and endurance improve; further technical preparation is needed."
+            },
+            {
+              "title": "Keep resources for deployment",
+              "description": "Proceed with existing preparation.",
+              "cost": 0,
+              "effects": [
+                2,
+                8,
+                0,
+                2
+              ],
+              "outcome": "The section conserves supplies but carries a readiness gap."
+            }
+          ],
+          "prompt": "Explain why one soldier’s story cannot represent all First Nations service.",
+          "voices": [
+            "Section council: learning to work together takes time.",
+            "Historical record: identity does not disappear inside a uniform."
+          ],
+          "fixed": ""
+        },
+        {
+          "date": "1917",
+          "title": "A machine-gun section",
+          "place": "front",
+          "brief": "Mountain Horse served in the machine-gun section of the 50th Battalion. Allocate local effort among cover, communication and the equipment needed for the task.",
+          "fact": "His service included major Western Front battles. A machine-gun section depended on teamwork and supply rather than the lone-hero image.",
+          "sources": [
+            "mike"
+          ],
+          "question": "Why does unit context matter?",
+          "answers": [
+            "It shows how individual service connected to collective work",
+            "It proves every man did the same task",
+            "It removes the need for sources"
+          ],
+          "correct": 0,
+          "explain": "An individual story gains meaning when linked to the role and support of the unit.",
+          "choices": [
+            {
+              "title": "Coordinate equipment and carriers",
+              "description": "Check supply and movement with supporting personnel.",
+              "cost": 5,
+              "effects": [
+                11,
+                7,
+                4,
+                9
+              ],
+              "outcome": "The section can sustain its assigned role more reliably."
+            },
+            {
+              "title": "Improve cover and observation",
+              "description": "Prepare the position and watch changing conditions.",
+              "cost": 4,
+              "effects": [
+                8,
+                8,
+                8,
+                7
+              ],
+              "outcome": "Cover improves, with fatigue from preparation."
+            },
+            {
+              "title": "Hold resources in reserve",
+              "description": "Rely on the position and equipment already available.",
+              "cost": 0,
+              "effects": [
+                2,
+                12,
+                -3,
+                3
+              ],
+              "outcome": "The immediate task continues, but strain grows."
+            }
+          ],
+          "prompt": "Connect equipment, teamwork and individual contribution.",
+          "voices": [
+            "A carrier: the weapon needs supplies and maintenance.",
+            "An observer: a useful position also needs cover."
+          ],
+          "fixed": ""
+        },
+        {
+          "date": "1917: combat and recovery",
+          "title": "The cost of endurance",
+          "place": "reserve",
+          "brief": "Shelling disrupts the position. Decide how a representative section responds to exhaustion and injury. The scenario does not claim a documented decision by Mountain Horse.",
+          "fact": "Mountain Horse was wounded and experienced burial under rubble. Published accounts differ on precise details; the campaign does not present a disputed date or location as settled.",
+          "sources": [
+            "mike"
+          ],
+          "question": "What should a historian do when accounts differ?",
+          "answers": [
+            "Silently choose the most dramatic version",
+            "Compare evidence and acknowledge uncertainty",
+            "Invent an exact date"
+          ],
+          "correct": 1,
+          "explain": "Uncertainty should be visible; a vivid account is not automatically the most reliable.",
+          "choices": [
+            {
+              "title": "Prioritise recovery and care",
+              "description": "Use resources and reduce immediate demands.",
+              "cost": 5,
+              "effects": [
+                1,
+                -15,
+                15,
+                5
+              ],
+              "outcome": "Welfare improves, while operational output temporarily slows."
+            },
+            {
+              "title": "Rotate the work",
+              "description": "Share tasks to balance immediate needs with recovery.",
+              "cost": 4,
+              "effects": [
+                6,
+                -8,
+                9,
+                7
+              ],
+              "outcome": "The section maintains some capacity without asking everyone to work continuously."
+            },
+            {
+              "title": "Meet the task with existing personnel",
+              "description": "Save supplies while accepting serious strain.",
+              "cost": 0,
+              "effects": [
+                -3,
+                17,
+                -7,
+                2
+              ],
+              "outcome": "The task is attempted, but exhaustion reduces resilience."
+            }
+          ],
+          "prompt": "How does recovery contribute to sustained service?",
+          "voices": [
+            "A medical orderly: endurance has physical limits.",
+            "A source researcher: the precise date needs corroboration."
+          ],
+          "fixed": ""
+        },
+        {
+          "date": "1918",
+          "title": "Return to operations",
+          "place": "front",
+          "brief": "Later operations demand coordination and renewed movement. Your earlier decisions affect the section’s readiness, not the recorded outcome of the war.",
+          "fact": "Mountain Horse’s service included Cambrai and Amiens. His award of the Distinguished Conduct Medal records recognised bravery; it does not measure all Indigenous contributions.",
+          "sources": [
+            "mike"
+          ],
+          "question": "What does a medal establish?",
+          "answers": [
+            "A recognised act or record of bravery, with limits to what it represents",
+            "The experience of every First Nations soldier",
+            "That discrimination ended"
+          ],
+          "correct": 0,
+          "explain": "Recognition of an individual and the treatment of a wider community are different scales.",
+          "choices": [
+            {
+              "title": "Plan with neighbouring groups",
+              "description": "Prioritise coordination before moving.",
+              "cost": 5,
+              "effects": [
+                10,
+                7,
+                5,
+                10
+              ],
+              "outcome": "The section’s task is better connected to supporting units."
+            },
+            {
+              "title": "Secure resupply and care",
+              "description": "Maintain the capacity to continue after movement.",
+              "cost": 4,
+              "effects": [
+                7,
+                2,
+                10,
+                8
+              ],
+              "outcome": "The section is better sustained through its next duties."
+            },
+            {
+              "title": "Move with limited preparation",
+              "description": "Conserve supplies and accept uncertainty.",
+              "cost": 0,
+              "effects": [
+                3,
+                14,
+                -4,
+                4
+              ],
+              "outcome": "The immediate task advances, with greater disruption in the model."
+            }
+          ],
+          "prompt": "Explain why bravery and logistics belong in the same account.",
+          "voices": [
+            "A liaison runner: an isolated success can be hard to sustain.",
+            "A section council: what happens after the first move?"
+          ],
+          "fixed": ""
+        },
+        {
+          "date": "1919",
+          "title": "Home, service and inequality",
+          "place": "archive",
+          "brief": "The war is over, but service and return are different experiences. Your decision concerns the evidence to include in a return-home report.",
+          "fact": "Mountain Horse returned in 1919 with the Distinguished Conduct Medal. First Nations veterans returned to continuing colonial inequalities; individual recognition did not guarantee equal treatment.",
+          "sources": [
+            "mike",
+            "class"
+          ],
+          "question": "Which statement best separates contribution from rights?",
+          "answers": [
+            "Service automatically produced equality",
+            "A soldier could contribute substantially and still face inequality",
+            "Unequal treatment makes service meaningless"
+          ],
+          "correct": 1,
+          "explain": "Do not use later injustice to erase wartime service, or service to erase injustice.",
+          "choices": [
+            {
+              "title": "Compare military and civilian records",
+              "description": "Look for changes and continuities across the return home.",
+              "cost": 4,
+              "effects": [
+                1,
+                -8,
+                8,
+                9
+              ],
+              "outcome": "The report examines more than military recognition."
+            },
+            {
+              "title": "Record community perspectives",
+              "description": "Include questions the official service record may not answer.",
+              "cost": 3,
+              "effects": [
+                0,
+                -8,
+                10,
+                8
+              ],
+              "outcome": "The dossier makes room for identity and continuing inequality."
+            },
+            {
+              "title": "State a supported, limited conclusion",
+              "description": "Avoid claims beyond the available evidence.",
+              "cost": 0,
+              "effects": [
+                0,
+                -5,
+                4,
+                6
+              ],
+              "outcome": "The conclusion is narrower, but more defensible."
+            }
+          ],
+          "prompt": "Did military recognition mean equal rights? Explain your distinction.",
+          "voices": [
+            "An evidence officer: an award and a pension system answer different questions.",
+            "A historian: whose definition of service shapes the record?"
+          ],
+          "fixed": ""
+        },
+        {
+          "date": "After the war",
+          "title": "The remembered war",
+          "place": "archive",
+          "brief": "Mountain Horse’s experiences were recorded with Ambrose Two Chiefs on a painted war robe. Choose how to interpret visual remembrance beside official records.",
+          "fact": "The war robe is a source shaped by cultural form, memory and selection. It can reveal what mattered to its makers; a service record answers different questions.",
+          "sources": [
+            "mike"
+          ],
+          "question": "How should the robe be used?",
+          "answers": [
+            "As an exact neutral photograph of every event",
+            "Alongside other sources, considering purpose and selection",
+            "Rejected because it is visual"
+          ],
+          "correct": 1,
+          "explain": "Different source forms have different strengths; neither is automatically complete.",
+          "choices": [
+            {
+              "title": "Compare robe and service record",
+              "description": "Ask what each source reveals and leaves out.",
+              "cost": 3,
+              "effects": [
+                0,
+                -3,
+                5,
+                10
+              ],
+              "outcome": "Your account combines cultural memory and official documentation."
+            },
+            {
+              "title": "Trace one recorded experience",
+              "description": "Study a selected event without generalising to every soldier.",
+              "cost": 2,
+              "effects": [
+                0,
+                -3,
+                4,
+                8
+              ],
+              "outcome": "Your analysis is precise, with a clearly limited scope."
+            },
+            {
+              "title": "Build a question-led dossier",
+              "description": "Record a claim, an uncertainty and further evidence needed.",
+              "cost": 0,
+              "effects": [
+                0,
+                -2,
+                3,
+                6
+              ],
+              "outcome": "Your interpretation is transparent about its limits."
+            }
+          ],
+          "prompt": "How does this source help judge meaningful contribution and remembrance?",
+          "voices": [
+            "A historian: selection is evidence of meaning, not proof of uselessness.",
+            "A pupil council: what could the robe show that an official form cannot?"
+          ],
+          "fixed": ""
+        }
+      ],
+      "revision": "/year-9-history/empire-armies",
+      "colour": "#ad6c5d"
+    },
+    {
+      "id": "clc",
+      "year": 9,
+      "title": "The Supply Lifeline",
+      "subtitle": "Chinese Labour Corps",
+      "dates": "France & Belgium · 1917–1920",
+      "type": "clc",
+      "enquiry": "How could non-combat labour make a meaningful contribution to the war effort?",
+      "role": "A reconstructed British CLC work-party council. Coordinate labour, logistics and welfare. Workers do not become infantry or receive rifle-ammunition orders.",
+      "objective": "Logistical contribution",
+      "nodes": [
+        "Arrival",
+        "Port",
+        "Railway",
+        "Workshop",
+        "Clearance",
+        "Return"
+      ],
+      "rounds": [
+        {
+          "date": "1917",
+          "title": "Recruitment and arrival",
+          "place": "port",
+          "brief": "Represent a British Chinese Labour Corps work party. Tasks are assigned under military control. You coordinate workload and welfare, not armed combat.",
+          "fact": "British CLC workers began arriving in France in 1917. The French labour programme was separate; China was not a British or French colony.",
+          "sources": [
+            "china",
+            "clc"
+          ],
+          "question": "Which description fits the CLC?",
+          "answers": [
+            "Non-combatant labour under military control",
+            "An infantry assault division",
+            "A British colony"
+          ],
+          "correct": 0,
+          "explain": "Non-combatant describes the role; it does not mean work was safe or unimportant.",
+          "choices": [
+            {
+              "title": "Clarify tasks and communication",
+              "description": "Invest in interpreting instructions and work routines.",
+              "cost": 5,
+              "effects": [
+                11,
+                3,
+                7,
+                5
+              ],
+              "outcome": "Fewer simulated misunderstandings interrupt the work."
+            },
+            {
+              "title": "Prioritise camp welfare",
+              "description": "Organise rest, food and basic support.",
+              "cost": 4,
+              "effects": [
+                5,
+                -7,
+                12,
+                3
+              ],
+              "outcome": "The party begins with better endurance, though tasks still need training."
+            },
+            {
+              "title": "Begin with existing arrangements",
+              "description": "Conserve supplies and accept a difficult transition.",
+              "cost": 0,
+              "effects": [
+                2,
+                10,
+                -3,
+                2
+              ],
+              "outcome": "Work starts quickly; communication and fatigue remain concerns."
+            }
+          ],
+          "prompt": "Why must China’s position be distinguished from India’s or Algeria’s?",
+          "voices": [
+            "A work-party council: understanding the task matters.",
+            "Historical context: recruitment does not make China a colony."
+          ],
+          "fixed": ""
+        },
+        {
+          "date": "1917",
+          "title": "Keep the port moving",
+          "place": "port",
+          "brief": "Cargo is waiting. Supplies need unloading and sorting before transport to the front. Choose a work pattern that balances throughput and fatigue.",
+          "fact": "Labour at ports and depots connected ships to armies. Labour could release other personnel for combat while keeping essential materials moving.",
+          "sources": [
+            "clc",
+            "china"
+          ],
+          "question": "How can unloading ships affect fighting elsewhere?",
+          "answers": [
+            "It connects arriving supplies to operational needs",
+            "It has no military effect",
+            "It guarantees the next attack succeeds"
+          ],
+          "correct": 0,
+          "explain": "Build the indirect chain rather than equating usefulness with firing a weapon.",
+          "choices": [
+            {
+              "title": "Organise shifts and sorting",
+              "description": "Use extra support to reduce errors and allow rest.",
+              "cost": 5,
+              "effects": [
+                8,
+                -5,
+                9,
+                11
+              ],
+              "outcome": "Reliable throughput improves without exhausting everyone at once."
+            },
+            {
+              "title": "Prioritise essential cargo",
+              "description": "Move the most urgently needed loads first.",
+              "cost": 3,
+              "effects": [
+                7,
+                7,
+                3,
+                12
+              ],
+              "outcome": "Critical cargo moves, with a backlog and added strain."
+            },
+            {
+              "title": "Extend the work period",
+              "description": "Conserve resources while asking more of the same party.",
+              "cost": 0,
+              "effects": [
+                2,
+                18,
+                -6,
+                7
+              ],
+              "outcome": "More work is attempted now, but fatigue threatens later reliability."
+            }
+          ],
+          "prompt": "Explain the chain from a crate on a ship to an operational army.",
+          "voices": [
+            "A depot coordinator: urgency and importance are not always identical.",
+            "A work-party council: tomorrow’s capacity matters too."
+          ],
+          "fixed": ""
+        },
+        {
+          "date": "1917–1918",
+          "title": "A broken supply route",
+          "place": "rail",
+          "brief": "A transport route needs repair. Decide how to allocate work before supplies can move reliably. The map shows relationships, not an exact historical work site.",
+          "fact": "CLC work included roads and railways. Damage or delay behind the lines could affect the ability of fighting units to operate.",
+          "sources": [
+            "clc"
+          ],
+          "question": "Why is rail repair a contribution?",
+          "answers": [
+            "It restores a connection used by supplies and people",
+            "Only infantry work counts",
+            "It removes all supply problems"
+          ],
+          "correct": 0,
+          "explain": "The effect is indirect but can be essential.",
+          "choices": [
+            {
+              "title": "Repair the critical link first",
+              "description": "Concentrate skilled workers and tools at the bottleneck.",
+              "cost": 5,
+              "effects": [
+                12,
+                9,
+                4,
+                14
+              ],
+              "outcome": "The route is restored sooner in the model, but concentrated work is tiring."
+            },
+            {
+              "title": "Use a staged repair plan",
+              "description": "Balance partial access, checks and rotating duties.",
+              "cost": 4,
+              "effects": [
+                9,
+                1,
+                9,
+                11
+              ],
+              "outcome": "Throughput returns gradually with less accumulated strain."
+            },
+            {
+              "title": "Work with available tools",
+              "description": "Save resources and accept slower progress.",
+              "cost": 0,
+              "effects": [
+                1,
+                14,
+                -4,
+                5
+              ],
+              "outcome": "Some repairs are completed, while delays persist."
+            }
+          ],
+          "prompt": "What would happen to the front if this link remained unusable?",
+          "voices": [
+            "A transport coordinator: a small bottleneck can delay a large flow.",
+            "A work-party council: tools and recovery affect speed."
+          ],
+          "fixed": ""
+        },
+        {
+          "date": "1918",
+          "title": "The repair workshop",
+          "place": "workshop",
+          "brief": "Skilled workers are needed for equipment maintenance. Choose how to balance the urgent workload with checks and recovery. This is not a claim that every labourer repaired tanks.",
+          "fact": "Some Chinese workers undertook skilled repair, including work on vehicles and tanks. The class case connects repair and railway work to operational preparation.",
+          "sources": [
+            "clc",
+            "class"
+          ],
+          "question": "Which claim is appropriately precise?",
+          "answers": [
+            "Every Chinese worker was a tank mechanic",
+            "Some skilled workers helped maintain equipment",
+            "The CLC commanded tank assaults"
+          ],
+          "correct": 1,
+          "explain": "Distinguish different workers and tasks within a large labour force.",
+          "choices": [
+            {
+              "title": "Pair skilled workers and learners",
+              "description": "Invest in checks and shared skills.",
+              "cost": 5,
+              "effects": [
+                13,
+                4,
+                7,
+                13
+              ],
+              "outcome": "The workshop develops more reliable capacity, with time spent training."
+            },
+            {
+              "title": "Triage urgent repairs",
+              "description": "Prioritise equipment most needed for current operations.",
+              "cost": 3,
+              "effects": [
+                10,
+                9,
+                2,
+                14
+              ],
+              "outcome": "Priority repairs move faster while other work waits."
+            },
+            {
+              "title": "Maintain the existing workload",
+              "description": "Conserve resources despite a growing queue.",
+              "cost": 0,
+              "effects": [
+                1,
+                14,
+                -4,
+                5
+              ],
+              "outcome": "Some equipment returns to use, but fatigue and backlog grow."
+            }
+          ],
+          "prompt": "Explain why repairs can matter even when a worker never enters a tank in battle.",
+          "voices": [
+            "A workshop coordinator: returning equipment to use is a military effect.",
+            "A work-party council: more hours are not always more reliable work."
+          ],
+          "fixed": ""
+        },
+        {
+          "date": "After November 1918",
+          "title": "The war’s dangerous aftermath",
+          "place": "clearance",
+          "brief": "The Armistice has stopped the fighting, but work continues. The party faces damaged ground and dangerous remains. Choose organisational priorities; no option teaches clearance techniques.",
+          "fact": "Chinese workers remained for postwar tasks including battlefield clearance and reconstruction. The Armistice did not immediately end their service or the danger.",
+          "sources": [
+            "clc"
+          ],
+          "question": "What changed after the Armistice?",
+          "answers": [
+            "All danger and work ended immediately",
+            "The tasks changed, but dangerous work continued",
+            "CLC workers became assault infantry"
+          ],
+          "correct": 1,
+          "explain": "War’s effects outlast the formal fighting.",
+          "choices": [
+            {
+              "title": "Checks, reporting and rotation",
+              "description": "Use support for oversight, communication and shorter duty periods.",
+              "cost": 5,
+              "effects": [
+                8,
+                -4,
+                12,
+                10
+              ],
+              "outcome": "The work proceeds more cautiously; risk cannot be eliminated."
+            },
+            {
+              "title": "Prioritise essential reconstruction",
+              "description": "Focus effort on routes and places needed for recovery.",
+              "cost": 3,
+              "effects": [
+                9,
+                7,
+                5,
+                12
+              ],
+              "outcome": "Restoration progresses, while demands and hazards remain."
+            },
+            {
+              "title": "Work with limited additional support",
+              "description": "Save resources while accepting slower and harder work.",
+              "cost": 0,
+              "effects": [
+                0,
+                15,
+                -5,
+                4
+              ],
+              "outcome": "Some work is completed, but fatigue and welfare pressures grow."
+            }
+          ],
+          "prompt": "Why should the campaign continue beyond 11 November 1918?",
+          "voices": [
+            "A work-party council: peace does not restore a landscape overnight.",
+            "A reconstruction coordinator: work and risk continue."
+          ],
+          "fixed": ""
+        },
+        {
+          "date": "1920 and remembrance",
+          "title": "An essential contribution",
+          "place": "archive",
+          "brief": "The final British CLC workers returned in 1920. Judge the military and postwar significance of their work, alongside treatment and recognition.",
+          "fact": "Nearly 100,000 workers served in the British corps by 1918; the familiar total of around 140,000 refers to Chinese workers supporting Britain and France together. The final British CLC return was in September 1920.",
+          "sources": [
+            "clc",
+            "china"
+          ],
+          "question": "What does the total around 140,000 refer to?",
+          "answers": [
+            "Only British infantry",
+            "Workers for Britain and France combined",
+            "Only tank mechanics at one workshop"
+          ],
+          "correct": 1,
+          "explain": "Totals from different programmes must not be merged into one unit.",
+          "choices": [
+            {
+              "title": "Trace logistical effects",
+              "description": "Connect work to transport, equipment and operations.",
+              "cost": 2,
+              "effects": [
+                0,
+                -5,
+                4,
+                10
+              ],
+              "outcome": "Your dossier explains why labour could be meaningful without combat."
+            },
+            {
+              "title": "Compare contribution and recognition",
+              "description": "Assess usefulness separately from segregation or neglect.",
+              "cost": 3,
+              "effects": [
+                0,
+                -4,
+                8,
+                10
+              ],
+              "outcome": "Your account links military value with unequal experience."
+            },
+            {
+              "title": "Record a qualified conclusion",
+              "description": "State what the evidence establishes and what it cannot.",
+              "cost": 0,
+              "effects": [
+                0,
+                -3,
+                4,
+                7
+              ],
+              "outcome": "Your judgement is supported without treating a large total as sufficient proof."
+            }
+          ],
+          "prompt": "Compare this non-combat contribution with a combat campaign using the same criteria.",
+          "voices": [
+            "A historian: essential labour can disappear from a battle-centred account.",
+            "A pupil council: whose work made operations possible?"
+          ],
+          "fixed": ""
+        }
+      ],
+      "revision": "/year-9-history/empire-armies",
+      "colour": "#7a90ae"
+    }
+  ]
+}
